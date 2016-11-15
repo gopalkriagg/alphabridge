@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.RebidTo1ResponseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.0">
+  <properties/>
+  <testcase name="testOnlyApplyToRebidsFrom1LevelResponseAsPerLesson5" classname="org.gnubridge.core.bidding.rules.RebidTo1ResponseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

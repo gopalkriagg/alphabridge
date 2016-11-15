@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.ResponseCalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testVoid" classname="org.gnubridge.core.bidding.ResponseCalculatorTest" time="0.0"/>
+  <testcase name="testDoNotCountDistributionalPointsInPartnersColor" classname="org.gnubridge.core.bidding.ResponseCalculatorTest" time="0.0"/>
+  <testcase name="testOnlyApplyIfHaveAtLeast4InPartnersColor" classname="org.gnubridge.core.bidding.ResponseCalculatorTest" time="0.0"/>
+  <testcase name="testSingleton" classname="org.gnubridge.core.bidding.ResponseCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

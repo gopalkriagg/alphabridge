@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.PointCalculatorTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.006">
+  <properties/>
+  <testcase name="testGetDistributionalPoints" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testBalancedHand" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testHighCardPoints" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testGetCombinedPointsFlawedColors" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testImbalancedHandTwoDoubletons" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testImbalancedHandSingleton" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testImbalancedHandVoid" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testTameHand_4_4_4_1" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testTameHand_4_4_4_1_ignoreOrder" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testTameHand_5_4_2_2" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testTameHand_5_4_3_1" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testTameHand_6_3_2_2" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testTameHand_6_3_3_1" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.001"/>
+  <testcase name="testRP1" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP3" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP4" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.001"/>
+  <testcase name="testRP5" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP6" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP7" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP8" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP9" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP10" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.001"/>
+  <testcase name="testRP11" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <testcase name="testRP12" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.002"/>
+  <testcase name="testRP2" classname="org.gnubridge.core.bidding.PointCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

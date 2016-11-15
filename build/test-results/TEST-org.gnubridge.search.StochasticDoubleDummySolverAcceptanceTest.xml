@@ -1,0 +1,2390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.search.StochasticDoubleDummySolverAcceptanceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="5.833">
+  <properties/>
+  <testcase name="testEquivaltenceVariousPruneStrategies" classname="org.gnubridge.search.StochasticDoubleDummySolverAcceptanceTest" time="3.282"/>
+  <testcase name="testGaugeImprovements" classname="org.gnubridge.search.StochasticDoubleDummySolverAcceptanceTest" time="2.551"/>
+  <system-out><![CDATA[*********** DEAL 0 ***********
+West: [9 of SPADES, Q of CLUBS, 9 of HEARTS]
+North: [9 of DIAMONDS, 4 of HEARTS, 7 of SPADES]
+East: [4 of DIAMONDS, 3 of SPADES, 3 of HEARTS]
+South: [J of HEARTS, 5 of CLUBS, K of CLUBS]
+game.getWest().init(Nine.of(Spades.i()), Queen.of(Clubs.i()), Nine.of(Hearts.i()));
+game.getNorth().init(Nine.of(Diamonds.i()), Four.of(Hearts.i()), Seven.of(Spades.i()));
+game.getEast().init(Four.of(Diamonds.i()), Three.of(Spades.i()), Three.of(Hearts.i()));
+game.getSouth().init(Jack.of(Hearts.i()), Five.of(Clubs.i()), King.of(Clubs.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(NoTrump.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 1 ***********
+West: [A of HEARTS, 8 of CLUBS, 9 of DIAMONDS]
+North: [5 of CLUBS, K of DIAMONDS, 4 of DIAMONDS]
+East: [7 of HEARTS, J of DIAMONDS, K of CLUBS]
+South: [9 of HEARTS, 7 of CLUBS, 8 of HEARTS]
+game.getWest().init(Ace.of(Hearts.i()), Eight.of(Clubs.i()), Nine.of(Diamonds.i()));
+game.getNorth().init(Five.of(Clubs.i()), King.of(Diamonds.i()), Four.of(Diamonds.i()));
+game.getEast().init(Seven.of(Hearts.i()), Jack.of(Diamonds.i()), King.of(Clubs.i()));
+game.getSouth().init(Nine.of(Hearts.i()), Seven.of(Clubs.i()), Eight.of(Hearts.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Spades.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 2 ***********
+West: [6 of DIAMONDS, J of CLUBS, J of DIAMONDS]
+North: [8 of DIAMONDS, K of HEARTS, A of SPADES]
+East: [K of DIAMONDS, 7 of SPADES, 8 of HEARTS]
+South: [6 of CLUBS, K of CLUBS, J of HEARTS]
+game.getWest().init(Six.of(Diamonds.i()), Jack.of(Clubs.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Eight.of(Diamonds.i()), King.of(Hearts.i()), Ace.of(Spades.i()));
+game.getEast().init(King.of(Diamonds.i()), Seven.of(Spades.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Six.of(Clubs.i()), King.of(Clubs.i()), Jack.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Hearts.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 3 ***********
+West: [A of HEARTS, J of CLUBS, 7 of CLUBS]
+North: [A of DIAMONDS, 6 of HEARTS, K of DIAMONDS]
+East: [7 of DIAMONDS, 4 of SPADES, 3 of CLUBS]
+South: [3 of SPADES, 9 of CLUBS, 7 of SPADES]
+game.getWest().init(Ace.of(Hearts.i()), Jack.of(Clubs.i()), Seven.of(Clubs.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), Six.of(Hearts.i()), King.of(Diamonds.i()));
+game.getEast().init(Seven.of(Diamonds.i()), Four.of(Spades.i()), Three.of(Clubs.i()));
+game.getSouth().init(Three.of(Spades.i()), Nine.of(Clubs.i()), Seven.of(Spades.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Diamonds.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 4 ***********
+West: [9 of HEARTS, 7 of CLUBS, K of DIAMONDS]
+North: [3 of SPADES, Q of HEARTS, 3 of CLUBS]
+East: [6 of CLUBS, K of HEARTS, 7 of HEARTS]
+South: [6 of DIAMONDS, 5 of DIAMONDS, A of DIAMONDS]
+game.getWest().init(Nine.of(Hearts.i()), Seven.of(Clubs.i()), King.of(Diamonds.i()));
+game.getNorth().init(Three.of(Spades.i()), Queen.of(Hearts.i()), Three.of(Clubs.i()));
+game.getEast().init(Six.of(Clubs.i()), King.of(Hearts.i()), Seven.of(Hearts.i()));
+game.getSouth().init(Six.of(Diamonds.i()), Five.of(Diamonds.i()), Ace.of(Diamonds.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Clubs.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 5 ***********
+West: [8 of CLUBS, 7 of HEARTS, J of CLUBS]
+North: [10 of SPADES, 2 of CLUBS, K of SPADES]
+East: [10 of CLUBS, 7 of SPADES, 4 of SPADES]
+South: [6 of DIAMONDS, Q of CLUBS, 2 of SPADES]
+game.getWest().init(Eight.of(Clubs.i()), Seven.of(Hearts.i()), Jack.of(Clubs.i()));
+game.getNorth().init(Ten.of(Spades.i()), Two.of(Clubs.i()), King.of(Spades.i()));
+game.getEast().init(Ten.of(Clubs.i()), Seven.of(Spades.i()), Four.of(Spades.i()));
+game.getSouth().init(Six.of(Diamonds.i()), Queen.of(Clubs.i()), Two.of(Spades.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(NoTrump.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 6 ***********
+West: [Q of HEARTS, 6 of CLUBS, 10 of CLUBS]
+North: [5 of DIAMONDS, 7 of HEARTS, 7 of DIAMONDS]
+East: [4 of HEARTS, 3 of HEARTS, 6 of DIAMONDS]
+South: [2 of CLUBS, A of CLUBS, 5 of HEARTS]
+game.getWest().init(Queen.of(Hearts.i()), Six.of(Clubs.i()), Ten.of(Clubs.i()));
+game.getNorth().init(Five.of(Diamonds.i()), Seven.of(Hearts.i()), Seven.of(Diamonds.i()));
+game.getEast().init(Four.of(Hearts.i()), Three.of(Hearts.i()), Six.of(Diamonds.i()));
+game.getSouth().init(Two.of(Clubs.i()), Ace.of(Clubs.i()), Five.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Spades.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 7 ***********
+West: [A of HEARTS, A of CLUBS, 3 of CLUBS]
+North: [K of SPADES, J of SPADES, 4 of DIAMONDS]
+East: [8 of SPADES, A of DIAMONDS, 8 of DIAMONDS]
+South: [8 of HEARTS, K of HEARTS, 9 of DIAMONDS]
+game.getWest().init(Ace.of(Hearts.i()), Ace.of(Clubs.i()), Three.of(Clubs.i()));
+game.getNorth().init(King.of(Spades.i()), Jack.of(Spades.i()), Four.of(Diamonds.i()));
+game.getEast().init(Eight.of(Spades.i()), Ace.of(Diamonds.i()), Eight.of(Diamonds.i()));
+game.getSouth().init(Eight.of(Hearts.i()), King.of(Hearts.i()), Nine.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Hearts.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 8 ***********
+West: [3 of DIAMONDS, K of DIAMONDS, 2 of DIAMONDS]
+North: [5 of SPADES, K of SPADES, A of DIAMONDS]
+East: [10 of SPADES, 8 of DIAMONDS, Q of SPADES]
+South: [7 of SPADES, 2 of CLUBS, 9 of SPADES]
+game.getWest().init(Three.of(Diamonds.i()), King.of(Diamonds.i()), Two.of(Diamonds.i()));
+game.getNorth().init(Five.of(Spades.i()), King.of(Spades.i()), Ace.of(Diamonds.i()));
+game.getEast().init(Ten.of(Spades.i()), Eight.of(Diamonds.i()), Queen.of(Spades.i()));
+game.getSouth().init(Seven.of(Spades.i()), Two.of(Clubs.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Diamonds.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+#####>  Search strategies MiniMax and AllPruning differ on what is the best move ( 2 of DIAMONDS versus 3 of DIAMONDS). Now comparing tricks taken if each evaluates the other's best move.
+game.getWest().init(Three.of(Diamonds.i()), King.of(Diamonds.i()));
+game.getNorth().init(Five.of(Spades.i()), King.of(Spades.i()), Ace.of(Diamonds.i()));
+game.getEast().init(Ten.of(Spades.i()), Eight.of(Diamonds.i()), Queen.of(Spades.i()));
+game.getSouth().init(Seven.of(Spades.i()), Two.of(Clubs.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Diamonds.i());
+======MiniMax=========
+0-0 null: null, max: 1
+   1-0 North: A of DIAMONDS, max: 1
+      2-0 East: 8 of DIAMONDS, max: 1
+         3-0 South: 2 of CLUBS, max: 1
+            4-0 North: 5 of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+                  6-1 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+                  6-1 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+            4-1 North: K of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+                  6-1 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+                  6-1 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+         3-1 South: 7 of SPADES, max: 1
+            4-0 North: 5 of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1
+                  6-0 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+            4-1 North: K of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1
+                  6-0 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+         3-2 South: 9 of SPADES, max: 1
+            4-0 North: 5 of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+            4-1 North: K of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+======AllPruning=========
+0-0 null: null, max: 1
+   1-0 North: A of DIAMONDS, max: 1
+      2-0 East: 8 of DIAMONDS, max: 1
+         3-0 South: 2 of CLUBS, max: 1
+            4-0 North: 5 of SPADES, max: 1, alpha pruned (no better move available)
+               5-0 East: 10 of SPADES, max: -1, alpha pruned (no better move available)
+               5-1 East: Q of SPADES, max: 1, alpha pruned (4-0: 5 of SPADES with max 1)
+                  6-0 South: 7 of SPADES, max: 1, alpha pruned (no better move available)
+                     7-0 West: 3 of DIAMONDS, max: -1, alpha pruned (no better move available)
+                     7-1 West: 3 of DIAMONDS, max: 1, alpha pruned (6-0: 7 of SPADES with max 1)
+                  6-1 South: 9 of SPADES, max: 1, alpha pruned (no better move available)
+                     7-0 West: K of DIAMONDS, max: 1, alpha pruned (no better move available)
+                     7-1 West: 3 of DIAMONDS, max: 1, alpha pruned (no better move available)
+            4-1 North: K of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1, beta pruned
+                  6-0 South: 7 of SPADES, max: -1, beta pruned
+                  6-1 South: 9 of SPADES, max: 1, beta pruned
+                     7-0 West: K of DIAMONDS, max: 1, beta pruned
+                     7-1 West: 3 of DIAMONDS, max: 1, beta pruned
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1, alpha pruned (no better move available)
+                     7-0 West: 3 of DIAMONDS, max: -1, alpha pruned (no better move available)
+                     7-1 West: 3 of DIAMONDS, max: 1, alpha pruned (6-0: 7 of SPADES with max 1)
+                  6-1 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+         3-1 South: 7 of SPADES, max: 1
+            4-0 North: 5 of SPADES, max: 1, alpha pruned (no better move available)
+               5-0 East: 10 of SPADES, max: -1, alpha pruned (no better move available)
+               5-1 East: Q of SPADES, max: 1, alpha pruned (4-0: 5 of SPADES with max 1)
+                  6-0 South: 9 of SPADES, max: 1, alpha pruned (no better move available)
+                     7-0 West: K of DIAMONDS, max: 1, alpha pruned (no better move available)
+                     7-1 West: 3 of DIAMONDS, max: 1, alpha pruned (no better move available)
+            4-1 North: K of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1, beta pruned
+                  6-0 South: 9 of SPADES, max: 1, beta pruned
+                     7-0 West: K of DIAMONDS, max: 1, beta pruned
+                     7-1 West: 3 of DIAMONDS, max: 1, beta pruned
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 9 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+         3-2 South: 9 of SPADES, max: 1
+            4-0 North: 5 of SPADES, max: 1, alpha pruned (no better move available)
+               5-0 East: 10 of SPADES, max: -1, alpha pruned (no better move available)
+               5-1 East: Q of SPADES, max: 1, alpha pruned (4-0: 5 of SPADES with max 1)
+                  6-0 South: 7 of SPADES, max: 1, alpha pruned (no better move available)
+                     7-0 West: K of DIAMONDS, max: 1, alpha pruned (no better move available)
+                     7-1 West: 3 of DIAMONDS, max: 1, alpha pruned (no better move available)
+            4-1 North: K of SPADES, max: 1
+               5-0 East: 10 of SPADES, max: 1, beta pruned
+                  6-0 South: 7 of SPADES, max: 1, beta pruned
+                     7-0 West: K of DIAMONDS, max: 1, beta pruned
+                     7-1 West: 3 of DIAMONDS, max: 1, beta pruned
+               5-1 East: Q of SPADES, max: 1
+                  6-0 South: 7 of SPADES, max: 1
+                     7-0 West: K of DIAMONDS, max: 1
+                     7-1 West: 3 of DIAMONDS, max: 1
+#####> No worry, evaluated to the same value, moves must be equivalent.
+*********** DEAL 9 ***********
+West: [10 of HEARTS, A of HEARTS, J of SPADES]
+North: [9 of HEARTS, 4 of HEARTS, 4 of SPADES]
+East: [2 of HEARTS, 9 of DIAMONDS, 8 of CLUBS]
+South: [6 of HEARTS, 2 of DIAMONDS, A of DIAMONDS]
+game.getWest().init(Ten.of(Hearts.i()), Ace.of(Hearts.i()), Jack.of(Spades.i()));
+game.getNorth().init(Nine.of(Hearts.i()), Four.of(Hearts.i()), Four.of(Spades.i()));
+game.getEast().init(Two.of(Hearts.i()), Nine.of(Diamonds.i()), Eight.of(Clubs.i()));
+game.getSouth().init(Six.of(Hearts.i()), Two.of(Diamonds.i()), Ace.of(Diamonds.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Clubs.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 10 ***********
+West: [4 of HEARTS, 3 of HEARTS, J of DIAMONDS]
+North: [4 of CLUBS, 7 of SPADES, Q of HEARTS]
+East: [9 of DIAMONDS, 5 of DIAMONDS, 2 of DIAMONDS]
+South: [6 of DIAMONDS, 6 of HEARTS, 10 of HEARTS]
+game.getWest().init(Four.of(Hearts.i()), Three.of(Hearts.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Four.of(Clubs.i()), Seven.of(Spades.i()), Queen.of(Hearts.i()));
+game.getEast().init(Nine.of(Diamonds.i()), Five.of(Diamonds.i()), Two.of(Diamonds.i()));
+game.getSouth().init(Six.of(Diamonds.i()), Six.of(Hearts.i()), Ten.of(Hearts.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(NoTrump.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 11 ***********
+West: [3 of HEARTS, 2 of CLUBS, 3 of CLUBS]
+North: [K of SPADES, 10 of SPADES, 3 of DIAMONDS]
+East: [5 of SPADES, 7 of HEARTS, Q of HEARTS]
+South: [9 of CLUBS, A of CLUBS, Q of DIAMONDS]
+game.getWest().init(Three.of(Hearts.i()), Two.of(Clubs.i()), Three.of(Clubs.i()));
+game.getNorth().init(King.of(Spades.i()), Ten.of(Spades.i()), Three.of(Diamonds.i()));
+game.getEast().init(Five.of(Spades.i()), Seven.of(Hearts.i()), Queen.of(Hearts.i()));
+game.getSouth().init(Nine.of(Clubs.i()), Ace.of(Clubs.i()), Queen.of(Diamonds.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Spades.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 12 ***********
+West: [5 of CLUBS, Q of CLUBS, 6 of SPADES]
+North: [K of HEARTS, 10 of CLUBS, J of CLUBS]
+East: [A of DIAMONDS, 8 of CLUBS, 8 of HEARTS]
+South: [Q of DIAMONDS, 5 of DIAMONDS, Q of HEARTS]
+game.getWest().init(Five.of(Clubs.i()), Queen.of(Clubs.i()), Six.of(Spades.i()));
+game.getNorth().init(King.of(Hearts.i()), Ten.of(Clubs.i()), Jack.of(Clubs.i()));
+game.getEast().init(Ace.of(Diamonds.i()), Eight.of(Clubs.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Queen.of(Diamonds.i()), Five.of(Diamonds.i()), Queen.of(Hearts.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Hearts.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+#####>  Search strategies MiniMax and AllPruning differ on what is the best move ( 10 of CLUBS versus J of CLUBS). Now comparing tricks taken if each evaluates the other's best move.
+game.getWest().init(Five.of(Clubs.i()), Queen.of(Clubs.i()), Six.of(Spades.i()));
+game.getNorth().init(King.of(Hearts.i()), Jack.of(Clubs.i()));
+game.getEast().init(Ace.of(Diamonds.i()), Eight.of(Clubs.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Queen.of(Diamonds.i()), Five.of(Diamonds.i()), Queen.of(Hearts.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(Hearts.i());
+======MiniMax=========
+0-0 null: null, max: 1
+   1-0 East: 8 of CLUBS, max: 1
+      2-0 South: 5 of DIAMONDS, max: 1
+         3-0 West: 5 of CLUBS, max: 0
+            4-0 North: J of CLUBS, max: 0
+               5-0 East: A of DIAMONDS, max: 0
+                  6-0 South: Q of DIAMONDS, max: 1
+                     7-0 West: 6 of SPADES, max: 1
+                  6-1 South: Q of HEARTS, max: 0
+                     7-0 West: Q of DIAMONDS, max: 0
+               5-1 East: 8 of HEARTS, max: 0
+                  6-0 South: Q of DIAMONDS, max: 1
+                     7-0 West: A of DIAMONDS, max: 1
+                  6-1 South: Q of HEARTS, max: 0
+                     7-0 West: Q of DIAMONDS, max: 0
+            4-1 North: K of HEARTS, max: 1
+               5-0 East: 8 of HEARTS, max: 1
+                  6-0 South: Q of HEARTS, max: 1
+                     7-0 West: J of CLUBS, max: 0
+                     7-1 West: J of CLUBS, max: 1
+         3-1 West: Q of CLUBS, max: 1
+            4-0 West: 5 of CLUBS, max: 1
+               5-0 North: J of CLUBS, max: 1
+                  6-0 East: A of DIAMONDS, max: 1
+                     7-0 South: K of HEARTS, max: 1
+                     7-1 South: Q of DIAMONDS, max: 1
+                  6-1 East: 8 of HEARTS, max: 1
+                     7-0 South: A of DIAMONDS, max: 2
+                     7-1 South: Q of DIAMONDS, max: 1
+            4-1 West: 6 of SPADES, max: 1
+               5-0 North: J of CLUBS, max: 1
+                  6-0 East: A of DIAMONDS, max: 1
+                     7-0 South: 5 of CLUBS, max: 2
+                     7-1 South: Q of DIAMONDS, max: 1
+                  6-1 East: 8 of HEARTS, max: 1
+                     7-0 South: A of DIAMONDS, max: 2
+                     7-1 South: Q of DIAMONDS, max: 1
+               5-1 North: K of HEARTS, max: 1
+                  6-0 East: A of DIAMONDS, max: 1
+                     7-0 South: J of CLUBS, max: 1
+                     7-1 South: J of CLUBS, max: 2
+                  6-1 East: 8 of HEARTS, max: 1
+                     7-0 South: J of CLUBS, max: 1
+                     7-1 South: J of CLUBS, max: 1
+      2-1 South: Q of DIAMONDS, max: 1
+         3-0 West: 5 of CLUBS, max: 0
+            4-0 North: J of CLUBS, max: 0
+               5-0 East: A of DIAMONDS, max: 0
+                  6-0 South: 5 of DIAMONDS, max: 1
+                     7-0 West: 6 of SPADES, max: 1
+                  6-1 South: Q of HEARTS, max: 0
+                     7-0 West: 5 of DIAMONDS, max: 0
+               5-1 East: 8 of HEARTS, max: 0
+                  6-0 South: 5 of DIAMONDS, max: 1
+                     7-0 West: A of DIAMONDS, max: 1
+                  6-1 South: Q of HEARTS, max: 0
+                     7-0 West: 5 of DIAMONDS, max: 0
+            4-1 North: K of HEARTS, max: 1
+               5-0 East: 8 of HEARTS, max: 1
+                  6-0 South: Q of HEARTS, max: 1
+                     7-0 West: J of CLUBS, max: 0
+                     7-1 West: J of CLUBS, max: 1
+         3-1 West: Q of CLUBS, max: 1
+            4-0 West: 5 of CLUBS, max: 1
+               5-0 North: J of CLUBS, max: 1
+                  6-0 East: A of DIAMONDS, max: 1
+                     7-0 South: K of HEARTS, max: 1
+                     7-1 South: 5 of DIAMONDS, max: 1
+                  6-1 East: 8 of HEARTS, max: 1
+                     7-0 South: A of DIAMONDS, max: 2
+                     7-1 South: 5 of DIAMONDS, max: 1
+            4-1 West: 6 of SPADES, max: 1
+               5-0 North: J of CLUBS, max: 1
+                  6-0 East: A of DIAMONDS, max: 1
+                     7-0 South: 5 of CLUBS, max: 2
+                     7-1 South: 5 of DIAMONDS, max: 1
+                  6-1 East: 8 of HEARTS, max: 1
+                     7-0 South: A of DIAMONDS, max: 2
+                     7-1 South: 5 of DIAMONDS, max: 1
+               5-1 North: K of HEARTS, max: 1
+                  6-0 East: A of DIAMONDS, max: 1
+                     7-0 South: J of CLUBS, max: 1
+                     7-1 South: J of CLUBS, max: 2
+                  6-1 East: 8 of HEARTS, max: 1
+                     7-0 South: J of CLUBS, max: 1
+                     7-1 South: J of CLUBS, max: 1
+      2-2 South: Q of HEARTS, max: 1
+         3-0 West: 5 of CLUBS, max: 1
+            4-0 South: 5 of DIAMONDS, max: 1
+               5-0 West: Q of CLUBS, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+               5-1 West: 6 of SPADES, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+            4-1 South: Q of DIAMONDS, max: 1
+               5-0 West: Q of CLUBS, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+               5-1 West: 6 of SPADES, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+         3-1 West: Q of CLUBS, max: 1
+            4-0 South: 5 of DIAMONDS, max: 1
+               5-0 West: 5 of CLUBS, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+               5-1 West: 6 of SPADES, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+            4-1 South: Q of DIAMONDS, max: 1
+               5-0 West: 5 of CLUBS, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+               5-1 West: 6 of SPADES, max: 1
+                  6-0 North: J of CLUBS, max: 1
+                     7-0 East: 8 of HEARTS, max: 1
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+======AllPruning=========
+0-0 null: null, max: 1
+   1-0 East: 8 of CLUBS, max: 1
+      2-0 South: 5 of DIAMONDS, max: 1, beta pruned
+         3-0 West: 5 of CLUBS, max: -1, beta pruned
+         3-1 West: Q of CLUBS, max: 1, beta pruned
+            4-0 West: 5 of CLUBS, max: -1, beta pruned
+            4-1 West: 6 of SPADES, max: 1, beta pruned
+               5-0 North: J of CLUBS, max: 1, beta pruned
+                  6-0 East: A of DIAMONDS, max: -1, beta pruned
+                  6-1 East: 8 of HEARTS, max: 1, beta pruned
+                     7-0 South: A of DIAMONDS, max: 2, beta pruned
+                     7-1 South: Q of DIAMONDS, max: 1, beta pruned
+               5-1 North: K of HEARTS, max: 1, beta pruned
+                  6-0 East: A of DIAMONDS, max: 1, alpha pruned (no better move available)
+                     7-0 South: J of CLUBS, max: 1, alpha pruned (6-0: A of DIAMONDS with max 1)
+                     7-1 South: J of CLUBS, max: 2, alpha pruned (no better move available)
+                  6-1 East: 8 of HEARTS, max: 1, beta pruned
+                     7-0 South: J of CLUBS, max: 1, beta pruned
+                     7-1 South: J of CLUBS, max: 1, beta pruned
+      2-1 South: Q of DIAMONDS, max: 1, beta pruned
+         3-0 West: 5 of CLUBS, max: -1, beta pruned
+         3-1 West: Q of CLUBS, max: 1, beta pruned
+            4-0 West: 5 of CLUBS, max: -1, beta pruned
+            4-1 West: 6 of SPADES, max: 1, beta pruned
+               5-0 North: J of CLUBS, max: 1, beta pruned
+                  6-0 East: A of DIAMONDS, max: -1, beta pruned
+                  6-1 East: 8 of HEARTS, max: 1, beta pruned
+                     7-0 South: A of DIAMONDS, max: 2, beta pruned
+                     7-1 South: 5 of DIAMONDS, max: 1, beta pruned
+               5-1 North: K of HEARTS, max: 1, beta pruned
+                  6-0 East: A of DIAMONDS, max: 1, alpha pruned (no better move available)
+                     7-0 South: J of CLUBS, max: 1, alpha pruned (6-0: A of DIAMONDS with max 1)
+                     7-1 South: J of CLUBS, max: 2, alpha pruned (no better move available)
+                  6-1 East: 8 of HEARTS, max: 1, beta pruned
+                     7-0 South: J of CLUBS, max: 1, beta pruned
+                     7-1 South: J of CLUBS, max: 1, beta pruned
+      2-2 South: Q of HEARTS, max: 1
+         3-0 West: 5 of CLUBS, max: 1, alpha pruned (no better move available)
+            4-0 South: 5 of DIAMONDS, max: -1, alpha pruned (no better move available)
+            4-1 South: Q of DIAMONDS, max: 1, alpha pruned (3-0: 5 of CLUBS with max 1)
+               5-0 West: Q of CLUBS, max: 1, alpha pruned (no better move available)
+                  6-0 North: J of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 North: K of HEARTS, max: 1, alpha pruned (5-0: Q of CLUBS with max 1)
+                     7-0 East: J of CLUBS, max: 1, alpha pruned (no better move available)
+               5-1 West: 6 of SPADES, max: 1, alpha pruned (no better move available)
+                  6-0 North: J of CLUBS, max: 1, beta pruned
+                     7-0 East: 8 of HEARTS, max: 1, beta pruned
+                  6-1 North: K of HEARTS, max: 1, alpha pruned (no better move available)
+                     7-0 East: J of CLUBS, max: 1, alpha pruned (no better move available)
+         3-1 West: Q of CLUBS, max: 1
+            4-0 South: 5 of DIAMONDS, max: 1, beta pruned
+               5-0 West: 5 of CLUBS, max: -1, beta pruned
+               5-1 West: 6 of SPADES, max: 1, beta pruned
+                  6-0 North: J of CLUBS, max: 1, beta pruned
+                     7-0 East: 8 of HEARTS, max: 1, beta pruned
+                  6-1 North: K of HEARTS, max: 1, beta pruned
+                     7-0 East: J of CLUBS, max: 1, beta pruned
+            4-1 South: Q of DIAMONDS, max: 1
+               5-0 West: 5 of CLUBS, max: 1, alpha pruned (no better move available)
+                  6-0 North: J of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 North: K of HEARTS, max: 1, alpha pruned (5-0: 5 of CLUBS with max 1)
+                     7-0 East: J of CLUBS, max: 1, alpha pruned (no better move available)
+               5-1 West: 6 of SPADES, max: 1
+                  6-0 North: J of CLUBS, max: 1, beta pruned
+                     7-0 East: 8 of HEARTS, max: 1, beta pruned
+                  6-1 North: K of HEARTS, max: 1
+                     7-0 East: J of CLUBS, max: 1
+#####> No worry, evaluated to the same value, moves must be equivalent.
+*********** DEAL 13 ***********
+West: [Q of HEARTS, 2 of HEARTS, 8 of HEARTS]
+North: [Q of SPADES, 10 of SPADES, 6 of HEARTS]
+East: [2 of SPADES, K of HEARTS, 4 of HEARTS]
+South: [8 of DIAMONDS, 9 of HEARTS, 7 of HEARTS]
+game.getWest().init(Queen.of(Hearts.i()), Two.of(Hearts.i()), Eight.of(Hearts.i()));
+game.getNorth().init(Queen.of(Spades.i()), Ten.of(Spades.i()), Six.of(Hearts.i()));
+game.getEast().init(Two.of(Spades.i()), King.of(Hearts.i()), Four.of(Hearts.i()));
+game.getSouth().init(Eight.of(Diamonds.i()), Nine.of(Hearts.i()), Seven.of(Hearts.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Diamonds.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 14 ***********
+West: [5 of HEARTS, K of DIAMONDS, 10 of HEARTS]
+North: [K of SPADES, J of SPADES, 6 of HEARTS]
+East: [8 of SPADES, J of DIAMONDS, 8 of HEARTS]
+South: [Q of HEARTS, 3 of SPADES, 7 of CLUBS]
+game.getWest().init(Five.of(Hearts.i()), King.of(Diamonds.i()), Ten.of(Hearts.i()));
+game.getNorth().init(King.of(Spades.i()), Jack.of(Spades.i()), Six.of(Hearts.i()));
+game.getEast().init(Eight.of(Spades.i()), Jack.of(Diamonds.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Queen.of(Hearts.i()), Three.of(Spades.i()), Seven.of(Clubs.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Clubs.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 15 ***********
+West: [4 of HEARTS, 6 of DIAMONDS, 4 of SPADES]
+North: [K of DIAMONDS, 4 of DIAMONDS, 6 of HEARTS]
+East: [7 of HEARTS, J of CLUBS, 2 of DIAMONDS]
+South: [10 of HEARTS, A of DIAMONDS, 7 of CLUBS]
+game.getWest().init(Four.of(Hearts.i()), Six.of(Diamonds.i()), Four.of(Spades.i()));
+game.getNorth().init(King.of(Diamonds.i()), Four.of(Diamonds.i()), Six.of(Hearts.i()));
+game.getEast().init(Seven.of(Hearts.i()), Jack.of(Clubs.i()), Two.of(Diamonds.i()));
+game.getSouth().init(Ten.of(Hearts.i()), Ace.of(Diamonds.i()), Seven.of(Clubs.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(NoTrump.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 16 ***********
+West: [K of CLUBS, 9 of SPADES, 3 of HEARTS]
+North: [8 of HEARTS, 5 of SPADES, J of SPADES]
+East: [4 of SPADES, 4 of DIAMONDS, 10 of HEARTS]
+South: [K of HEARTS, 9 of HEARTS, A of HEARTS]
+game.getWest().init(King.of(Clubs.i()), Nine.of(Spades.i()), Three.of(Hearts.i()));
+game.getNorth().init(Eight.of(Hearts.i()), Five.of(Spades.i()), Jack.of(Spades.i()));
+game.getEast().init(Four.of(Spades.i()), Four.of(Diamonds.i()), Ten.of(Hearts.i()));
+game.getSouth().init(King.of(Hearts.i()), Nine.of(Hearts.i()), Ace.of(Hearts.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Spades.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+#####>  Search strategies MiniMax and AllPruning differ on what is the best move ( K of HEARTS versus A of HEARTS). Now comparing tricks taken if each evaluates the other's best move.
+game.getWest().init(King.of(Clubs.i()), Nine.of(Spades.i()), Three.of(Hearts.i()));
+game.getNorth().init(Eight.of(Hearts.i()), Five.of(Spades.i()), Jack.of(Spades.i()));
+game.getEast().init(Four.of(Spades.i()), Four.of(Diamonds.i()), Ten.of(Hearts.i()));
+game.getSouth().init(Nine.of(Hearts.i()), Ace.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Spades.i());
+======MiniMax=========
+0-0 null: null, max: 0
+   1-0 West: 3 of HEARTS, max: 0
+      2-0 North: 8 of HEARTS, max: 0
+         3-0 East: 10 of HEARTS, max: 0
+            4-0 South: 9 of HEARTS, max: 0
+               5-0 West: K of CLUBS, max: 0
+                  6-0 North: 5 of SPADES, max: 0
+                     7-0 East: J of SPADES, max: 0
+                     7-1 East: J of SPADES, max: 0
+                  6-1 North: J of SPADES, max: 1
+                     7-0 East: 5 of SPADES, max: 1
+                     7-1 East: 5 of SPADES, max: 1
+               5-1 West: 9 of SPADES, max: 0
+                  6-0 North: 5 of SPADES, max: 1
+                     7-0 East: K of CLUBS, max: 1
+                     7-1 East: K of CLUBS, max: 1
+                  6-1 North: J of SPADES, max: 0
+                     7-0 East: 5 of SPADES, max: 0
+                     7-1 East: 5 of SPADES, max: 0
+            4-1 South: A of HEARTS, max: 0
+               5-0 West: K of CLUBS, max: 0
+                  6-0 North: 5 of SPADES, max: 0
+                     7-0 East: J of SPADES, max: 0
+                     7-1 East: J of SPADES, max: 0
+                  6-1 North: J of SPADES, max: 1
+                     7-0 East: 5 of SPADES, max: 1
+                     7-1 East: 5 of SPADES, max: 1
+               5-1 West: 9 of SPADES, max: 0
+                  6-0 North: 5 of SPADES, max: 1
+                     7-0 East: K of CLUBS, max: 1
+                     7-1 East: K of CLUBS, max: 1
+                  6-1 North: J of SPADES, max: 0
+                     7-0 East: 5 of SPADES, max: 0
+                     7-1 East: 5 of SPADES, max: 0
+======AllPruning=========
+0-0 null: null, max: 0
+   1-0 West: 3 of HEARTS, max: 0
+      2-0 North: 8 of HEARTS, max: 0
+         3-0 East: 10 of HEARTS, max: 0
+            4-0 South: 9 of HEARTS, max: 0, beta pruned
+               5-0 West: K of CLUBS, max: -1, beta pruned
+               5-1 West: 9 of SPADES, max: 0, beta pruned
+                  6-0 North: 5 of SPADES, max: 1, beta pruned
+                     7-0 East: 4 of DIAMONDS, max: -1, beta pruned
+                     7-1 East: K of CLUBS, max: 1, beta pruned
+                  6-1 North: J of SPADES, max: 0, beta pruned
+                     7-0 East: 5 of SPADES, max: 0, beta pruned
+                     7-1 East: 5 of SPADES, max: 0, beta pruned
+            4-1 South: A of HEARTS, max: 0
+               5-0 West: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 North: 5 of SPADES, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 East: J of SPADES, max: 0, alpha pruned (no better move available)
+                     7-1 East: J of SPADES, max: 0, alpha pruned (no better move available)
+                  6-1 North: J of SPADES, max: 1, alpha pruned (no better move available)
+                     7-0 East: 5 of SPADES, max: 1, alpha pruned (no better move available)
+                     7-1 East: 5 of SPADES, max: 1, alpha pruned (no better move available)
+               5-1 West: 9 of SPADES, max: 0
+                  6-0 North: 5 of SPADES, max: 1, beta pruned
+                     7-0 East: 4 of DIAMONDS, max: -1, beta pruned
+                     7-1 East: K of CLUBS, max: 1, beta pruned
+                  6-1 North: J of SPADES, max: 0
+                     7-0 East: 5 of SPADES, max: 0
+                     7-1 East: 5 of SPADES, max: 0
+#####> No worry, evaluated to the same value, moves must be equivalent.
+*********** DEAL 17 ***********
+West: [6 of DIAMONDS, 8 of DIAMONDS, K of SPADES]
+North: [6 of CLUBS, 3 of HEARTS, 9 of HEARTS]
+East: [8 of CLUBS, 4 of SPADES, 9 of DIAMONDS]
+South: [A of CLUBS, 10 of SPADES, Q of HEARTS]
+game.getWest().init(Six.of(Diamonds.i()), Eight.of(Diamonds.i()), King.of(Spades.i()));
+game.getNorth().init(Six.of(Clubs.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()));
+game.getEast().init(Eight.of(Clubs.i()), Four.of(Spades.i()), Nine.of(Diamonds.i()));
+game.getSouth().init(Ace.of(Clubs.i()), Ten.of(Spades.i()), Queen.of(Hearts.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Hearts.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 18 ***********
+West: [7 of DIAMONDS, 5 of CLUBS, 9 of CLUBS]
+North: [10 of HEARTS, 4 of CLUBS, 3 of CLUBS]
+East: [K of DIAMONDS, 4 of HEARTS, 2 of CLUBS]
+South: [9 of DIAMONDS, J of HEARTS, 5 of HEARTS]
+game.getWest().init(Seven.of(Diamonds.i()), Five.of(Clubs.i()), Nine.of(Clubs.i()));
+game.getNorth().init(Ten.of(Hearts.i()), Four.of(Clubs.i()), Three.of(Clubs.i()));
+game.getEast().init(King.of(Diamonds.i()), Four.of(Hearts.i()), Two.of(Clubs.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), Jack.of(Hearts.i()), Five.of(Hearts.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(Diamonds.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 19 ***********
+West: [9 of DIAMONDS, 5 of CLUBS, 3 of SPADES]
+North: [7 of HEARTS, Q of HEARTS, 4 of HEARTS]
+East: [8 of SPADES, 6 of CLUBS, 4 of SPADES]
+South: [10 of HEARTS, J of CLUBS, J of HEARTS]
+game.getWest().init(Nine.of(Diamonds.i()), Five.of(Clubs.i()), Three.of(Spades.i()));
+game.getNorth().init(Seven.of(Hearts.i()), Queen.of(Hearts.i()), Four.of(Hearts.i()));
+game.getEast().init(Eight.of(Spades.i()), Six.of(Clubs.i()), Four.of(Spades.i()));
+game.getSouth().init(Ten.of(Hearts.i()), Jack.of(Clubs.i()), Jack.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Clubs.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 20 ***********
+West: [8 of DIAMONDS, K of CLUBS, 6 of DIAMONDS]
+North: [4 of CLUBS, 5 of SPADES, 2 of SPADES]
+East: [10 of CLUBS, 5 of DIAMONDS, J of CLUBS]
+South: [6 of SPADES, Q of CLUBS, 3 of CLUBS]
+game.getWest().init(Eight.of(Diamonds.i()), King.of(Clubs.i()), Six.of(Diamonds.i()));
+game.getNorth().init(Four.of(Clubs.i()), Five.of(Spades.i()), Two.of(Spades.i()));
+game.getEast().init(Ten.of(Clubs.i()), Five.of(Diamonds.i()), Jack.of(Clubs.i()));
+game.getSouth().init(Six.of(Spades.i()), Queen.of(Clubs.i()), Three.of(Clubs.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(NoTrump.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 21 ***********
+West: [6 of HEARTS, 8 of SPADES, J of DIAMONDS]
+North: [4 of HEARTS, 2 of HEARTS, A of CLUBS]
+East: [6 of SPADES, 5 of SPADES, A of SPADES]
+South: [Q of CLUBS, A of HEARTS, 4 of SPADES]
+game.getWest().init(Six.of(Hearts.i()), Eight.of(Spades.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Four.of(Hearts.i()), Two.of(Hearts.i()), Ace.of(Clubs.i()));
+game.getEast().init(Six.of(Spades.i()), Five.of(Spades.i()), Ace.of(Spades.i()));
+game.getSouth().init(Queen.of(Clubs.i()), Ace.of(Hearts.i()), Four.of(Spades.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Spades.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 22 ***********
+West: [K of DIAMONDS, 9 of DIAMONDS, 7 of CLUBS]
+North: [J of CLUBS, 8 of SPADES, 5 of CLUBS]
+East: [K of HEARTS, Q of HEARTS, A of DIAMONDS]
+South: [J of SPADES, K of CLUBS, 5 of DIAMONDS]
+game.getWest().init(King.of(Diamonds.i()), Nine.of(Diamonds.i()), Seven.of(Clubs.i()));
+game.getNorth().init(Jack.of(Clubs.i()), Eight.of(Spades.i()), Five.of(Clubs.i()));
+game.getEast().init(King.of(Hearts.i()), Queen.of(Hearts.i()), Ace.of(Diamonds.i()));
+game.getSouth().init(Jack.of(Spades.i()), King.of(Clubs.i()), Five.of(Diamonds.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(Hearts.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+#####>  Search strategies MiniMax and AllPruning differ on what is the best move ( Q of HEARTS versus K of HEARTS). Now comparing tricks taken if each evaluates the other's best move.
+game.getWest().init(King.of(Diamonds.i()), Nine.of(Diamonds.i()), Seven.of(Clubs.i()));
+game.getNorth().init(Jack.of(Clubs.i()), Eight.of(Spades.i()), Five.of(Clubs.i()));
+game.getEast().init(King.of(Hearts.i()), Ace.of(Diamonds.i()));
+game.getSouth().init(Jack.of(Spades.i()), King.of(Clubs.i()), Five.of(Diamonds.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Hearts.i());
+======MiniMax=========
+0-0 null: null, max: 0
+   1-0 South: K of CLUBS, max: 0
+      2-0 West: 7 of CLUBS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+      2-1 West: 9 of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+      2-2 West: K of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+   1-1 South: 5 of DIAMONDS, max: 0
+      2-0 West: 7 of CLUBS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+      2-1 West: 9 of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+      2-2 West: K of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+   1-2 South: J of SPADES, max: 0
+      2-0 West: 7 of CLUBS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+      2-1 West: 9 of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: K of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: K of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+      2-2 West: K of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-1 North: J of CLUBS, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 9 of DIAMONDS, max: 0
+                     7-0 North: K of HEARTS, max: 0
+                     7-1 North: K of HEARTS, max: 0
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+======AllPruning=========
+0-0 null: null, max: 0
+   1-0 South: K of CLUBS, max: 0
+      2-0 West: 7 of CLUBS, max: 0, beta pruned
+         3-0 North: 5 of CLUBS, max: -1, beta pruned
+         3-1 North: J of CLUBS, max: -1, beta pruned
+         3-2 North: 8 of SPADES, max: 0, beta pruned
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 9 of DIAMONDS, max: -1, alpha pruned (no better move available)
+                  6-1 West: K of DIAMONDS, max: 0, alpha pruned (5-0: 5 of DIAMONDS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: A of DIAMONDS, max: 0, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+      2-1 West: 9 of DIAMONDS, max: 0, beta pruned
+         3-0 North: 5 of CLUBS, max: -1, beta pruned
+         3-1 North: J of CLUBS, max: -1, beta pruned
+         3-2 North: 8 of SPADES, max: 0, beta pruned
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: K of DIAMONDS, max: 0, alpha pruned (5-0: 5 of DIAMONDS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, beta pruned
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: A of DIAMONDS, max: 0, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+      2-2 West: K of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0, alpha pruned (no better move available)
+            4-0 East: A of DIAMONDS, max: -1, alpha pruned (no better move available)
+            4-1 East: K of HEARTS, max: 0, alpha pruned (3-0: 5 of CLUBS with max 0)
+               5-0 South: 5 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: 5 of DIAMONDS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: J of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+         3-1 North: J of CLUBS, max: 0, alpha pruned (no better move available)
+            4-0 East: A of DIAMONDS, max: -1, alpha pruned (no better move available)
+            4-1 East: K of HEARTS, max: 0, alpha pruned (3-1: J of CLUBS with max 0)
+               5-0 South: 5 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: 5 of DIAMONDS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: 5 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: 5 of DIAMONDS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+   1-1 South: 5 of DIAMONDS, max: 0
+      2-0 West: 7 of CLUBS, max: 0, beta pruned
+         3-0 North: 5 of CLUBS, max: -1, beta pruned
+         3-1 North: J of CLUBS, max: -1, beta pruned
+         3-2 North: 8 of SPADES, max: 0, beta pruned
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: K of CLUBS, max: -1, beta pruned
+               5-1 South: J of SPADES, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0, beta pruned
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 9 of DIAMONDS, max: -1, alpha pruned (no better move available)
+                  6-1 West: K of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: A of DIAMONDS, max: 0, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+      2-1 West: 9 of DIAMONDS, max: 0, beta pruned
+         3-0 North: 5 of CLUBS, max: -1, beta pruned
+         3-1 North: J of CLUBS, max: -1, beta pruned
+         3-2 North: 8 of SPADES, max: 0, beta pruned
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: K of CLUBS, max: -1, beta pruned
+               5-1 South: J of SPADES, max: 0, beta pruned
+                  6-0 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0, beta pruned
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: K of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, beta pruned
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: A of DIAMONDS, max: 0, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+      2-2 West: K of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0, alpha pruned (no better move available)
+            4-0 East: A of DIAMONDS, max: -1, alpha pruned (no better move available)
+            4-1 East: K of HEARTS, max: 0, alpha pruned (3-0: 5 of CLUBS with max 0)
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: J of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+         3-1 North: J of CLUBS, max: 0, alpha pruned (no better move available)
+            4-0 East: A of DIAMONDS, max: -1, alpha pruned (no better move available)
+            4-1 East: K of HEARTS, max: 0, alpha pruned (3-1: J of CLUBS with max 0)
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: K of CLUBS, max: -1, beta pruned
+               5-1 South: J of SPADES, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: J of SPADES, max: 0
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+   1-2 South: J of SPADES, max: 0
+      2-0 West: 7 of CLUBS, max: 0, beta pruned
+         3-0 North: 5 of CLUBS, max: -1, beta pruned
+         3-1 North: J of CLUBS, max: -1, beta pruned
+         3-2 North: 8 of SPADES, max: 0, beta pruned
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0, beta pruned
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 9 of DIAMONDS, max: -1, alpha pruned (no better move available)
+                  6-1 West: K of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: A of DIAMONDS, max: 0, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+      2-1 West: 9 of DIAMONDS, max: 0, beta pruned
+         3-0 North: 5 of CLUBS, max: -1, beta pruned
+         3-1 North: J of CLUBS, max: -1, beta pruned
+         3-2 North: 8 of SPADES, max: 0, beta pruned
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0, beta pruned
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: K of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: K of DIAMONDS, max: 0, beta pruned
+                     7-0 North: A of DIAMONDS, max: 0, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+      2-2 West: K of DIAMONDS, max: 0
+         3-0 North: 5 of CLUBS, max: 0, alpha pruned (no better move available)
+            4-0 East: A of DIAMONDS, max: -1, alpha pruned (no better move available)
+            4-1 East: K of HEARTS, max: 0, alpha pruned (3-0: 5 of CLUBS with max 0)
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: 5 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: J of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+         3-1 North: J of CLUBS, max: 0, alpha pruned (no better move available)
+            4-0 East: A of DIAMONDS, max: -1, alpha pruned (no better move available)
+            4-1 East: K of HEARTS, max: 0, alpha pruned (3-1: J of CLUBS with max 0)
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: 5 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+         3-2 North: 8 of SPADES, max: 0
+            4-0 East: A of DIAMONDS, max: 0, beta pruned
+               5-0 South: 5 of DIAMONDS, max: 0, beta pruned
+                  6-0 West: 9 of DIAMONDS, max: 0, beta pruned
+                     7-0 North: K of HEARTS, max: 0, beta pruned
+                     7-1 North: K of HEARTS, max: 0, beta pruned
+            4-1 East: K of HEARTS, max: 0
+               5-0 South: K of CLUBS, max: 0, alpha pruned (no better move available)
+                  6-0 West: 7 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 West: 9 of DIAMONDS, max: 0, alpha pruned (5-0: K of CLUBS with max 0)
+                     7-0 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+                     7-1 North: A of DIAMONDS, max: 0, alpha pruned (no better move available)
+               5-1 South: 5 of DIAMONDS, max: 0
+                  6-0 West: 7 of CLUBS, max: 0, beta pruned
+                     7-0 North: 5 of CLUBS, max: -1, beta pruned
+                     7-1 North: A of DIAMONDS, max: 0, beta pruned
+                  6-1 West: 9 of DIAMONDS, max: 0
+                     7-0 North: A of DIAMONDS, max: 0
+                     7-1 North: A of DIAMONDS, max: 0
+#####> No worry, evaluated to the same value, moves must be equivalent.
+*********** DEAL 23 ***********
+West: [6 of CLUBS, 9 of CLUBS, 2 of SPADES]
+North: [J of CLUBS, 8 of CLUBS, 3 of HEARTS]
+East: [Q of HEARTS, A of HEARTS, 5 of CLUBS]
+South: [Q of DIAMONDS, A of DIAMONDS, 6 of SPADES]
+game.getWest().init(Six.of(Clubs.i()), Nine.of(Clubs.i()), Two.of(Spades.i()));
+game.getNorth().init(Jack.of(Clubs.i()), Eight.of(Clubs.i()), Three.of(Hearts.i()));
+game.getEast().init(Queen.of(Hearts.i()), Ace.of(Hearts.i()), Five.of(Clubs.i()));
+game.getSouth().init(Queen.of(Diamonds.i()), Ace.of(Diamonds.i()), Six.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Diamonds.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 24 ***********
+West: [5 of DIAMONDS, 9 of DIAMONDS, 2 of SPADES]
+North: [4 of CLUBS, 2 of HEARTS, 4 of HEARTS]
+East: [8 of CLUBS, 7 of CLUBS, 4 of SPADES]
+South: [A of HEARTS, 10 of SPADES, J of SPADES]
+game.getWest().init(Five.of(Diamonds.i()), Nine.of(Diamonds.i()), Two.of(Spades.i()));
+game.getNorth().init(Four.of(Clubs.i()), Two.of(Hearts.i()), Four.of(Hearts.i()));
+game.getEast().init(Eight.of(Clubs.i()), Seven.of(Clubs.i()), Four.of(Spades.i()));
+game.getSouth().init(Ace.of(Hearts.i()), Ten.of(Spades.i()), Jack.of(Spades.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Clubs.i());
+**** Now checking equivalence: MiniMax and AllPruning***
+#####>  Search strategies MiniMax and AllPruning differ on what is the best move ( 10 of SPADES versus J of SPADES). Now comparing tricks taken if each evaluates the other's best move.
+game.getWest().init(Five.of(Diamonds.i()), Nine.of(Diamonds.i()), Two.of(Spades.i()));
+game.getNorth().init(Four.of(Clubs.i()), Two.of(Hearts.i()), Four.of(Hearts.i()));
+game.getEast().init(Eight.of(Clubs.i()), Seven.of(Clubs.i()), Four.of(Spades.i()));
+game.getSouth().init(Ace.of(Hearts.i()), Jack.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Clubs.i());
+======MiniMax=========
+0-0 null: null, max: 2
+   1-0 West: 2 of SPADES, max: 2
+      2-0 North: 4 of CLUBS, max: 2
+         3-0 East: 4 of SPADES, max: 2
+            4-0 North: 2 of HEARTS, max: 2
+               5-0 East: 7 of CLUBS, max: 2
+                  6-0 South: A of HEARTS, max: 2
+                     7-0 West: 8 of CLUBS, max: 2
+                     7-1 West: 8 of CLUBS, max: 2
+               5-1 East: 8 of CLUBS, max: 2
+                  6-0 South: A of HEARTS, max: 2
+                     7-0 West: 7 of CLUBS, max: 2
+                     7-1 West: 7 of CLUBS, max: 2
+            4-1 North: 4 of HEARTS, max: 2
+               5-0 East: 7 of CLUBS, max: 2
+                  6-0 South: A of HEARTS, max: 2
+                     7-0 West: 8 of CLUBS, max: 2
+                     7-1 West: 8 of CLUBS, max: 2
+               5-1 East: 8 of CLUBS, max: 2
+                  6-0 South: A of HEARTS, max: 2
+                     7-0 West: 7 of CLUBS, max: 2
+                     7-1 West: 7 of CLUBS, max: 2
+      2-1 North: 2 of HEARTS, max: 2
+         3-0 East: 4 of SPADES, max: 2
+            4-0 South: A of HEARTS, max: 2
+               5-0 West: 5 of DIAMONDS, max: 2
+                  6-0 North: 4 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+               5-1 West: 9 of DIAMONDS, max: 2
+                  6-0 North: 4 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+            4-1 South: J of SPADES, max: 2
+               5-0 West: 5 of DIAMONDS, max: 2
+                  6-0 North: 4 of CLUBS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+                  6-1 North: 4 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+               5-1 West: 9 of DIAMONDS, max: 2
+                  6-0 North: 4 of CLUBS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+                  6-1 North: 4 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+      2-2 North: 4 of HEARTS, max: 2
+         3-0 East: 4 of SPADES, max: 2
+            4-0 South: A of HEARTS, max: 2
+               5-0 West: 5 of DIAMONDS, max: 2
+                  6-0 North: 2 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+               5-1 West: 9 of DIAMONDS, max: 2
+                  6-0 North: 2 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+            4-1 South: J of SPADES, max: 2
+               5-0 West: 5 of DIAMONDS, max: 2
+                  6-0 North: 4 of CLUBS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+                  6-1 North: 2 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+               5-1 West: 9 of DIAMONDS, max: 2
+                  6-0 North: 4 of CLUBS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+                  6-1 North: 2 of HEARTS, max: 2
+                     7-0 East: 8 of CLUBS, max: 2
+                     7-1 East: 7 of CLUBS, max: 2
+======AllPruning=========
+0-0 null: null, max: 2
+   1-0 West: 2 of SPADES, max: 2
+      2-0 North: 4 of CLUBS, max: 2, beta pruned
+         3-0 East: 4 of SPADES, max: 2, beta pruned
+            4-0 North: 2 of HEARTS, max: 2, beta pruned
+               5-0 East: 7 of CLUBS, max: -1
+               5-1 East: 8 of CLUBS, max: 2, beta pruned
+                  6-0 South: A of HEARTS, max: 2, beta pruned
+                     7-0 West: 7 of CLUBS, max: 2, beta pruned
+                     7-1 West: 7 of CLUBS, max: 2, beta pruned
+            4-1 North: 4 of HEARTS, max: 2, beta pruned
+               5-0 East: 7 of CLUBS, max: -1
+               5-1 East: 8 of CLUBS, max: 2, beta pruned
+                  6-0 South: A of HEARTS, max: 2, beta pruned
+                     7-0 West: 7 of CLUBS, max: 2, beta pruned
+                     7-1 West: 7 of CLUBS, max: 2, beta pruned
+      2-1 North: 2 of HEARTS, max: 2, beta pruned
+         3-0 East: 4 of SPADES, max: 2, beta pruned
+            4-0 South: A of HEARTS, max: 2, beta pruned
+               5-0 West: 5 of DIAMONDS, max: -1, beta pruned
+               5-1 West: 9 of DIAMONDS, max: 2, beta pruned
+                  6-0 North: 4 of HEARTS, max: 2, beta pruned
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2, beta pruned
+            4-1 South: J of SPADES, max: 2, beta pruned
+               5-0 West: 5 of DIAMONDS, max: 2, alpha pruned (no better move available)
+                  6-0 North: 4 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 North: 4 of HEARTS, max: 2, alpha pruned (5-0: 5 of DIAMONDS with max 2)
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2, alpha pruned (no better move available)
+               5-1 West: 9 of DIAMONDS, max: 2, beta pruned
+                  6-0 North: 4 of CLUBS, max: 2, beta pruned
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2, beta pruned
+                  6-1 North: 4 of HEARTS, max: 2, beta pruned
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2, beta pruned
+      2-2 North: 4 of HEARTS, max: 2
+         3-0 East: 4 of SPADES, max: 2
+            4-0 South: A of HEARTS, max: 2, beta pruned
+               5-0 West: 5 of DIAMONDS, max: -1, beta pruned
+               5-1 West: 9 of DIAMONDS, max: 2, beta pruned
+                  6-0 North: 2 of HEARTS, max: 2, beta pruned
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2, beta pruned
+            4-1 South: J of SPADES, max: 2
+               5-0 West: 5 of DIAMONDS, max: 2, alpha pruned (no better move available)
+                  6-0 North: 4 of CLUBS, max: -1, alpha pruned (no better move available)
+                  6-1 North: 2 of HEARTS, max: 2, alpha pruned (5-0: 5 of DIAMONDS with max 2)
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2, alpha pruned (no better move available)
+               5-1 West: 9 of DIAMONDS, max: 2
+                  6-0 North: 4 of CLUBS, max: 2, beta pruned
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2, beta pruned
+                  6-1 North: 2 of HEARTS, max: 2
+                     7-0 East: 7 of CLUBS, max: -1
+                     7-1 East: 7 of CLUBS, max: 2
+#####> No worry, evaluated to the same value, moves must be equivalent.
+*********** DEAL 0 ***********
+West: [6 of HEARTS, 5 of DIAMONDS, 9 of HEARTS]
+North: [5 of CLUBS, 6 of DIAMONDS, 9 of CLUBS]
+East: [A of HEARTS, A of DIAMONDS, K of DIAMONDS]
+South: [6 of SPADES, 2 of HEARTS, K of SPADES]
+game.getWest().init(Six.of(Hearts.i()), Five.of(Diamonds.i()), Nine.of(Hearts.i()));
+game.getNorth().init(Five.of(Clubs.i()), Six.of(Diamonds.i()), Nine.of(Clubs.i()));
+game.getEast().init(Ace.of(Hearts.i()), Ace.of(Diamonds.i()), King.of(Diamonds.i()));
+game.getSouth().init(Six.of(Spades.i()), Two.of(Hearts.i()), King.of(Spades.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(NoTrump.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 1 ***********
+West: [5 of HEARTS, Q of CLUBS, 5 of SPADES]
+North: [A of HEARTS, K of HEARTS, J of DIAMONDS]
+East: [6 of HEARTS, 2 of DIAMONDS, Q of SPADES]
+South: [9 of DIAMONDS, K of SPADES, 9 of SPADES]
+game.getWest().init(Five.of(Hearts.i()), Queen.of(Clubs.i()), Five.of(Spades.i()));
+game.getNorth().init(Ace.of(Hearts.i()), King.of(Hearts.i()), Jack.of(Diamonds.i()));
+game.getEast().init(Six.of(Hearts.i()), Two.of(Diamonds.i()), Queen.of(Spades.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), King.of(Spades.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Spades.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 2 ***********
+West: [4 of DIAMONDS, 6 of CLUBS, Q of CLUBS]
+North: [2 of HEARTS, 7 of HEARTS, K of HEARTS]
+East: [4 of HEARTS, 4 of SPADES, 2 of SPADES]
+South: [6 of HEARTS, J of SPADES, Q of DIAMONDS]
+game.getWest().init(Four.of(Diamonds.i()), Six.of(Clubs.i()), Queen.of(Clubs.i()));
+game.getNorth().init(Two.of(Hearts.i()), Seven.of(Hearts.i()), King.of(Hearts.i()));
+game.getEast().init(Four.of(Hearts.i()), Four.of(Spades.i()), Two.of(Spades.i()));
+game.getSouth().init(Six.of(Hearts.i()), Jack.of(Spades.i()), Queen.of(Diamonds.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Hearts.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 3 ***********
+West: [Q of DIAMONDS, 3 of CLUBS, 6 of SPADES]
+North: [5 of DIAMONDS, 2 of DIAMONDS, J of CLUBS]
+East: [8 of HEARTS, 8 of CLUBS, 5 of SPADES]
+South: [10 of CLUBS, K of DIAMONDS, 6 of CLUBS]
+game.getWest().init(Queen.of(Diamonds.i()), Three.of(Clubs.i()), Six.of(Spades.i()));
+game.getNorth().init(Five.of(Diamonds.i()), Two.of(Diamonds.i()), Jack.of(Clubs.i()));
+game.getEast().init(Eight.of(Hearts.i()), Eight.of(Clubs.i()), Five.of(Spades.i()));
+game.getSouth().init(Ten.of(Clubs.i()), King.of(Diamonds.i()), Six.of(Clubs.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Diamonds.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 4 ***********
+West: [7 of CLUBS, Q of SPADES, J of DIAMONDS]
+North: [8 of SPADES, 10 of SPADES, A of SPADES]
+East: [6 of CLUBS, 6 of SPADES, 10 of HEARTS]
+South: [7 of SPADES, 10 of CLUBS, 4 of SPADES]
+game.getWest().init(Seven.of(Clubs.i()), Queen.of(Spades.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Eight.of(Spades.i()), Ten.of(Spades.i()), Ace.of(Spades.i()));
+game.getEast().init(Six.of(Clubs.i()), Six.of(Spades.i()), Ten.of(Hearts.i()));
+game.getSouth().init(Seven.of(Spades.i()), Ten.of(Clubs.i()), Four.of(Spades.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Clubs.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 5 ***********
+West: [10 of CLUBS, 4 of DIAMONDS, 9 of DIAMONDS]
+North: [6 of SPADES, 4 of HEARTS, 10 of HEARTS]
+East: [6 of CLUBS, 3 of HEARTS, A of CLUBS]
+South: [J of HEARTS, 2 of HEARTS, 9 of SPADES]
+game.getWest().init(Ten.of(Clubs.i()), Four.of(Diamonds.i()), Nine.of(Diamonds.i()));
+game.getNorth().init(Six.of(Spades.i()), Four.of(Hearts.i()), Ten.of(Hearts.i()));
+game.getEast().init(Six.of(Clubs.i()), Three.of(Hearts.i()), Ace.of(Clubs.i()));
+game.getSouth().init(Jack.of(Hearts.i()), Two.of(Hearts.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(NoTrump.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 6 ***********
+West: [2 of CLUBS, 5 of SPADES, 9 of CLUBS]
+North: [4 of HEARTS, 6 of SPADES, 3 of DIAMONDS]
+East: [J of CLUBS, A of SPADES, J of SPADES]
+South: [K of HEARTS, A of HEARTS, 10 of SPADES]
+game.getWest().init(Two.of(Clubs.i()), Five.of(Spades.i()), Nine.of(Clubs.i()));
+game.getNorth().init(Four.of(Hearts.i()), Six.of(Spades.i()), Three.of(Diamonds.i()));
+game.getEast().init(Jack.of(Clubs.i()), Ace.of(Spades.i()), Jack.of(Spades.i()));
+game.getSouth().init(King.of(Hearts.i()), Ace.of(Hearts.i()), Ten.of(Spades.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Spades.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 7 ***********
+West: [5 of SPADES, 5 of DIAMONDS, 5 of CLUBS]
+North: [9 of CLUBS, 10 of CLUBS, 3 of DIAMONDS]
+East: [6 of CLUBS, 4 of SPADES, 2 of CLUBS]
+South: [3 of HEARTS, J of CLUBS, 2 of SPADES]
+game.getWest().init(Five.of(Spades.i()), Five.of(Diamonds.i()), Five.of(Clubs.i()));
+game.getNorth().init(Nine.of(Clubs.i()), Ten.of(Clubs.i()), Three.of(Diamonds.i()));
+game.getEast().init(Six.of(Clubs.i()), Four.of(Spades.i()), Two.of(Clubs.i()));
+game.getSouth().init(Three.of(Hearts.i()), Jack.of(Clubs.i()), Two.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Hearts.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 8 ***********
+West: [3 of DIAMONDS, 8 of HEARTS, 3 of SPADES]
+North: [7 of SPADES, K of CLUBS, 5 of CLUBS]
+East: [6 of CLUBS, K of DIAMONDS, J of DIAMONDS]
+South: [6 of DIAMONDS, A of SPADES, 10 of HEARTS]
+game.getWest().init(Three.of(Diamonds.i()), Eight.of(Hearts.i()), Three.of(Spades.i()));
+game.getNorth().init(Seven.of(Spades.i()), King.of(Clubs.i()), Five.of(Clubs.i()));
+game.getEast().init(Six.of(Clubs.i()), King.of(Diamonds.i()), Jack.of(Diamonds.i()));
+game.getSouth().init(Six.of(Diamonds.i()), Ace.of(Spades.i()), Ten.of(Hearts.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Diamonds.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 9 ***********
+West: [10 of SPADES, K of CLUBS, 2 of DIAMONDS]
+North: [K of DIAMONDS, 9 of CLUBS, 3 of CLUBS]
+East: [10 of CLUBS, K of SPADES, A of HEARTS]
+South: [7 of SPADES, 10 of HEARTS, 4 of CLUBS]
+game.getWest().init(Ten.of(Spades.i()), King.of(Clubs.i()), Two.of(Diamonds.i()));
+game.getNorth().init(King.of(Diamonds.i()), Nine.of(Clubs.i()), Three.of(Clubs.i()));
+game.getEast().init(Ten.of(Clubs.i()), King.of(Spades.i()), Ace.of(Hearts.i()));
+game.getSouth().init(Seven.of(Spades.i()), Ten.of(Hearts.i()), Four.of(Clubs.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Clubs.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 10 ***********
+West: [6 of CLUBS, 9 of DIAMONDS, K of CLUBS]
+North: [2 of CLUBS, 4 of DIAMONDS, J of HEARTS]
+East: [10 of CLUBS, 8 of HEARTS, A of HEARTS]
+South: [Q of DIAMONDS, 5 of HEARTS, K of HEARTS]
+game.getWest().init(Six.of(Clubs.i()), Nine.of(Diamonds.i()), King.of(Clubs.i()));
+game.getNorth().init(Two.of(Clubs.i()), Four.of(Diamonds.i()), Jack.of(Hearts.i()));
+game.getEast().init(Ten.of(Clubs.i()), Eight.of(Hearts.i()), Ace.of(Hearts.i()));
+game.getSouth().init(Queen.of(Diamonds.i()), Five.of(Hearts.i()), King.of(Hearts.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(NoTrump.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 11 ***********
+West: [A of SPADES, A of HEARTS, 3 of DIAMONDS]
+North: [K of SPADES, 4 of DIAMONDS, J of SPADES]
+East: [9 of DIAMONDS, 5 of SPADES, 6 of SPADES]
+South: [K of DIAMONDS, 9 of HEARTS, 4 of SPADES]
+game.getWest().init(Ace.of(Spades.i()), Ace.of(Hearts.i()), Three.of(Diamonds.i()));
+game.getNorth().init(King.of(Spades.i()), Four.of(Diamonds.i()), Jack.of(Spades.i()));
+game.getEast().init(Nine.of(Diamonds.i()), Five.of(Spades.i()), Six.of(Spades.i()));
+game.getSouth().init(King.of(Diamonds.i()), Nine.of(Hearts.i()), Four.of(Spades.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Spades.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 12 ***********
+West: [4 of SPADES, 10 of DIAMONDS, 3 of CLUBS]
+North: [9 of CLUBS, 6 of DIAMONDS, 5 of DIAMONDS]
+East: [Q of CLUBS, A of SPADES, J of DIAMONDS]
+South: [5 of CLUBS, 7 of CLUBS, A of HEARTS]
+game.getWest().init(Four.of(Spades.i()), Ten.of(Diamonds.i()), Three.of(Clubs.i()));
+game.getNorth().init(Nine.of(Clubs.i()), Six.of(Diamonds.i()), Five.of(Diamonds.i()));
+game.getEast().init(Queen.of(Clubs.i()), Ace.of(Spades.i()), Jack.of(Diamonds.i()));
+game.getSouth().init(Five.of(Clubs.i()), Seven.of(Clubs.i()), Ace.of(Hearts.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Hearts.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 13 ***********
+West: [K of DIAMONDS, 10 of DIAMONDS, 8 of DIAMONDS]
+North: [3 of CLUBS, Q of HEARTS, 5 of SPADES]
+East: [3 of HEARTS, 9 of CLUBS, J of DIAMONDS]
+South: [8 of CLUBS, Q of SPADES, 2 of DIAMONDS]
+game.getWest().init(King.of(Diamonds.i()), Ten.of(Diamonds.i()), Eight.of(Diamonds.i()));
+game.getNorth().init(Three.of(Clubs.i()), Queen.of(Hearts.i()), Five.of(Spades.i()));
+game.getEast().init(Three.of(Hearts.i()), Nine.of(Clubs.i()), Jack.of(Diamonds.i()));
+game.getSouth().init(Eight.of(Clubs.i()), Queen.of(Spades.i()), Two.of(Diamonds.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Diamonds.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 14 ***********
+West: [J of CLUBS, 10 of SPADES, 7 of SPADES]
+North: [4 of HEARTS, 9 of SPADES, 6 of SPADES]
+East: [8 of CLUBS, 10 of CLUBS, 3 of SPADES]
+South: [2 of CLUBS, K of SPADES, Q of SPADES]
+game.getWest().init(Jack.of(Clubs.i()), Ten.of(Spades.i()), Seven.of(Spades.i()));
+game.getNorth().init(Four.of(Hearts.i()), Nine.of(Spades.i()), Six.of(Spades.i()));
+game.getEast().init(Eight.of(Clubs.i()), Ten.of(Clubs.i()), Three.of(Spades.i()));
+game.getSouth().init(Two.of(Clubs.i()), King.of(Spades.i()), Queen.of(Spades.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(Clubs.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 15 ***********
+West: [8 of CLUBS, 8 of HEARTS, 10 of HEARTS]
+North: [A of DIAMONDS, K of HEARTS, 8 of SPADES]
+East: [2 of CLUBS, J of CLUBS, 10 of SPADES]
+South: [Q of SPADES, 3 of SPADES, 9 of DIAMONDS]
+game.getWest().init(Eight.of(Clubs.i()), Eight.of(Hearts.i()), Ten.of(Hearts.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), King.of(Hearts.i()), Eight.of(Spades.i()));
+game.getEast().init(Two.of(Clubs.i()), Jack.of(Clubs.i()), Ten.of(Spades.i()));
+game.getSouth().init(Queen.of(Spades.i()), Three.of(Spades.i()), Nine.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(NoTrump.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 16 ***********
+West: [9 of HEARTS, 8 of DIAMONDS, J of SPADES]
+North: [4 of HEARTS, 3 of HEARTS, 7 of HEARTS]
+East: [9 of SPADES, 4 of SPADES, 5 of HEARTS]
+South: [8 of HEARTS, 6 of HEARTS, 4 of DIAMONDS]
+game.getWest().init(Nine.of(Hearts.i()), Eight.of(Diamonds.i()), Jack.of(Spades.i()));
+game.getNorth().init(Four.of(Hearts.i()), Three.of(Hearts.i()), Seven.of(Hearts.i()));
+game.getEast().init(Nine.of(Spades.i()), Four.of(Spades.i()), Five.of(Hearts.i()));
+game.getSouth().init(Eight.of(Hearts.i()), Six.of(Hearts.i()), Four.of(Diamonds.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Spades.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+#####>  Search strategies MiniMax and AllPruning differ on what is the best move ( 3 of HEARTS versus 4 of HEARTS). Now comparing tricks taken if each evaluates the other's best move.
+game.getWest().init(Nine.of(Hearts.i()), Eight.of(Diamonds.i()), Jack.of(Spades.i()));
+game.getNorth().init(Four.of(Hearts.i()), Seven.of(Hearts.i()));
+game.getEast().init(Nine.of(Spades.i()), Four.of(Spades.i()), Five.of(Hearts.i()));
+game.getSouth().init(Eight.of(Hearts.i()), Six.of(Hearts.i()), Four.of(Diamonds.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(Spades.i());
+======MiniMax=========
+0-0 null: null, max: 3
+   1-0 East: 5 of HEARTS, max: 3
+      2-0 South: 6 of HEARTS, max: 3
+         3-0 West: 9 of HEARTS, max: 3
+            4-0 West: 8 of DIAMONDS, max: 3
+               5-0 North: 4 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 9 of SPADES, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 4 of SPADES, max: 3
+               5-1 North: 7 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 9 of SPADES, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 4 of SPADES, max: 3
+            4-1 West: J of SPADES, max: 3
+               5-0 North: 4 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+               5-1 North: 7 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+      2-1 South: 8 of HEARTS, max: 3
+         3-0 West: 9 of HEARTS, max: 3
+            4-0 West: 8 of DIAMONDS, max: 3
+               5-0 North: 4 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 9 of SPADES, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 4 of SPADES, max: 3
+               5-1 North: 7 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 9 of SPADES, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 4 of SPADES, max: 3
+            4-1 West: J of SPADES, max: 3
+               5-0 North: 4 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+               5-1 North: 7 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+======AllPruning=========
+0-0 null: null, max: 3
+   1-0 East: 5 of HEARTS, max: 3
+      2-0 South: 6 of HEARTS, max: 3, beta pruned
+         3-0 West: 9 of HEARTS, max: 3, beta pruned
+            4-0 West: 8 of DIAMONDS, max: -1, beta pruned
+            4-1 West: J of SPADES, max: 3, beta pruned
+               5-0 North: 4 of HEARTS, max: 3, beta pruned
+                  6-0 East: 4 of SPADES, max: -1, beta pruned
+                  6-1 East: 9 of SPADES, max: 3, beta pruned
+                     7-0 South: 8 of DIAMONDS, max: 3, beta pruned
+                     7-1 South: 8 of DIAMONDS, max: 3, beta pruned
+               5-1 North: 7 of HEARTS, max: 3, beta pruned
+                  6-0 East: 4 of SPADES, max: 3, alpha pruned (no better move available)
+                     7-0 South: 4 of DIAMONDS, max: -1, alpha pruned (no better move available)
+                     7-1 South: 8 of DIAMONDS, max: 3, alpha pruned (6-0: 4 of SPADES with max 3)
+                  6-1 East: 9 of SPADES, max: 3, beta pruned
+                     7-0 South: 8 of DIAMONDS, max: 3, beta pruned
+                     7-1 South: 8 of DIAMONDS, max: 3, beta pruned
+      2-1 South: 8 of HEARTS, max: 3
+         3-0 West: 9 of HEARTS, max: 3
+            4-0 West: 8 of DIAMONDS, max: 3, alpha pruned (no better move available)
+               5-0 North: 4 of HEARTS, max: -1, alpha pruned (no better move available)
+               5-1 North: 7 of HEARTS, max: 3, alpha pruned (4-0: 8 of DIAMONDS with max 3)
+                  6-0 East: 4 of SPADES, max: 3, alpha pruned (no better move available)
+                     7-0 South: 9 of SPADES, max: 3, alpha pruned (6-0: 4 of SPADES with max 3)
+                  6-1 East: 9 of SPADES, max: 3, alpha pruned (no better move available)
+                     7-0 South: 4 of SPADES, max: 3, alpha pruned (no better move available)
+            4-1 West: J of SPADES, max: 3
+               5-0 North: 4 of HEARTS, max: 3, beta pruned
+                  6-0 East: 4 of SPADES, max: -1, beta pruned
+                  6-1 East: 9 of SPADES, max: 3, beta pruned
+                     7-0 South: 8 of DIAMONDS, max: 3, beta pruned
+                     7-1 South: 8 of DIAMONDS, max: 3, beta pruned
+               5-1 North: 7 of HEARTS, max: 3
+                  6-0 East: 4 of SPADES, max: 3, alpha pruned (no better move available)
+                     7-0 South: 4 of DIAMONDS, max: -1, alpha pruned (no better move available)
+                     7-1 South: 8 of DIAMONDS, max: 3, alpha pruned (6-0: 4 of SPADES with max 3)
+                  6-1 East: 9 of SPADES, max: 3
+                     7-0 South: 8 of DIAMONDS, max: 3
+                     7-1 South: 8 of DIAMONDS, max: 3
+#####> No worry, evaluated to the same value, moves must be equivalent.
+*********** DEAL 17 ***********
+West: [7 of CLUBS, 9 of CLUBS, Q of CLUBS]
+North: [3 of DIAMONDS, 7 of DIAMONDS, K of CLUBS]
+East: [4 of CLUBS, 10 of SPADES, 5 of CLUBS]
+South: [Q of DIAMONDS, K of SPADES, 6 of CLUBS]
+game.getWest().init(Seven.of(Clubs.i()), Nine.of(Clubs.i()), Queen.of(Clubs.i()));
+game.getNorth().init(Three.of(Diamonds.i()), Seven.of(Diamonds.i()), King.of(Clubs.i()));
+game.getEast().init(Four.of(Clubs.i()), Ten.of(Spades.i()), Five.of(Clubs.i()));
+game.getSouth().init(Queen.of(Diamonds.i()), King.of(Spades.i()), Six.of(Clubs.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Hearts.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 18 ***********
+West: [2 of HEARTS, J of SPADES, 2 of CLUBS]
+North: [7 of CLUBS, 4 of HEARTS, A of CLUBS]
+East: [J of HEARTS, K of DIAMONDS, 9 of HEARTS]
+South: [8 of DIAMONDS, A of HEARTS, 9 of DIAMONDS]
+game.getWest().init(Two.of(Hearts.i()), Jack.of(Spades.i()), Two.of(Clubs.i()));
+game.getNorth().init(Seven.of(Clubs.i()), Four.of(Hearts.i()), Ace.of(Clubs.i()));
+game.getEast().init(Jack.of(Hearts.i()), King.of(Diamonds.i()), Nine.of(Hearts.i()));
+game.getSouth().init(Eight.of(Diamonds.i()), Ace.of(Hearts.i()), Nine.of(Diamonds.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(Diamonds.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 19 ***********
+West: [Q of CLUBS, K of DIAMONDS, 9 of DIAMONDS]
+North: [6 of CLUBS, K of CLUBS, 6 of DIAMONDS]
+East: [K of SPADES, 2 of CLUBS, 2 of DIAMONDS]
+South: [J of DIAMONDS, J of SPADES, 2 of SPADES]
+game.getWest().init(Queen.of(Clubs.i()), King.of(Diamonds.i()), Nine.of(Diamonds.i()));
+game.getNorth().init(Six.of(Clubs.i()), King.of(Clubs.i()), Six.of(Diamonds.i()));
+game.getEast().init(King.of(Spades.i()), Two.of(Clubs.i()), Two.of(Diamonds.i()));
+game.getSouth().init(Jack.of(Diamonds.i()), Jack.of(Spades.i()), Two.of(Spades.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Clubs.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 20 ***********
+West: [7 of HEARTS, 8 of HEARTS, 2 of HEARTS]
+North: [K of SPADES, A of CLUBS, Q of DIAMONDS]
+East: [A of HEARTS, 10 of HEARTS, J of DIAMONDS]
+South: [9 of DIAMONDS, 9 of HEARTS, 4 of DIAMONDS]
+game.getWest().init(Seven.of(Hearts.i()), Eight.of(Hearts.i()), Two.of(Hearts.i()));
+game.getNorth().init(King.of(Spades.i()), Ace.of(Clubs.i()), Queen.of(Diamonds.i()));
+game.getEast().init(Ace.of(Hearts.i()), Ten.of(Hearts.i()), Jack.of(Diamonds.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), Nine.of(Hearts.i()), Four.of(Diamonds.i()));
+game.setNextToPlay(Direction.NORTH);
+game.setTrump(NoTrump.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 21 ***********
+West: [5 of CLUBS, 7 of DIAMONDS, Q of DIAMONDS]
+North: [9 of HEARTS, 2 of HEARTS, A of HEARTS]
+East: [3 of DIAMONDS, 10 of DIAMONDS, 2 of CLUBS]
+South: [2 of SPADES, Q of HEARTS, 5 of DIAMONDS]
+game.getWest().init(Five.of(Clubs.i()), Seven.of(Diamonds.i()), Queen.of(Diamonds.i()));
+game.getNorth().init(Nine.of(Hearts.i()), Two.of(Hearts.i()), Ace.of(Hearts.i()));
+game.getEast().init(Three.of(Diamonds.i()), Ten.of(Diamonds.i()), Two.of(Clubs.i()));
+game.getSouth().init(Two.of(Spades.i()), Queen.of(Hearts.i()), Five.of(Diamonds.i()));
+game.setNextToPlay(Direction.SOUTH);
+game.setTrump(Spades.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 22 ***********
+West: [2 of DIAMONDS, 4 of HEARTS, 10 of SPADES]
+North: [6 of CLUBS, 2 of SPADES, 7 of DIAMONDS]
+East: [8 of CLUBS, 7 of CLUBS, 3 of HEARTS]
+South: [7 of SPADES, 9 of HEARTS, 10 of HEARTS]
+game.getWest().init(Two.of(Diamonds.i()), Four.of(Hearts.i()), Ten.of(Spades.i()));
+game.getNorth().init(Six.of(Clubs.i()), Two.of(Spades.i()), Seven.of(Diamonds.i()));
+game.getEast().init(Eight.of(Clubs.i()), Seven.of(Clubs.i()), Three.of(Hearts.i()));
+game.getSouth().init(Seven.of(Spades.i()), Nine.of(Hearts.i()), Ten.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+game.setTrump(Hearts.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 23 ***********
+West: [9 of DIAMONDS, J of CLUBS, 4 of HEARTS]
+North: [A of DIAMONDS, Q of SPADES, 7 of SPADES]
+East: [6 of SPADES, Q of CLUBS, 3 of CLUBS]
+South: [5 of CLUBS, 10 of HEARTS, A of SPADES]
+game.getWest().init(Nine.of(Diamonds.i()), Jack.of(Clubs.i()), Four.of(Hearts.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), Queen.of(Spades.i()), Seven.of(Spades.i()));
+game.getEast().init(Six.of(Spades.i()), Queen.of(Clubs.i()), Three.of(Clubs.i()));
+game.getSouth().init(Five.of(Clubs.i()), Ten.of(Hearts.i()), Ace.of(Spades.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(Diamonds.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+*********** DEAL 24 ***********
+West: [Q of DIAMONDS, 2 of CLUBS, 7 of CLUBS]
+North: [A of DIAMONDS, 6 of DIAMONDS, 4 of CLUBS]
+East: [2 of DIAMONDS, 6 of SPADES, 10 of CLUBS]
+South: [6 of CLUBS, 8 of HEARTS, 9 of DIAMONDS]
+game.getWest().init(Queen.of(Diamonds.i()), Two.of(Clubs.i()), Seven.of(Clubs.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), Six.of(Diamonds.i()), Four.of(Clubs.i()));
+game.getEast().init(Two.of(Diamonds.i()), Six.of(Spades.i()), Ten.of(Clubs.i()));
+game.getSouth().init(Six.of(Clubs.i()), Eight.of(Hearts.i()), Nine.of(Diamonds.i()));
+game.setNextToPlay(Direction.EAST);
+game.setTrump(Clubs.i());
+*********** SEARCHES ***********
+-----MiniMax---------
+-----------------------
+-----AllPruning---------
+-----------------------
+*********** END SEARCHES ***********
+**** Now checking equivalence: MiniMax and AllPruning***
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

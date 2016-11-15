@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.gnubridge.presentation.gui.BiddingAcceptanceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.gnubridge.presentation.gui.BiddingAcceptanceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.gnubridge.presentation.gui.html">org.gnubridge.presentation.gui</a> &gt; BiddingAcceptanceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.104s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAutomatedBidding</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBiddingHighestEndsAuction</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBiddingStochastically</td>
+<td>0.103s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre> ** ( 0 )*** Automated bidding on a random game *****
+game.getWest().init(Two.of(Diamonds.i()), Queen.of(Spades.i()), Ten.of(Clubs.i()), Five.of(Spades.i()), Ten.of(Hearts.i()), King.of(Diamonds.i()), Seven.of(Diamonds.i()), Three.of(Clubs.i()), Ace.of(Diamonds.i()), Seven.of(Clubs.i()), King.of(Clubs.i()), Eight.of(Diamonds.i()), Nine.of(Hearts.i()));
+game.getNorth().init(Four.of(Clubs.i()), Six.of(Clubs.i()), Jack.of(Diamonds.i()), Five.of(Hearts.i()), Two.of(Spades.i()), Four.of(Hearts.i()), Eight.of(Hearts.i()), King.of(Hearts.i()), Two.of(Clubs.i()), Four.of(Spades.i()), Queen.of(Clubs.i()), Five.of(Diamonds.i()), Ace.of(Hearts.i()));
+game.getEast().init(Ten.of(Spades.i()), Six.of(Hearts.i()), Six.of(Spades.i()), Three.of(Hearts.i()), Nine.of(Clubs.i()), Ace.of(Clubs.i()), Jack.of(Spades.i()), Seven.of(Spades.i()), Jack.of(Hearts.i()), Nine.of(Spades.i()), Jack.of(Clubs.i()), Queen.of(Hearts.i()), Four.of(Diamonds.i()));
+game.getSouth().init(Ten.of(Diamonds.i()), King.of(Spades.i()), Eight.of(Spades.i()), Three.of(Diamonds.i()), Two.of(Hearts.i()), Nine.of(Diamonds.i()), Five.of(Clubs.i()), Six.of(Diamonds.i()), Eight.of(Clubs.i()), Three.of(Spades.i()), Ace.of(Spades.i()), Queen.of(Diamonds.i()), Seven.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: 1 HEARTS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: 1 DIAMONDS, North: 1 HEARTS, East: 1 SPADES, South: 1 NT, West: 2 CLUBS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: 1 HEARTS, East: 1 SPADES, South: 1 NT, West: 2 CLUBS, North: PASS, East: PASS, South: PASS]
+ ** ( 1 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Hearts.i()), Ace.of(Hearts.i()), Four.of(Hearts.i()), Eight.of(Clubs.i()), Six.of(Diamonds.i()), Four.of(Clubs.i()), Five.of(Hearts.i()), Three.of(Clubs.i()), Queen.of(Diamonds.i()), Five.of(Spades.i()), Nine.of(Diamonds.i()), Eight.of(Spades.i()), King.of(Clubs.i()));
+game.getNorth().init(Eight.of(Diamonds.i()), Two.of(Clubs.i()), Ten.of(Clubs.i()), King.of(Hearts.i()), Ten.of(Diamonds.i()), Five.of(Diamonds.i()), Seven.of(Hearts.i()), Five.of(Clubs.i()), King.of(Diamonds.i()), Queen.of(Clubs.i()), King.of(Spades.i()), Three.of(Diamonds.i()), Two.of(Hearts.i()));
+game.getEast().init(Nine.of(Clubs.i()), Six.of(Spades.i()), Seven.of(Clubs.i()), Ace.of(Clubs.i()), Queen.of(Hearts.i()), Two.of(Diamonds.i()), Ace.of(Diamonds.i()), Four.of(Diamonds.i()), Ten.of(Hearts.i()), Eight.of(Hearts.i()), Four.of(Spades.i()), Ten.of(Spades.i()), Six.of(Clubs.i()));
+game.getSouth().init(Jack.of(Clubs.i()), Three.of(Spades.i()), Two.of(Spades.i()), Jack.of(Diamonds.i()), Queen.of(Spades.i()), Nine.of(Hearts.i()), Seven.of(Spades.i()), Three.of(Hearts.i()), Seven.of(Diamonds.i()), Jack.of(Hearts.i()), Jack.of(Spades.i()), Ace.of(Spades.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: PASS]
+ ** ( 2 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Clubs.i()), Jack.of(Clubs.i()), Nine.of(Spades.i()), Queen.of(Clubs.i()), Four.of(Clubs.i()), Eight.of(Clubs.i()), Jack.of(Spades.i()), Two.of(Diamonds.i()), Nine.of(Hearts.i()), Five.of(Clubs.i()), Ten.of(Hearts.i()), Two.of(Spades.i()), Five.of(Diamonds.i()));
+game.getNorth().init(Three.of(Diamonds.i()), Eight.of(Diamonds.i()), Four.of(Hearts.i()), Ace.of(Spades.i()), Nine.of(Clubs.i()), Jack.of(Hearts.i()), Six.of(Diamonds.i()), Five.of(Hearts.i()), Seven.of(Clubs.i()), Queen.of(Hearts.i()), Seven.of(Hearts.i()), Five.of(Spades.i()), King.of(Spades.i()));
+game.getEast().init(Four.of(Diamonds.i()), Nine.of(Diamonds.i()), Ten.of(Spades.i()), Queen.of(Diamonds.i()), Six.of(Clubs.i()), Seven.of(Spades.i()), Six.of(Hearts.i()), Two.of(Clubs.i()), Eight.of(Hearts.i()), Ten.of(Diamonds.i()), King.of(Diamonds.i()), Three.of(Hearts.i()), Three.of(Spades.i()));
+game.getSouth().init(Ace.of(Hearts.i()), Six.of(Spades.i()), Three.of(Clubs.i()), Seven.of(Diamonds.i()), Ten.of(Clubs.i()), King.of(Hearts.i()), Two.of(Hearts.i()), Eight.of(Spades.i()), King.of(Clubs.i()), Queen.of(Spades.i()), Jack.of(Diamonds.i()), Four.of(Spades.i()), Ace.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: PASS]
+  human about to bid: 1 NT
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 NT, West: PASS, North: 3 HEARTS, East: PASS]
+  human about to bid: 4 HEARTS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 NT, West: PASS, North: 3 HEARTS, East: PASS, South: 4 HEARTS, West: PASS, North: PASS, East: PASS]
+ ** ( 3 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Clubs.i()), Five.of(Clubs.i()), Six.of(Clubs.i()), Two.of(Clubs.i()), Seven.of(Diamonds.i()), Three.of(Diamonds.i()), Three.of(Hearts.i()), Queen.of(Diamonds.i()), Queen.of(Clubs.i()), Two.of(Spades.i()), Seven.of(Spades.i()), Ten.of(Clubs.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Four.of(Clubs.i()), Four.of(Spades.i()), Nine.of(Diamonds.i()), King.of(Diamonds.i()), Queen.of(Spades.i()), King.of(Hearts.i()), Two.of(Hearts.i()), Eight.of(Diamonds.i()), Ace.of(Hearts.i()), Ace.of(Diamonds.i()), Seven.of(Hearts.i()), Ace.of(Clubs.i()), Two.of(Diamonds.i()));
+game.getEast().init(Nine.of(Spades.i()), Eight.of(Hearts.i()), Nine.of(Clubs.i()), Eight.of(Spades.i()), Nine.of(Hearts.i()), Six.of(Hearts.i()), Ace.of(Spades.i()), Six.of(Spades.i()), Queen.of(Hearts.i()), Ten.of(Spades.i()), Jack.of(Clubs.i()), King.of(Clubs.i()), Seven.of(Clubs.i()));
+game.getSouth().init(Jack.of(Spades.i()), Six.of(Diamonds.i()), Ten.of(Diamonds.i()), Four.of(Hearts.i()), Five.of(Diamonds.i()), Four.of(Diamonds.i()), Three.of(Spades.i()), Jack.of(Hearts.i()), Five.of(Spades.i()), Ten.of(Hearts.i()), Five.of(Hearts.i()), King.of(Spades.i()), Eight.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 1 SPADES, South: 2 DIAMONDS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 1 SPADES, South: 2 DIAMONDS, West: PASS, North: PASS, East: PASS]
+ ** ( 4 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Clubs.i()), Two.of(Diamonds.i()), Ten.of(Spades.i()), Nine.of(Diamonds.i()), Six.of(Clubs.i()), Queen.of(Spades.i()), Four.of(Clubs.i()), Three.of(Clubs.i()), Eight.of(Spades.i()), Queen.of(Diamonds.i()), Eight.of(Diamonds.i()), Five.of(Clubs.i()), Five.of(Diamonds.i()));
+game.getNorth().init(Four.of(Spades.i()), Ace.of(Diamonds.i()), Six.of(Spades.i()), Three.of(Diamonds.i()), Seven.of(Clubs.i()), Queen.of(Clubs.i()), Two.of(Spades.i()), Ace.of(Hearts.i()), Jack.of(Clubs.i()), King.of(Hearts.i()), Ace.of(Clubs.i()), Eight.of(Clubs.i()), King.of(Diamonds.i()));
+game.getEast().init(Two.of(Hearts.i()), Three.of(Spades.i()), Ten.of(Clubs.i()), Ace.of(Spades.i()), Eight.of(Hearts.i()), Ten.of(Diamonds.i()), Two.of(Clubs.i()), Six.of(Diamonds.i()), Nine.of(Spades.i()), Five.of(Spades.i()), King.of(Clubs.i()), Jack.of(Spades.i()), King.of(Spades.i()));
+game.getSouth().init(Four.of(Diamonds.i()), Four.of(Hearts.i()), Seven.of(Hearts.i()), Jack.of(Hearts.i()), Six.of(Hearts.i()), Queen.of(Hearts.i()), Five.of(Hearts.i()), Seven.of(Diamonds.i()), Ten.of(Hearts.i()), Seven.of(Spades.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()), Jack.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 CLUBS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: 1 SPADES, South: PASS, West: 2 SPADES, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: 1 SPADES, South: PASS, West: 2 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 5 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Hearts.i()), King.of(Spades.i()), Eight.of(Hearts.i()), Three.of(Clubs.i()), Three.of(Spades.i()), King.of(Diamonds.i()), Ten.of(Hearts.i()), Ace.of(Diamonds.i()), Two.of(Spades.i()), Queen.of(Diamonds.i()), Two.of(Clubs.i()), Queen.of(Spades.i()), Jack.of(Clubs.i()));
+game.getNorth().init(Jack.of(Spades.i()), Seven.of(Hearts.i()), Two.of(Diamonds.i()), Ace.of(Hearts.i()), Ten.of(Clubs.i()), Four.of(Diamonds.i()), King.of(Hearts.i()), Four.of(Spades.i()), Nine.of(Spades.i()), Jack.of(Diamonds.i()), Six.of(Clubs.i()), Eight.of(Spades.i()), Seven.of(Clubs.i()));
+game.getEast().init(Six.of(Diamonds.i()), Jack.of(Hearts.i()), Ace.of(Spades.i()), Six.of(Spades.i()), Nine.of(Diamonds.i()), Ten.of(Diamonds.i()), Five.of(Diamonds.i()), Eight.of(Clubs.i()), Two.of(Hearts.i()), Eight.of(Diamonds.i()), Queen.of(Clubs.i()), Four.of(Hearts.i()), Five.of(Spades.i()));
+game.getSouth().init(Ace.of(Clubs.i()), Three.of(Diamonds.i()), Nine.of(Clubs.i()), Nine.of(Hearts.i()), Four.of(Clubs.i()), King.of(Clubs.i()), Five.of(Hearts.i()), Ten.of(Spades.i()), Seven.of(Diamonds.i()), Three.of(Hearts.i()), Five.of(Clubs.i()), Seven.of(Spades.i()), Queen.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS]
+  human about to bid: 2 DIAMONDS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 2 DIAMONDS, South: PASS, West: PASS, North: PASS]
+ ** ( 6 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Spades.i()), Jack.of(Spades.i()), Two.of(Hearts.i()), Six.of(Diamonds.i()), Ace.of(Hearts.i()), Ten.of(Clubs.i()), Jack.of(Clubs.i()), Three.of(Spades.i()), Two.of(Clubs.i()), King.of(Clubs.i()), Nine.of(Spades.i()), King.of(Diamonds.i()), Seven.of(Diamonds.i()));
+game.getNorth().init(Nine.of(Hearts.i()), Four.of(Spades.i()), Four.of(Clubs.i()), Ace.of(Spades.i()), King.of(Spades.i()), Four.of(Diamonds.i()), Eight.of(Clubs.i()), Five.of(Clubs.i()), Queen.of(Spades.i()), Three.of(Diamonds.i()), Eight.of(Hearts.i()), Eight.of(Diamonds.i()), Two.of(Diamonds.i()));
+game.getEast().init(Nine.of(Clubs.i()), Three.of(Clubs.i()), Ten.of(Spades.i()), Seven.of(Clubs.i()), Three.of(Hearts.i()), Ten.of(Diamonds.i()), Six.of(Spades.i()), Ace.of(Clubs.i()), Jack.of(Hearts.i()), Queen.of(Clubs.i()), Ace.of(Diamonds.i()), Seven.of(Hearts.i()), Eight.of(Spades.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), Queen.of(Diamonds.i()), Five.of(Spades.i()), Queen.of(Hearts.i()), Five.of(Hearts.i()), Four.of(Hearts.i()), Jack.of(Diamonds.i()), Six.of(Hearts.i()), Ten.of(Hearts.i()), King.of(Hearts.i()), Six.of(Clubs.i()), Two.of(Spades.i()), Five.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 CLUBS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: PASS, South: PASS]
+ ** ( 7 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Spades.i()), Four.of(Diamonds.i()), Queen.of(Diamonds.i()), Ace.of(Diamonds.i()), Six.of(Clubs.i()), Nine.of(Spades.i()), Eight.of(Spades.i()), Six.of(Diamonds.i()), Three.of(Hearts.i()), Four.of(Spades.i()), Eight.of(Diamonds.i()), Five.of(Hearts.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Ten.of(Clubs.i()), Five.of(Spades.i()), Nine.of(Diamonds.i()), Nine.of(Clubs.i()), Seven.of(Hearts.i()), Eight.of(Hearts.i()), Queen.of(Hearts.i()), Three.of(Clubs.i()), Ten.of(Hearts.i()), Queen.of(Spades.i()), Five.of(Clubs.i()), Jack.of(Clubs.i()), Ace.of(Hearts.i()));
+game.getEast().init(Ten.of(Spades.i()), Two.of(Clubs.i()), Ace.of(Clubs.i()), Four.of(Hearts.i()), Ten.of(Diamonds.i()), Eight.of(Clubs.i()), Jack.of(Spades.i()), King.of(Clubs.i()), Five.of(Diamonds.i()), Jack.of(Hearts.i()), Three.of(Spades.i()), Nine.of(Hearts.i()), Queen.of(Clubs.i()));
+game.getSouth().init(Three.of(Diamonds.i()), Two.of(Hearts.i()), Six.of(Hearts.i()), Two.of(Diamonds.i()), Ace.of(Spades.i()), King.of(Hearts.i()), Two.of(Spades.i()), Four.of(Clubs.i()), Six.of(Spades.i()), King.of(Spades.i()), Seven.of(Diamonds.i()), Seven.of(Clubs.i()), King.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 1 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 1 HEARTS, East: PASS, South: 1 SPADES, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 1 HEARTS, East: PASS, South: 1 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 8 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Diamonds.i()), Seven.of(Hearts.i()), Four.of(Spades.i()), Ace.of(Hearts.i()), Ten.of(Clubs.i()), Five.of(Hearts.i()), King.of(Diamonds.i()), Two.of(Spades.i()), Seven.of(Spades.i()), Eight.of(Clubs.i()), King.of(Clubs.i()), Ace.of(Clubs.i()), Ten.of(Diamonds.i()));
+game.getNorth().init(Ten.of(Spades.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()), Eight.of(Hearts.i()), Seven.of(Clubs.i()), Ace.of(Diamonds.i()), Nine.of(Clubs.i()), Seven.of(Diamonds.i()), Three.of(Spades.i()), Queen.of(Hearts.i()), Four.of(Hearts.i()), Five.of(Clubs.i()), King.of(Hearts.i()));
+game.getEast().init(Four.of(Clubs.i()), Four.of(Diamonds.i()), Ace.of(Spades.i()), Five.of(Spades.i()), Three.of(Diamonds.i()), Nine.of(Spades.i()), Queen.of(Spades.i()), Queen.of(Clubs.i()), Jack.of(Diamonds.i()), Queen.of(Diamonds.i()), Six.of(Spades.i()), King.of(Spades.i()), Three.of(Clubs.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), Six.of(Hearts.i()), Six.of(Diamonds.i()), Six.of(Clubs.i()), Two.of(Clubs.i()), Two.of(Diamonds.i()), Jack.of(Clubs.i()), Eight.of(Diamonds.i()), Jack.of(Hearts.i()), Jack.of(Spades.i()), Eight.of(Spades.i()), Ten.of(Hearts.i()), Two.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS, North: 1 HEARTS, East: 2 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: 1 HEARTS, East: 2 SPADES, South: PASS, West: PASS, North: PASS]
+ ** ( 9 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Spades.i()), King.of(Diamonds.i()), Five.of(Diamonds.i()), Four.of(Clubs.i()), Nine.of(Diamonds.i()), Three.of(Diamonds.i()), Five.of(Clubs.i()), Ten.of(Spades.i()), Two.of(Diamonds.i()), Ten.of(Clubs.i()), Queen.of(Diamonds.i()), Seven.of(Hearts.i()), Jack.of(Clubs.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), King.of(Spades.i()), Seven.of(Spades.i()), Jack.of(Hearts.i()), Jack.of(Spades.i()), Six.of(Clubs.i()), Three.of(Spades.i()), Three.of(Hearts.i()), Eight.of(Clubs.i()), Four.of(Spades.i()), Nine.of(Clubs.i()), Queen.of(Hearts.i()), Ace.of(Clubs.i()));
+game.getEast().init(Queen.of(Clubs.i()), Seven.of(Diamonds.i()), Six.of(Hearts.i()), Jack.of(Diamonds.i()), Six.of(Diamonds.i()), Eight.of(Spades.i()), Eight.of(Diamonds.i()), Four.of(Hearts.i()), Nine.of(Spades.i()), Ten.of(Hearts.i()), Nine.of(Hearts.i()), Seven.of(Clubs.i()), Two.of(Clubs.i()));
+game.getSouth().init(Two.of(Spades.i()), Eight.of(Hearts.i()), King.of(Hearts.i()), Ten.of(Diamonds.i()), Six.of(Spades.i()), Ace.of(Hearts.i()), Two.of(Hearts.i()), Three.of(Clubs.i()), Five.of(Spades.i()), King.of(Clubs.i()), Queen.of(Spades.i()), Four.of(Diamonds.i()), Five.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: 1 DIAMONDS, North: 1 SPADES, East: PASS, South: 3 SPADES, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: 1 SPADES, East: PASS, South: 3 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 10 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Spades.i()), Queen.of(Diamonds.i()), Jack.of(Spades.i()), Eight.of(Hearts.i()), Eight.of(Diamonds.i()), Three.of(Spades.i()), Four.of(Clubs.i()), Queen.of(Hearts.i()), Four.of(Spades.i()), Seven.of(Hearts.i()), Three.of(Diamonds.i()), Six.of(Clubs.i()), Queen.of(Clubs.i()));
+game.getNorth().init(Nine.of(Clubs.i()), Four.of(Diamonds.i()), Six.of(Spades.i()), Queen.of(Spades.i()), Seven.of(Clubs.i()), Ten.of(Diamonds.i()), Five.of(Spades.i()), Two.of(Clubs.i()), Five.of(Clubs.i()), Three.of(Hearts.i()), Nine.of(Spades.i()), Four.of(Hearts.i()), Ace.of(Clubs.i()));
+game.getEast().init(King.of(Diamonds.i()), Jack.of(Diamonds.i()), Ten.of(Clubs.i()), King.of(Clubs.i()), Ace.of(Diamonds.i()), Nine.of(Hearts.i()), Jack.of(Clubs.i()), Two.of(Diamonds.i()), Six.of(Hearts.i()), King.of(Hearts.i()), Nine.of(Diamonds.i()), Ace.of(Hearts.i()), Two.of(Hearts.i()));
+game.getSouth().init(Five.of(Diamonds.i()), Jack.of(Hearts.i()), Eight.of(Clubs.i()), Two.of(Spades.i()), Five.of(Hearts.i()), Three.of(Clubs.i()), Ace.of(Spades.i()), King.of(Spades.i()), Seven.of(Spades.i()), Seven.of(Diamonds.i()), Ten.of(Spades.i()), Six.of(Diamonds.i()), Ten.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 HEARTS, South: PASS, West: 2 HEARTS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 HEARTS, South: PASS, West: 2 HEARTS, North: PASS, East: PASS, South: PASS]
+ ** ( 11 )*** Automated bidding on a random game *****
+game.getWest().init(Jack.of(Diamonds.i()), Six.of(Hearts.i()), Ace.of(Clubs.i()), Nine.of(Clubs.i()), Five.of(Clubs.i()), Seven.of(Spades.i()), Four.of(Clubs.i()), Six.of(Clubs.i()), Jack.of(Spades.i()), Nine.of(Hearts.i()), Eight.of(Clubs.i()), Five.of(Hearts.i()), Five.of(Diamonds.i()));
+game.getNorth().init(Queen.of(Hearts.i()), Ace.of(Hearts.i()), Seven.of(Clubs.i()), Two.of(Clubs.i()), Ace.of(Diamonds.i()), Queen.of(Diamonds.i()), Jack.of(Clubs.i()), Three.of(Clubs.i()), Four.of(Diamonds.i()), Seven.of(Diamonds.i()), Ace.of(Spades.i()), Two.of(Spades.i()), Eight.of(Diamonds.i()));
+game.getEast().init(King.of(Hearts.i()), King.of(Spades.i()), King.of(Clubs.i()), Queen.of(Spades.i()), Five.of(Spades.i()), Ten.of(Spades.i()), Nine.of(Diamonds.i()), Four.of(Hearts.i()), Two.of(Diamonds.i()), Three.of(Diamonds.i()), Queen.of(Clubs.i()), Three.of(Spades.i()), Seven.of(Hearts.i()));
+game.getSouth().init(Ten.of(Clubs.i()), King.of(Diamonds.i()), Eight.of(Hearts.i()), Eight.of(Spades.i()), Ten.of(Diamonds.i()), Two.of(Hearts.i()), Six.of(Diamonds.i()), Three.of(Hearts.i()), Nine.of(Spades.i()), Jack.of(Hearts.i()), Six.of(Spades.i()), Ten.of(Hearts.i()), Four.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 DIAMONDS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS, South: PASS]
+ ** ( 12 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Clubs.i()), Four.of(Spades.i()), Four.of(Clubs.i()), Five.of(Hearts.i()), Ace.of(Spades.i()), King.of(Clubs.i()), Six.of(Diamonds.i()), Nine.of(Diamonds.i()), Seven.of(Hearts.i()), Ten.of(Spades.i()), Two.of(Spades.i()), Queen.of(Hearts.i()), Four.of(Diamonds.i()));
+game.getNorth().init(Nine.of(Hearts.i()), Six.of(Hearts.i()), Jack.of(Spades.i()), Nine.of(Spades.i()), Nine.of(Clubs.i()), Ten.of(Hearts.i()), King.of(Spades.i()), Five.of(Clubs.i()), Five.of(Spades.i()), Two.of(Diamonds.i()), Seven.of(Clubs.i()), Five.of(Diamonds.i()), Four.of(Hearts.i()));
+game.getEast().init(Three.of(Hearts.i()), Seven.of(Diamonds.i()), Queen.of(Spades.i()), Jack.of(Hearts.i()), Ace.of(Hearts.i()), Ace.of(Clubs.i()), Ace.of(Diamonds.i()), Eight.of(Hearts.i()), Jack.of(Clubs.i()), Six.of(Clubs.i()), Two.of(Clubs.i()), Three.of(Spades.i()), Ten.of(Clubs.i()));
+game.getSouth().init(Ten.of(Diamonds.i()), Two.of(Hearts.i()), Queen.of(Clubs.i()), King.of(Hearts.i()), Queen.of(Diamonds.i()), Seven.of(Spades.i()), Eight.of(Diamonds.i()), Three.of(Clubs.i()), Eight.of(Spades.i()), Jack.of(Diamonds.i()), King.of(Diamonds.i()), Six.of(Spades.i()), Three.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: 1 CLUBS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 CLUBS, South: 1 DIAMONDS, West: 1 SPADES, North: PASS, East: 2 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 CLUBS, South: 1 DIAMONDS, West: 1 SPADES, North: PASS, East: 2 HEARTS, South: PASS, West: PASS, North: PASS]
+ ** ( 13 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Hearts.i()), Jack.of(Clubs.i()), Queen.of(Diamonds.i()), Queen.of(Hearts.i()), Three.of(Clubs.i()), Four.of(Hearts.i()), Six.of(Hearts.i()), Seven.of(Clubs.i()), Eight.of(Diamonds.i()), Eight.of(Spades.i()), Jack.of(Spades.i()), Two.of(Spades.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Three.of(Hearts.i()), Seven.of(Spades.i()), Five.of(Clubs.i()), Two.of(Diamonds.i()), Ace.of(Clubs.i()), King.of(Clubs.i()), Nine.of(Hearts.i()), Six.of(Spades.i()), Ten.of(Spades.i()), Seven.of(Hearts.i()), Nine.of(Diamonds.i()), Six.of(Clubs.i()), Three.of(Spades.i()));
+game.getEast().init(Jack.of(Hearts.i()), Ace.of(Hearts.i()), King.of(Diamonds.i()), Ace.of(Diamonds.i()), Seven.of(Diamonds.i()), Queen.of(Clubs.i()), Nine.of(Spades.i()), Eight.of(Hearts.i()), Two.of(Hearts.i()), Five.of(Diamonds.i()), Four.of(Spades.i()), Nine.of(Clubs.i()), Four.of(Clubs.i()));
+game.getSouth().init(Six.of(Diamonds.i()), Four.of(Diamonds.i()), Ten.of(Clubs.i()), King.of(Hearts.i()), Two.of(Clubs.i()), Ace.of(Spades.i()), Three.of(Diamonds.i()), Five.of(Spades.i()), Eight.of(Clubs.i()), Queen.of(Spades.i()), Ten.of(Hearts.i()), King.of(Spades.i()), Ten.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS, East: 2 HEARTS, South: PASS, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS, East: 2 HEARTS, South: PASS, West: PASS, North: PASS]
+ ** ( 14 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Clubs.i()), Two.of(Hearts.i()), Seven.of(Spades.i()), Ace.of(Diamonds.i()), Six.of(Spades.i()), Queen.of(Clubs.i()), Eight.of(Spades.i()), Ace.of(Spades.i()), Four.of(Clubs.i()), Nine.of(Diamonds.i()), Queen.of(Hearts.i()), Six.of(Hearts.i()), Three.of(Diamonds.i()));
+game.getNorth().init(Ten.of(Hearts.i()), Eight.of(Hearts.i()), Four.of(Hearts.i()), Three.of(Clubs.i()), Four.of(Diamonds.i()), King.of(Clubs.i()), Three.of(Hearts.i()), Ace.of(Hearts.i()), Queen.of(Spades.i()), Two.of(Spades.i()), Five.of(Diamonds.i()), Five.of(Clubs.i()), Eight.of(Clubs.i()));
+game.getEast().init(King.of(Diamonds.i()), Seven.of(Clubs.i()), Seven.of(Diamonds.i()), Jack.of(Hearts.i()), Jack.of(Diamonds.i()), Ten.of(Spades.i()), Five.of(Spades.i()), Two.of(Diamonds.i()), Three.of(Spades.i()), King.of(Spades.i()), Eight.of(Diamonds.i()), Nine.of(Hearts.i()), Ten.of(Clubs.i()));
+game.getSouth().init(King.of(Hearts.i()), Seven.of(Hearts.i()), Six.of(Clubs.i()), Ace.of(Clubs.i()), Six.of(Diamonds.i()), Two.of(Clubs.i()), Four.of(Spades.i()), Jack.of(Clubs.i()), Queen.of(Diamonds.i()), Five.of(Hearts.i()), Ten.of(Diamonds.i()), Jack.of(Spades.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: PASS]
+ ** ( 15 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Spades.i()), Jack.of(Spades.i()), Queen.of(Diamonds.i()), Queen.of(Hearts.i()), Three.of(Hearts.i()), Jack.of(Clubs.i()), Eight.of(Diamonds.i()), Eight.of(Clubs.i()), Two.of(Hearts.i()), Four.of(Hearts.i()), Four.of(Diamonds.i()), King.of(Hearts.i()), King.of(Clubs.i()));
+game.getNorth().init(Nine.of(Clubs.i()), Seven.of(Hearts.i()), Ace.of(Spades.i()), Three.of(Spades.i()), Ace.of(Diamonds.i()), Ten.of(Hearts.i()), Ace.of(Hearts.i()), Four.of(Clubs.i()), Seven.of(Clubs.i()), Five.of(Spades.i()), Two.of(Diamonds.i()), Jack.of(Diamonds.i()), Six.of(Spades.i()));
+game.getEast().init(Queen.of(Clubs.i()), Eight.of(Hearts.i()), Seven.of(Diamonds.i()), Seven.of(Spades.i()), Ten.of(Diamonds.i()), Four.of(Spades.i()), King.of(Diamonds.i()), Nine.of(Diamonds.i()), Two.of(Spades.i()), Five.of(Hearts.i()), Queen.of(Spades.i()), Three.of(Diamonds.i()), Six.of(Diamonds.i()));
+game.getSouth().init(Ten.of(Spades.i()), Six.of(Hearts.i()), Ten.of(Clubs.i()), Five.of(Diamonds.i()), Jack.of(Hearts.i()), Six.of(Clubs.i()), Nine.of(Spades.i()), Nine.of(Hearts.i()), Three.of(Clubs.i()), Ace.of(Clubs.i()), Two.of(Clubs.i()), Five.of(Clubs.i()), Eight.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS, North: PASS, East: 1 NT]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 NT, South: PASS, West: PASS, North: PASS]
+ ** ( 16 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Spades.i()), Ten.of(Clubs.i()), Six.of(Spades.i()), Jack.of(Hearts.i()), King.of(Diamonds.i()), Two.of(Spades.i()), Two.of(Hearts.i()), Ace.of(Diamonds.i()), Four.of(Clubs.i()), Seven.of(Clubs.i()), Two.of(Clubs.i()), Seven.of(Diamonds.i()), Four.of(Hearts.i()));
+game.getNorth().init(Nine.of(Clubs.i()), Three.of(Clubs.i()), Ten.of(Spades.i()), Jack.of(Spades.i()), Four.of(Diamonds.i()), Four.of(Spades.i()), Five.of(Clubs.i()), Eight.of(Spades.i()), King.of(Clubs.i()), King.of(Hearts.i()), Queen.of(Hearts.i()), Five.of(Spades.i()), Queen.of(Diamonds.i()));
+game.getEast().init(Three.of(Hearts.i()), King.of(Spades.i()), Ten.of(Diamonds.i()), Eight.of(Clubs.i()), Queen.of(Spades.i()), Five.of(Hearts.i()), Ace.of(Spades.i()), Queen.of(Clubs.i()), Jack.of(Clubs.i()), Three.of(Diamonds.i()), Six.of(Clubs.i()), Eight.of(Hearts.i()), Ten.of(Hearts.i()));
+game.getSouth().init(Five.of(Diamonds.i()), Nine.of(Diamonds.i()), Nine.of(Spades.i()), Nine.of(Hearts.i()), Ace.of(Clubs.i()), Six.of(Hearts.i()), Three.of(Spades.i()), Eight.of(Diamonds.i()), Seven.of(Hearts.i()), Jack.of(Diamonds.i()), Two.of(Diamonds.i()), Ace.of(Hearts.i()), Six.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: 1 CLUBS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 CLUBS, South: 1 DIAMONDS, West: 2 CLUBS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 CLUBS, South: 1 DIAMONDS, West: 2 CLUBS, North: PASS, East: PASS, South: PASS]
+ ** ( 17 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Diamonds.i()), Six.of(Clubs.i()), Six.of(Spades.i()), Four.of(Spades.i()), Four.of(Hearts.i()), Nine.of(Hearts.i()), Seven.of(Diamonds.i()), Five.of(Spades.i()), Ace.of(Spades.i()), Queen.of(Spades.i()), Two.of(Spades.i()), Eight.of(Diamonds.i()), Eight.of(Spades.i()));
+game.getNorth().init(Ten.of(Spades.i()), King.of(Spades.i()), Ace.of(Hearts.i()), Nine.of(Spades.i()), Three.of(Diamonds.i()), Seven.of(Spades.i()), Five.of(Clubs.i()), Ace.of(Clubs.i()), King.of(Hearts.i()), Three.of(Clubs.i()), Queen.of(Hearts.i()), Ten.of(Hearts.i()), Jack.of(Hearts.i()));
+game.getEast().init(Eight.of(Hearts.i()), Two.of(Clubs.i()), Nine.of(Diamonds.i()), Jack.of(Spades.i()), Six.of(Diamonds.i()), Ten.of(Diamonds.i()), Jack.of(Clubs.i()), Seven.of(Clubs.i()), King.of(Diamonds.i()), King.of(Clubs.i()), Seven.of(Hearts.i()), Four.of(Clubs.i()), Ten.of(Clubs.i()));
+game.getSouth().init(Three.of(Hearts.i()), Queen.of(Clubs.i()), Four.of(Diamonds.i()), Queen.of(Diamonds.i()), Nine.of(Clubs.i()), Six.of(Hearts.i()), Three.of(Spades.i()), Ace.of(Diamonds.i()), Two.of(Hearts.i()), Two.of(Diamonds.i()), Eight.of(Clubs.i()), Five.of(Hearts.i()), Jack.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 HEARTS, East: PASS, South: 2 DIAMONDS, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 HEARTS, East: PASS, South: 2 DIAMONDS, West: PASS, North: PASS, East: PASS]
+ ** ( 18 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Clubs.i()), Six.of(Hearts.i()), Ten.of(Hearts.i()), Four.of(Spades.i()), Two.of(Hearts.i()), Queen.of(Clubs.i()), Jack.of(Clubs.i()), Seven.of(Hearts.i()), Ace.of(Hearts.i()), Four.of(Diamonds.i()), Seven.of(Diamonds.i()), Five.of(Hearts.i()), Jack.of(Hearts.i()));
+game.getNorth().init(Two.of(Clubs.i()), Eight.of(Clubs.i()), Nine.of(Hearts.i()), Jack.of(Diamonds.i()), Ten.of(Diamonds.i()), Seven.of(Spades.i()), Jack.of(Spades.i()), Ten.of(Clubs.i()), Eight.of(Diamonds.i()), Two.of(Diamonds.i()), King.of(Diamonds.i()), Two.of(Spades.i()), King.of(Spades.i()));
+game.getEast().init(Nine.of(Diamonds.i()), Three.of(Spades.i()), Ten.of(Spades.i()), King.of(Hearts.i()), Ace.of(Spades.i()), Five.of(Clubs.i()), Nine.of(Spades.i()), Six.of(Diamonds.i()), Queen.of(Diamonds.i()), Queen.of(Spades.i()), Nine.of(Clubs.i()), Three.of(Hearts.i()), Five.of(Spades.i()));
+game.getSouth().init(Four.of(Hearts.i()), Queen.of(Hearts.i()), Ace.of(Clubs.i()), Eight.of(Hearts.i()), Ace.of(Diamonds.i()), Seven.of(Clubs.i()), Four.of(Clubs.i()), Three.of(Clubs.i()), Six.of(Clubs.i()), Six.of(Spades.i()), Three.of(Diamonds.i()), Eight.of(Spades.i()), Five.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS, North: PASS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 SPADES, South: PASS, West: 2 HEARTS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 SPADES, South: PASS, West: 2 HEARTS, North: PASS, East: PASS, South: PASS]
+ ** ( 19 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Clubs.i()), Seven.of(Spades.i()), Five.of(Diamonds.i()), Eight.of(Spades.i()), Four.of(Spades.i()), Four.of(Diamonds.i()), Ace.of(Spades.i()), Ace.of(Hearts.i()), Ten.of(Clubs.i()), Eight.of(Hearts.i()), Six.of(Hearts.i()), Three.of(Clubs.i()), Five.of(Spades.i()));
+game.getNorth().init(Six.of(Spades.i()), Three.of(Diamonds.i()), King.of(Diamonds.i()), Three.of(Spades.i()), King.of(Hearts.i()), Nine.of(Diamonds.i()), Two.of(Diamonds.i()), Ace.of(Diamonds.i()), Nine.of(Hearts.i()), Six.of(Diamonds.i()), Jack.of(Spades.i()), Seven.of(Clubs.i()), Ten.of(Diamonds.i()));
+game.getEast().init(King.of(Clubs.i()), Five.of(Hearts.i()), Nine.of(Spades.i()), Six.of(Clubs.i()), Ace.of(Clubs.i()), Jack.of(Clubs.i()), Queen.of(Hearts.i()), Seven.of(Hearts.i()), Two.of(Spades.i()), Three.of(Hearts.i()), Queen.of(Clubs.i()), King.of(Spades.i()), Four.of(Clubs.i()));
+game.getSouth().init(Two.of(Clubs.i()), Ten.of(Spades.i()), Nine.of(Clubs.i()), Seven.of(Diamonds.i()), Queen.of(Spades.i()), Four.of(Hearts.i()), Ten.of(Hearts.i()), Jack.of(Hearts.i()), Jack.of(Diamonds.i()), Queen.of(Diamonds.i()), Five.of(Clubs.i()), Eight.of(Diamonds.i()), Two.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 2 CLUBS, South: 2 DIAMONDS, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 2 CLUBS, South: 2 DIAMONDS, West: PASS, North: PASS, East: PASS]
+ ** ( 20 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Clubs.i()), Jack.of(Spades.i()), Seven.of(Hearts.i()), Five.of(Clubs.i()), Ten.of(Spades.i()), Jack.of(Clubs.i()), Jack.of(Hearts.i()), Seven.of(Spades.i()), Five.of(Diamonds.i()), Two.of(Clubs.i()), Eight.of(Diamonds.i()), Queen.of(Hearts.i()), Five.of(Hearts.i()));
+game.getNorth().init(King.of(Hearts.i()), Three.of(Clubs.i()), King.of(Spades.i()), Nine.of(Diamonds.i()), Seven.of(Diamonds.i()), Four.of(Hearts.i()), Eight.of(Spades.i()), Nine.of(Clubs.i()), Seven.of(Clubs.i()), Queen.of(Spades.i()), Eight.of(Hearts.i()), Four.of(Diamonds.i()), Four.of(Spades.i()));
+game.getEast().init(Six.of(Hearts.i()), Ten.of(Diamonds.i()), Jack.of(Diamonds.i()), Eight.of(Clubs.i()), Six.of(Diamonds.i()), Two.of(Diamonds.i()), Six.of(Spades.i()), Queen.of(Diamonds.i()), Nine.of(Hearts.i()), Ace.of(Diamonds.i()), Ace.of(Hearts.i()), Four.of(Clubs.i()), Nine.of(Spades.i()));
+game.getSouth().init(King.of(Clubs.i()), Ten.of(Hearts.i()), King.of(Diamonds.i()), Five.of(Spades.i()), Queen.of(Clubs.i()), Two.of(Hearts.i()), Two.of(Spades.i()), Ten.of(Clubs.i()), Three.of(Hearts.i()), Three.of(Diamonds.i()), Ace.of(Spades.i()), Three.of(Spades.i()), Ace.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: 1 NT]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: 1 NT, West: PASS, North: 2 NT, East: PASS, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: 1 NT, West: PASS, North: 2 NT, East: PASS, South: PASS, West: PASS]
+ ** ( 21 )*** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Diamonds.i()), King.of(Hearts.i()), Two.of(Diamonds.i()), Ten.of(Hearts.i()), Five.of(Hearts.i()), Three.of(Diamonds.i()), Ace.of(Diamonds.i()), Two.of(Clubs.i()), Queen.of(Hearts.i()), Eight.of(Diamonds.i()), Three.of(Clubs.i()), Four.of(Hearts.i()), Seven.of(Hearts.i()));
+game.getNorth().init(Jack.of(Clubs.i()), Eight.of(Hearts.i()), Seven.of(Spades.i()), Ten.of(Diamonds.i()), Two.of(Spades.i()), Eight.of(Clubs.i()), Four.of(Spades.i()), Jack.of(Hearts.i()), Three.of(Hearts.i()), Six.of(Spades.i()), Two.of(Hearts.i()), Ace.of(Hearts.i()), Nine.of(Hearts.i()));
+game.getEast().init(King.of(Spades.i()), Three.of(Spades.i()), Five.of(Spades.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Six.of(Diamonds.i()), Six.of(Hearts.i()), Ace.of(Spades.i()), Queen.of(Clubs.i()), Six.of(Clubs.i()), Nine.of(Clubs.i()), Five.of(Diamonds.i()), Nine.of(Spades.i()));
+game.getSouth().init(King.of(Diamonds.i()), Ace.of(Clubs.i()), Eight.of(Spades.i()), Ten.of(Clubs.i()), Four.of(Clubs.i()), Four.of(Diamonds.i()), Seven.of(Diamonds.i()), King.of(Clubs.i()), Ten.of(Spades.i()), Nine.of(Diamonds.i()), Queen.of(Spades.i()), Five.of(Clubs.i()), Seven.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 SPADES, South: PASS, West: 2 DIAMONDS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 SPADES, South: PASS, West: 2 DIAMONDS, North: PASS, East: PASS, South: PASS]
+ ** ( 22 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Diamonds.i()), Four.of(Spades.i()), Five.of(Diamonds.i()), Six.of(Diamonds.i()), Queen.of(Spades.i()), Two.of(Hearts.i()), Ten.of(Clubs.i()), King.of(Diamonds.i()), Two.of(Clubs.i()), Ten.of(Spades.i()), Jack.of(Clubs.i()), Three.of(Diamonds.i()), Nine.of(Clubs.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), King.of(Clubs.i()), Nine.of(Hearts.i()), Ten.of(Hearts.i()), Four.of(Clubs.i()), Jack.of(Diamonds.i()), Three.of(Clubs.i()), Three.of(Spades.i()), Seven.of(Diamonds.i()), Five.of(Spades.i()), Eight.of(Clubs.i()), Jack.of(Hearts.i()), Queen.of(Diamonds.i()));
+game.getEast().init(Queen.of(Clubs.i()), Four.of(Diamonds.i()), Queen.of(Hearts.i()), Six.of(Spades.i()), Five.of(Clubs.i()), Ten.of(Diamonds.i()), Six.of(Clubs.i()), Six.of(Hearts.i()), King.of(Hearts.i()), Seven.of(Hearts.i()), Seven.of(Clubs.i()), Five.of(Hearts.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Four.of(Hearts.i()), Ace.of(Spades.i()), Seven.of(Spades.i()), Two.of(Spades.i()), Nine.of(Spades.i()), Eight.of(Spades.i()), Two.of(Diamonds.i()), Three.of(Hearts.i()), King.of(Spades.i()), Ace.of(Hearts.i()), Jack.of(Spades.i()), Ace.of(Clubs.i()), Eight.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS, North: 2 DIAMONDS, East: PASS, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS, North: 2 DIAMONDS, East: PASS, South: PASS, West: PASS]
+ ** ( 23 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Hearts.i()), Eight.of(Diamonds.i()), Ace.of(Clubs.i()), Ten.of(Hearts.i()), Queen.of(Clubs.i()), Two.of(Clubs.i()), Seven.of(Spades.i()), Queen.of(Hearts.i()), Two.of(Diamonds.i()), Five.of(Clubs.i()), Jack.of(Clubs.i()), Four.of(Diamonds.i()), Three.of(Spades.i()));
+game.getNorth().init(Jack.of(Diamonds.i()), Queen.of(Diamonds.i()), Two.of(Hearts.i()), King.of(Diamonds.i()), Eight.of(Clubs.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()), Queen.of(Spades.i()), Six.of(Spades.i()), King.of(Hearts.i()), Ten.of(Spades.i()), King.of(Spades.i()), Five.of(Diamonds.i()));
+game.getEast().init(Ace.of(Spades.i()), Two.of(Spades.i()), Four.of(Clubs.i()), Five.of(Spades.i()), Ten.of(Diamonds.i()), Three.of(Clubs.i()), Six.of(Clubs.i()), Four.of(Spades.i()), Nine.of(Spades.i()), King.of(Clubs.i()), Jack.of(Spades.i()), Three.of(Diamonds.i()), Six.of(Hearts.i()));
+game.getSouth().init(Five.of(Hearts.i()), Seven.of(Clubs.i()), Ace.of(Hearts.i()), Six.of(Diamonds.i()), Ace.of(Diamonds.i()), Nine.of(Clubs.i()), Four.of(Hearts.i()), Eight.of(Spades.i()), Ten.of(Clubs.i()), Nine.of(Diamonds.i()), Eight.of(Hearts.i()), Jack.of(Hearts.i()), Seven.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 1 SPADES, South: 1 NT, West: PASS]
+  human about to bid: 2 SPADES
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 1 SPADES, South: 1 NT, West: PASS, North: 2 SPADES, East: PASS, South: PASS, West: PASS]
+ ** ( 24 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Hearts.i()), Four.of(Hearts.i()), Two.of(Clubs.i()), Seven.of(Clubs.i()), Two.of(Diamonds.i()), Eight.of(Clubs.i()), Jack.of(Spades.i()), Four.of(Diamonds.i()), Six.of(Diamonds.i()), Eight.of(Diamonds.i()), Jack.of(Diamonds.i()), Queen.of(Spades.i()), Eight.of(Spades.i()));
+game.getNorth().init(Queen.of(Clubs.i()), Ten.of(Hearts.i()), Four.of(Clubs.i()), Five.of(Clubs.i()), Three.of(Clubs.i()), Ace.of(Hearts.i()), Ace.of(Diamonds.i()), Six.of(Hearts.i()), Ace.of(Clubs.i()), Seven.of(Hearts.i()), Nine.of(Hearts.i()), Ten.of(Spades.i()), Jack.of(Clubs.i()));
+game.getEast().init(Nine.of(Spades.i()), Ten.of(Clubs.i()), Queen.of(Diamonds.i()), Nine.of(Diamonds.i()), Ten.of(Diamonds.i()), King.of(Diamonds.i()), Five.of(Spades.i()), Seven.of(Diamonds.i()), Seven.of(Spades.i()), King.of(Clubs.i()), Six.of(Clubs.i()), Two.of(Hearts.i()), King.of(Spades.i()));
+game.getSouth().init(Five.of(Diamonds.i()), Queen.of(Hearts.i()), Three.of(Hearts.i()), Four.of(Spades.i()), Ace.of(Spades.i()), Three.of(Diamonds.i()), Nine.of(Clubs.i()), Jack.of(Hearts.i()), Six.of(Spades.i()), Eight.of(Hearts.i()), Two.of(Spades.i()), Three.of(Spades.i()), Five.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 CLUBS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: 1 DIAMONDS, South: 1 SPADES, West: 2 DIAMONDS, North: 3 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: 1 DIAMONDS, South: 1 SPADES, West: 2 DIAMONDS, North: 3 HEARTS, East: PASS, South: PASS, West: PASS]
+ ** ( 25 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Spades.i()), Ace.of(Clubs.i()), Four.of(Clubs.i()), Ten.of(Hearts.i()), King.of(Hearts.i()), Ten.of(Clubs.i()), Two.of(Diamonds.i()), Eight.of(Diamonds.i()), Queen.of(Diamonds.i()), Queen.of(Clubs.i()), Seven.of(Spades.i()), Seven.of(Hearts.i()), King.of(Diamonds.i()));
+game.getNorth().init(Nine.of(Hearts.i()), Five.of(Diamonds.i()), Eight.of(Spades.i()), Queen.of(Hearts.i()), Five.of(Clubs.i()), Seven.of(Diamonds.i()), Jack.of(Clubs.i()), Jack.of(Hearts.i()), Six.of(Diamonds.i()), Two.of(Clubs.i()), Seven.of(Clubs.i()), Nine.of(Spades.i()), Ten.of(Diamonds.i()));
+game.getEast().init(Ace.of(Hearts.i()), Three.of(Diamonds.i()), Six.of(Hearts.i()), Four.of(Diamonds.i()), Ace.of(Spades.i()), Six.of(Spades.i()), King.of(Spades.i()), Jack.of(Spades.i()), Ace.of(Diamonds.i()), Three.of(Spades.i()), Eight.of(Hearts.i()), Two.of(Hearts.i()), Two.of(Spades.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), Ten.of(Spades.i()), Five.of(Hearts.i()), Six.of(Clubs.i()), Nine.of(Clubs.i()), Eight.of(Clubs.i()), Queen.of(Spades.i()), King.of(Clubs.i()), Four.of(Hearts.i()), Jack.of(Diamonds.i()), Three.of(Clubs.i()), Four.of(Spades.i()), Three.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS, East: 2 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 2 SPADES, South: PASS, West: PASS, North: PASS]
+ ** ( 26 )*** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Hearts.i()), Five.of(Clubs.i()), Eight.of(Clubs.i()), Four.of(Hearts.i()), Three.of(Diamonds.i()), Three.of(Spades.i()), Queen.of(Clubs.i()), Nine.of(Clubs.i()), King.of(Diamonds.i()), Nine.of(Hearts.i()), Seven.of(Diamonds.i()), Two.of(Spades.i()), Six.of(Hearts.i()));
+game.getNorth().init(Six.of(Diamonds.i()), Eight.of(Diamonds.i()), Eight.of(Hearts.i()), Jack.of(Hearts.i()), Ace.of(Hearts.i()), Jack.of(Diamonds.i()), Five.of(Hearts.i()), Jack.of(Clubs.i()), Queen.of(Spades.i()), Ten.of(Spades.i()), Ten.of(Diamonds.i()), Queen.of(Diamonds.i()), Ten.of(Clubs.i()));
+game.getEast().init(Two.of(Hearts.i()), Six.of(Clubs.i()), Two.of(Clubs.i()), Six.of(Spades.i()), Ace.of(Diamonds.i()), Nine.of(Spades.i()), King.of(Clubs.i()), Seven.of(Hearts.i()), Four.of(Clubs.i()), Nine.of(Diamonds.i()), Five.of(Diamonds.i()), Five.of(Spades.i()), Ace.of(Clubs.i()));
+game.getSouth().init(Three.of(Clubs.i()), Ace.of(Spades.i()), King.of(Spades.i()), Ten.of(Hearts.i()), Three.of(Hearts.i()), Four.of(Diamonds.i()), Seven.of(Spades.i()), Two.of(Diamonds.i()), King.of(Hearts.i()), Four.of(Spades.i()), Seven.of(Clubs.i()), Eight.of(Spades.i()), Jack.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS, North: 2 DIAMONDS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS, North: 2 DIAMONDS, East: PASS, South: PASS, West: PASS]
+ ** ( 27 )*** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Diamonds.i()), Three.of(Clubs.i()), King.of(Clubs.i()), Three.of(Diamonds.i()), Seven.of(Hearts.i()), Four.of(Clubs.i()), Three.of(Hearts.i()), Eight.of(Diamonds.i()), Four.of(Spades.i()), Four.of(Hearts.i()), Ten.of(Hearts.i()), Nine.of(Hearts.i()), Ace.of(Clubs.i()));
+game.getNorth().init(Seven.of(Spades.i()), Ace.of(Diamonds.i()), Queen.of(Spades.i()), Two.of(Spades.i()), Jack.of(Diamonds.i()), Eight.of(Hearts.i()), Nine.of(Diamonds.i()), Jack.of(Hearts.i()), Two.of(Diamonds.i()), Queen.of(Clubs.i()), King.of(Hearts.i()), Ten.of(Spades.i()), Jack.of(Spades.i()));
+game.getEast().init(Nine.of(Spades.i()), Five.of(Clubs.i()), Queen.of(Hearts.i()), Jack.of(Clubs.i()), Ten.of(Clubs.i()), Two.of(Hearts.i()), King.of(Spades.i()), Four.of(Diamonds.i()), Seven.of(Clubs.i()), Five.of(Hearts.i()), Six.of(Clubs.i()), Two.of(Clubs.i()), Ten.of(Diamonds.i()));
+game.getSouth().init(Seven.of(Diamonds.i()), Five.of(Spades.i()), Six.of(Diamonds.i()), Eight.of(Clubs.i()), Nine.of(Clubs.i()), King.of(Diamonds.i()), Ace.of(Spades.i()), Six.of(Hearts.i()), Six.of(Spades.i()), Eight.of(Spades.i()), Three.of(Spades.i()), Ace.of(Hearts.i()), Five.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 SPADES, East: PASS]
+  human about to bid: 3 SPADES
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 3 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 28 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Hearts.i()), Ten.of(Spades.i()), Nine.of(Hearts.i()), Seven.of(Diamonds.i()), Five.of(Clubs.i()), Seven.of(Clubs.i()), Eight.of(Clubs.i()), Five.of(Spades.i()), Ten.of(Diamonds.i()), King.of(Hearts.i()), King.of(Spades.i()), Six.of(Diamonds.i()), Two.of(Spades.i()));
+game.getNorth().init(Two.of(Hearts.i()), Eight.of(Spades.i()), Six.of(Spades.i()), Six.of(Clubs.i()), Jack.of(Hearts.i()), Three.of(Clubs.i()), Ace.of(Diamonds.i()), Nine.of(Clubs.i()), Nine.of(Spades.i()), Eight.of(Diamonds.i()), Jack.of(Spades.i()), Seven.of(Hearts.i()), Ace.of(Hearts.i()));
+game.getEast().init(Ten.of(Hearts.i()), Two.of(Diamonds.i()), Four.of(Diamonds.i()), Two.of(Clubs.i()), Eight.of(Hearts.i()), Five.of(Diamonds.i()), Five.of(Hearts.i()), Three.of(Spades.i()), Ten.of(Clubs.i()), Four.of(Hearts.i()), Nine.of(Diamonds.i()), Four.of(Clubs.i()), Queen.of(Diamonds.i()));
+game.getSouth().init(Four.of(Spades.i()), Ace.of(Spades.i()), Six.of(Hearts.i()), King.of(Diamonds.i()), Queen.of(Spades.i()), Jack.of(Clubs.i()), Queen.of(Hearts.i()), Three.of(Diamonds.i()), Seven.of(Spades.i()), Jack.of(Diamonds.i()), King.of(Clubs.i()), Queen.of(Clubs.i()), Ace.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS, North: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS, North: 1 SPADES, East: PASS, South: 4 SPADES, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS, North: 1 SPADES, East: PASS, South: 4 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 29 )*** Automated bidding on a random game *****
+game.getWest().init(Jack.of(Spades.i()), Two.of(Clubs.i()), Queen.of(Spades.i()), King.of(Clubs.i()), Seven.of(Diamonds.i()), Four.of(Spades.i()), Five.of(Clubs.i()), King.of(Diamonds.i()), Ace.of(Diamonds.i()), Nine.of(Clubs.i()), Queen.of(Diamonds.i()), Ten.of(Clubs.i()), Two.of(Spades.i()));
+game.getNorth().init(Six.of(Hearts.i()), Seven.of(Clubs.i()), Four.of(Hearts.i()), Two.of(Hearts.i()), Eight.of(Clubs.i()), Eight.of(Hearts.i()), Ten.of(Hearts.i()), Ten.of(Spades.i()), King.of(Spades.i()), Seven.of(Spades.i()), Three.of(Diamonds.i()), Nine.of(Diamonds.i()), Queen.of(Hearts.i()));
+game.getEast().init(Jack.of(Clubs.i()), Ace.of(Hearts.i()), Ten.of(Diamonds.i()), Ace.of(Clubs.i()), Five.of(Diamonds.i()), Seven.of(Hearts.i()), Jack.of(Hearts.i()), Eight.of(Spades.i()), Jack.of(Diamonds.i()), King.of(Hearts.i()), Nine.of(Spades.i()), Six.of(Clubs.i()), Two.of(Diamonds.i()));
+game.getSouth().init(Queen.of(Clubs.i()), Six.of(Diamonds.i()), Three.of(Spades.i()), Six.of(Spades.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()), Five.of(Spades.i()), Ace.of(Spades.i()), Four.of(Diamonds.i()), Five.of(Hearts.i()), Three.of(Clubs.i()), Four.of(Clubs.i()), Eight.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS, North: PASS]
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS, West: 1 SPADES, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS, West: 1 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 30 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Spades.i()), Seven.of(Hearts.i()), Queen.of(Spades.i()), Seven.of(Diamonds.i()), Two.of(Hearts.i()), Six.of(Spades.i()), Four.of(Spades.i()), Four.of(Clubs.i()), Five.of(Hearts.i()), Nine.of(Spades.i()), Ten.of(Clubs.i()), Seven.of(Spades.i()), Nine.of(Hearts.i()));
+game.getNorth().init(Ten.of(Hearts.i()), Jack.of(Spades.i()), Queen.of(Clubs.i()), Ace.of(Clubs.i()), Six.of(Clubs.i()), Three.of(Diamonds.i()), Eight.of(Spades.i()), Seven.of(Clubs.i()), Jack.of(Diamonds.i()), Five.of(Diamonds.i()), Six.of(Diamonds.i()), Jack.of(Hearts.i()), Ace.of(Spades.i()));
+game.getEast().init(King.of(Hearts.i()), Nine.of(Diamonds.i()), Queen.of(Diamonds.i()), Four.of(Diamonds.i()), Four.of(Hearts.i()), Jack.of(Clubs.i()), King.of(Diamonds.i()), Ten.of(Diamonds.i()), Eight.of(Clubs.i()), Ten.of(Spades.i()), King.of(Clubs.i()), Two.of(Diamonds.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Ace.of(Diamonds.i()), Queen.of(Hearts.i()), Three.of(Hearts.i()), Two.of(Spades.i()), Nine.of(Clubs.i()), Five.of(Clubs.i()), Six.of(Hearts.i()), Ace.of(Hearts.i()), King.of(Spades.i()), Eight.of(Diamonds.i()), Three.of(Clubs.i()), Five.of(Spades.i()), Two.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 2 DIAMONDS, South: 2 NT, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: 2 DIAMONDS, South: 2 NT, West: PASS, North: PASS, East: PASS]
+ ** ( 31 )*** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Hearts.i()), Jack.of(Diamonds.i()), Nine.of(Spades.i()), Six.of(Clubs.i()), Three.of(Hearts.i()), Five.of(Clubs.i()), Jack.of(Hearts.i()), Five.of(Diamonds.i()), Seven.of(Spades.i()), Ten.of(Hearts.i()), Seven.of(Hearts.i()), Ten.of(Spades.i()), Two.of(Spades.i()));
+game.getNorth().init(Ace.of(Spades.i()), Ten.of(Diamonds.i()), Two.of(Hearts.i()), King.of(Hearts.i()), Seven.of(Clubs.i()), Three.of(Spades.i()), Queen.of(Spades.i()), Three.of(Clubs.i()), Eight.of(Spades.i()), Jack.of(Spades.i()), Ace.of(Hearts.i()), Eight.of(Hearts.i()), King.of(Diamonds.i()));
+game.getEast().init(Ace.of(Clubs.i()), Queen.of(Diamonds.i()), Nine.of(Diamonds.i()), Five.of(Spades.i()), Nine.of(Hearts.i()), Six.of(Hearts.i()), Four.of(Diamonds.i()), Queen.of(Clubs.i()), Four.of(Clubs.i()), Seven.of(Diamonds.i()), Five.of(Hearts.i()), Nine.of(Clubs.i()), Two.of(Clubs.i()));
+game.getSouth().init(Two.of(Diamonds.i()), Eight.of(Diamonds.i()), Ten.of(Clubs.i()), Eight.of(Clubs.i()), Jack.of(Clubs.i()), Four.of(Spades.i()), Ace.of(Diamonds.i()), Three.of(Diamonds.i()), Six.of(Diamonds.i()), King.of(Spades.i()), King.of(Clubs.i()), Six.of(Spades.i()), Four.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 3 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 3 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 32 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Diamonds.i()), Four.of(Hearts.i()), Eight.of(Spades.i()), Three.of(Clubs.i()), Queen.of(Clubs.i()), Queen.of(Hearts.i()), Six.of(Spades.i()), Eight.of(Diamonds.i()), Two.of(Hearts.i()), Two.of(Diamonds.i()), Jack.of(Hearts.i()), Eight.of(Hearts.i()), Six.of(Diamonds.i()));
+game.getNorth().init(Ace.of(Hearts.i()), Queen.of(Spades.i()), Ace.of(Clubs.i()), Jack.of(Clubs.i()), Queen.of(Diamonds.i()), Five.of(Clubs.i()), Seven.of(Spades.i()), Four.of(Clubs.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Ten.of(Hearts.i()), Three.of(Spades.i()), Two.of(Spades.i()));
+game.getEast().init(Six.of(Clubs.i()), King.of(Hearts.i()), Six.of(Hearts.i()), Seven.of(Clubs.i()), Five.of(Hearts.i()), Ten.of(Diamonds.i()), Seven.of(Diamonds.i()), Five.of(Diamonds.i()), Ace.of(Diamonds.i()), Seven.of(Hearts.i()), Four.of(Spades.i()), Three.of(Diamonds.i()), Four.of(Diamonds.i()));
+game.getSouth().init(Nine.of(Spades.i()), King.of(Spades.i()), Three.of(Hearts.i()), Two.of(Clubs.i()), Nine.of(Clubs.i()), Nine.of(Diamonds.i()), Ace.of(Spades.i()), Eight.of(Clubs.i()), Ten.of(Clubs.i()), Ten.of(Spades.i()), Nine.of(Hearts.i()), Five.of(Spades.i()), King.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 3 SPADES, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 3 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 33 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Hearts.i()), Ten.of(Clubs.i()), Seven.of(Diamonds.i()), Ace.of(Spades.i()), Ace.of(Diamonds.i()), Ten.of(Spades.i()), Four.of(Diamonds.i()), Three.of(Spades.i()), Jack.of(Hearts.i()), Queen.of(Diamonds.i()), Three.of(Diamonds.i()), Nine.of(Hearts.i()), Eight.of(Clubs.i()));
+game.getNorth().init(Eight.of(Spades.i()), Seven.of(Clubs.i()), Ace.of(Hearts.i()), Seven.of(Spades.i()), Two.of(Diamonds.i()), Two.of(Hearts.i()), King.of(Clubs.i()), Queen.of(Clubs.i()), Nine.of(Spades.i()), Six.of(Diamonds.i()), Two.of(Clubs.i()), Three.of(Hearts.i()), Ace.of(Clubs.i()));
+game.getEast().init(Three.of(Clubs.i()), Jack.of(Clubs.i()), Jack.of(Spades.i()), Two.of(Spades.i()), Five.of(Clubs.i()), Six.of(Clubs.i()), Eight.of(Diamonds.i()), Four.of(Clubs.i()), Four.of(Hearts.i()), Five.of(Hearts.i()), Queen.of(Spades.i()), Nine.of(Clubs.i()), King.of(Diamonds.i()));
+game.getSouth().init(Five.of(Spades.i()), Nine.of(Diamonds.i()), King.of(Hearts.i()), Five.of(Diamonds.i()), Eight.of(Hearts.i()), Six.of(Spades.i()), King.of(Spades.i()), Jack.of(Diamonds.i()), Four.of(Spades.i()), Queen.of(Hearts.i()), Ten.of(Hearts.i()), Seven.of(Hearts.i()), Ten.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 CLUBS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 HEARTS, West: PASS, North: 1 NT]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 HEARTS, West: PASS, North: 1 NT, East: PASS, South: PASS, West: PASS]
+ ** ( 34 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Clubs.i()), Ace.of(Spades.i()), Jack.of(Hearts.i()), Five.of(Diamonds.i()), Queen.of(Hearts.i()), King.of(Clubs.i()), Four.of(Spades.i()), Jack.of(Clubs.i()), Six.of(Spades.i()), Seven.of(Diamonds.i()), Queen.of(Diamonds.i()), Ace.of(Hearts.i()), Ten.of(Diamonds.i()));
+game.getNorth().init(Ten.of(Clubs.i()), Five.of(Spades.i()), Ace.of(Diamonds.i()), Jack.of(Diamonds.i()), Five.of(Hearts.i()), Nine.of(Spades.i()), Four.of(Clubs.i()), Two.of(Spades.i()), Three.of(Diamonds.i()), Eight.of(Spades.i()), Three.of(Spades.i()), Two.of(Diamonds.i()), Three.of(Hearts.i()));
+game.getEast().init(Nine.of(Clubs.i()), Ace.of(Clubs.i()), Nine.of(Diamonds.i()), Three.of(Clubs.i()), Nine.of(Hearts.i()), Ten.of(Spades.i()), Seven.of(Clubs.i()), Eight.of(Hearts.i()), Queen.of(Spades.i()), Seven.of(Hearts.i()), Eight.of(Clubs.i()), Queen.of(Clubs.i()), King.of(Hearts.i()));
+game.getSouth().init(Seven.of(Spades.i()), Four.of(Diamonds.i()), Ten.of(Hearts.i()), Five.of(Clubs.i()), King.of(Diamonds.i()), King.of(Spades.i()), Jack.of(Spades.i()), Eight.of(Diamonds.i()), Six.of(Diamonds.i()), Six.of(Hearts.i()), Two.of(Clubs.i()), Two.of(Hearts.i()), Four.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 NT]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 NT, North: PASS, East: 3 NT, South: PASS, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 NT, North: PASS, East: 3 NT, South: PASS, West: PASS, North: PASS]
+ ** ( 35 )*** Automated bidding on a random game *****
+game.getWest().init(Two.of(Diamonds.i()), Ten.of(Hearts.i()), King.of(Clubs.i()), Five.of(Spades.i()), Ten.of(Diamonds.i()), Seven.of(Spades.i()), Four.of(Spades.i()), Four.of(Hearts.i()), Jack.of(Clubs.i()), Ace.of(Hearts.i()), Seven.of(Clubs.i()), King.of(Spades.i()), Ten.of(Spades.i()));
+game.getNorth().init(Queen.of(Clubs.i()), Two.of(Hearts.i()), Four.of(Clubs.i()), Four.of(Diamonds.i()), Nine.of(Diamonds.i()), Six.of(Diamonds.i()), Five.of(Hearts.i()), Three.of(Spades.i()), King.of(Hearts.i()), Ace.of(Diamonds.i()), Ace.of(Spades.i()), Six.of(Clubs.i()), Queen.of(Spades.i()));
+game.getEast().init(Six.of(Hearts.i()), Five.of(Clubs.i()), Three.of(Diamonds.i()), Two.of(Clubs.i()), Seven.of(Hearts.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Seven.of(Diamonds.i()), Queen.of(Hearts.i()), King.of(Diamonds.i()), Eight.of(Diamonds.i()), Ten.of(Clubs.i()), Two.of(Spades.i()));
+game.getSouth().init(Nine.of(Spades.i()), Queen.of(Diamonds.i()), Three.of(Clubs.i()), Three.of(Hearts.i()), Five.of(Diamonds.i()), Jack.of(Hearts.i()), Eight.of(Spades.i()), Nine.of(Clubs.i()), Eight.of(Clubs.i()), Nine.of(Hearts.i()), Six.of(Spades.i()), Ace.of(Clubs.i()), Eight.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 DIAMONDS, East: PASS]
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: PASS, South: 1 HEARTS, West: PASS, North: 1 NT, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: PASS, South: 1 HEARTS, West: PASS, North: 1 NT, East: PASS, South: PASS, West: PASS]
+ ** ( 36 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Clubs.i()), Two.of(Hearts.i()), Seven.of(Spades.i()), Nine.of(Clubs.i()), King.of(Spades.i()), Eight.of(Clubs.i()), Six.of(Spades.i()), Seven.of(Hearts.i()), Seven.of(Clubs.i()), Three.of(Diamonds.i()), King.of(Clubs.i()), King.of(Diamonds.i()), Nine.of(Hearts.i()));
+game.getNorth().init(Ten.of(Hearts.i()), Three.of(Hearts.i()), Eight.of(Diamonds.i()), Queen.of(Spades.i()), Five.of(Hearts.i()), Ace.of(Hearts.i()), Eight.of(Spades.i()), King.of(Hearts.i()), Ace.of(Spades.i()), Queen.of(Hearts.i()), Ace.of(Diamonds.i()), Five.of(Spades.i()), Four.of(Spades.i()));
+game.getEast().init(Three.of(Spades.i()), Two.of(Spades.i()), Nine.of(Spades.i()), Ace.of(Clubs.i()), Eight.of(Hearts.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Four.of(Clubs.i()), Ten.of(Diamonds.i()), Six.of(Hearts.i()), Six.of(Clubs.i()), Queen.of(Diamonds.i()), Four.of(Hearts.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), Jack.of(Clubs.i()), Two.of(Diamonds.i()), Ten.of(Spades.i()), Jack.of(Hearts.i()), Five.of(Diamonds.i()), Queen.of(Clubs.i()), Four.of(Diamonds.i()), Two.of(Clubs.i()), Six.of(Diamonds.i()), Five.of(Clubs.i()), Seven.of(Diamonds.i()), Ten.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: PASS, North: 1 HEARTS, East: PASS, South: PASS, West: PASS]
+ ** ( 37 )*** Automated bidding on a random game *****
+game.getWest().init(Two.of(Clubs.i()), Ace.of(Diamonds.i()), King.of(Hearts.i()), Queen.of(Spades.i()), Two.of(Spades.i()), Four.of(Spades.i()), Jack.of(Hearts.i()), Ten.of(Spades.i()), Five.of(Spades.i()), Nine.of(Clubs.i()), Queen.of(Diamonds.i()), Jack.of(Clubs.i()), Queen.of(Clubs.i()));
+game.getNorth().init(Five.of(Diamonds.i()), King.of(Spades.i()), Three.of(Clubs.i()), Eight.of(Diamonds.i()), Two.of(Hearts.i()), Ten.of(Clubs.i()), Ace.of(Clubs.i()), Five.of(Hearts.i()), Three.of(Hearts.i()), Seven.of(Diamonds.i()), King.of(Clubs.i()), Eight.of(Spades.i()), Ten.of(Diamonds.i()));
+game.getEast().init(Seven.of(Hearts.i()), Ace.of(Hearts.i()), Six.of(Hearts.i()), Seven.of(Spades.i()), Two.of(Diamonds.i()), Six.of(Diamonds.i()), Six.of(Spades.i()), Nine.of(Spades.i()), Eight.of(Clubs.i()), Four.of(Hearts.i()), Jack.of(Diamonds.i()), King.of(Diamonds.i()), Ace.of(Spades.i()));
+game.getSouth().init(Eight.of(Hearts.i()), Queen.of(Hearts.i()), Nine.of(Diamonds.i()), Six.of(Clubs.i()), Three.of(Spades.i()), Seven.of(Clubs.i()), Five.of(Clubs.i()), Four.of(Diamonds.i()), Nine.of(Hearts.i()), Four.of(Clubs.i()), Jack.of(Spades.i()), Ten.of(Hearts.i()), Three.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: 1 SPADES, North: PASS, East: 3 SPADES, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: PASS, East: 3 SPADES, South: PASS, West: PASS, North: PASS]
+ ** ( 38 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Spades.i()), Two.of(Diamonds.i()), Six.of(Hearts.i()), Nine.of(Spades.i()), Seven.of(Diamonds.i()), Ten.of(Diamonds.i()), Nine.of(Clubs.i()), Six.of(Diamonds.i()), Ace.of(Spades.i()), Seven.of(Hearts.i()), King.of(Diamonds.i()), Queen.of(Diamonds.i()), Eight.of(Spades.i()));
+game.getNorth().init(Queen.of(Hearts.i()), Six.of(Clubs.i()), Jack.of(Diamonds.i()), Seven.of(Clubs.i()), Six.of(Spades.i()), Three.of(Diamonds.i()), Five.of(Clubs.i()), Nine.of(Diamonds.i()), Two.of(Spades.i()), Queen.of(Clubs.i()), King.of(Clubs.i()), Two.of(Clubs.i()), Eight.of(Diamonds.i()));
+game.getEast().init(Five.of(Diamonds.i()), Four.of(Diamonds.i()), Five.of(Hearts.i()), Jack.of(Hearts.i()), Four.of(Clubs.i()), Four.of(Hearts.i()), Ace.of(Diamonds.i()), Jack.of(Spades.i()), Eight.of(Clubs.i()), King.of(Spades.i()), Ten.of(Hearts.i()), Three.of(Clubs.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Ten.of(Clubs.i()), King.of(Hearts.i()), Three.of(Hearts.i()), Queen.of(Spades.i()), Ace.of(Clubs.i()), Ace.of(Hearts.i()), Jack.of(Clubs.i()), Seven.of(Spades.i()), Four.of(Spades.i()), Five.of(Spades.i()), Nine.of(Hearts.i()), Two.of(Hearts.i()), Ten.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS, North: 1 NT, East: PASS, South: 2 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS, North: 1 NT, East: PASS, South: 2 HEARTS, West: PASS, North: PASS, East: PASS]
+ ** ( 39 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Hearts.i()), Ace.of(Spades.i()), Seven.of(Spades.i()), King.of(Spades.i()), Nine.of(Clubs.i()), Jack.of(Hearts.i()), Queen.of(Hearts.i()), Queen.of(Diamonds.i()), Two.of(Hearts.i()), King.of(Hearts.i()), Ten.of(Clubs.i()), Five.of(Clubs.i()), Three.of(Spades.i()));
+game.getNorth().init(Four.of(Hearts.i()), Eight.of(Clubs.i()), Ace.of(Hearts.i()), Ace.of(Clubs.i()), Eight.of(Hearts.i()), Three.of(Diamonds.i()), Jack.of(Diamonds.i()), Ten.of(Hearts.i()), Nine.of(Spades.i()), Two.of(Clubs.i()), Ten.of(Spades.i()), Six.of(Spades.i()), Five.of(Spades.i()));
+game.getEast().init(Six.of(Clubs.i()), Queen.of(Clubs.i()), Ten.of(Diamonds.i()), Five.of(Diamonds.i()), Nine.of(Diamonds.i()), Eight.of(Spades.i()), Eight.of(Diamonds.i()), Six.of(Diamonds.i()), Seven.of(Clubs.i()), Jack.of(Spades.i()), Ace.of(Diamonds.i()), Jack.of(Clubs.i()), Three.of(Hearts.i()));
+game.getSouth().init(Three.of(Clubs.i()), Seven.of(Hearts.i()), Four.of(Clubs.i()), Four.of(Spades.i()), Queen.of(Spades.i()), Two.of(Spades.i()), King.of(Clubs.i()), King.of(Diamonds.i()), Two.of(Diamonds.i()), Five.of(Hearts.i()), Six.of(Hearts.i()), Seven.of(Diamonds.i()), Four.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS, North: PASS, East: 1 NT]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 NT, South: PASS, West: PASS, North: PASS]
+ ** ( 40 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Diamonds.i()), Six.of(Clubs.i()), Queen.of(Diamonds.i()), Six.of(Hearts.i()), King.of(Hearts.i()), Ace.of(Hearts.i()), Ace.of(Spades.i()), King.of(Spades.i()), Five.of(Diamonds.i()), Jack.of(Hearts.i()), King.of(Clubs.i()), Seven.of(Spades.i()), Eight.of(Clubs.i()));
+game.getNorth().init(Four.of(Clubs.i()), Five.of(Clubs.i()), Ten.of(Clubs.i()), Ten.of(Diamonds.i()), Two.of(Diamonds.i()), Queen.of(Clubs.i()), Queen.of(Spades.i()), Eight.of(Diamonds.i()), Queen.of(Hearts.i()), Five.of(Hearts.i()), Seven.of(Hearts.i()), Two.of(Clubs.i()), Three.of(Diamonds.i()));
+game.getEast().init(Four.of(Diamonds.i()), Ten.of(Hearts.i()), Nine.of(Diamonds.i()), Jack.of(Spades.i()), Nine.of(Spades.i()), Ace.of(Diamonds.i()), Six.of(Diamonds.i()), King.of(Diamonds.i()), Five.of(Spades.i()), Four.of(Spades.i()), Three.of(Clubs.i()), Two.of(Hearts.i()), Eight.of(Spades.i()));
+game.getSouth().init(Nine.of(Clubs.i()), Jack.of(Clubs.i()), Four.of(Hearts.i()), Three.of(Hearts.i()), Eight.of(Hearts.i()), Ten.of(Spades.i()), Two.of(Spades.i()), Seven.of(Clubs.i()), Ace.of(Clubs.i()), Nine.of(Hearts.i()), Six.of(Spades.i()), Three.of(Spades.i()), Jack.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS, North: PASS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 SPADES, South: PASS, West: 3 HEARTS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 SPADES, South: PASS, West: 3 HEARTS, North: PASS, East: PASS, South: PASS]
+ ** ( 41 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Spades.i()), Jack.of(Spades.i()), Seven.of(Clubs.i()), Two.of(Spades.i()), Seven.of(Diamonds.i()), Ace.of(Hearts.i()), Two.of(Clubs.i()), King.of(Diamonds.i()), Queen.of(Spades.i()), Eight.of(Hearts.i()), Jack.of(Clubs.i()), Six.of(Diamonds.i()), Ten.of(Clubs.i()));
+game.getNorth().init(Five.of(Clubs.i()), Two.of(Hearts.i()), Nine.of(Spades.i()), Six.of(Clubs.i()), Six.of(Hearts.i()), King.of(Clubs.i()), Nine.of(Diamonds.i()), Queen.of(Hearts.i()), Nine.of(Clubs.i()), Seven.of(Spades.i()), Jack.of(Hearts.i()), Queen.of(Diamonds.i()), Five.of(Spades.i()));
+game.getEast().init(Eight.of(Spades.i()), Four.of(Hearts.i()), Seven.of(Hearts.i()), Three.of(Diamonds.i()), Five.of(Diamonds.i()), Ten.of(Hearts.i()), Four.of(Clubs.i()), Jack.of(Diamonds.i()), Ace.of(Spades.i()), Four.of(Diamonds.i()), Five.of(Hearts.i()), Ace.of(Clubs.i()), Ace.of(Diamonds.i()));
+game.getSouth().init(Ten.of(Spades.i()), Three.of(Spades.i()), Ten.of(Diamonds.i()), Three.of(Clubs.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()), King.of(Hearts.i()), Eight.of(Diamonds.i()), Four.of(Spades.i()), Two.of(Diamonds.i()), Eight.of(Clubs.i()), King.of(Spades.i()), Queen.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 SPADES, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 42 )*** Automated bidding on a random game *****
+game.getWest().init(Four.of(Hearts.i()), King.of(Diamonds.i()), Jack.of(Spades.i()), Seven.of(Hearts.i()), King.of(Clubs.i()), Six.of(Diamonds.i()), King.of(Hearts.i()), Jack.of(Clubs.i()), Seven.of(Clubs.i()), Six.of(Clubs.i()), King.of(Spades.i()), Ace.of(Spades.i()), Five.of(Clubs.i()));
+game.getNorth().init(Ten.of(Clubs.i()), Four.of(Diamonds.i()), Queen.of(Spades.i()), Five.of(Diamonds.i()), Two.of(Diamonds.i()), Five.of(Spades.i()), Nine.of(Clubs.i()), Ten.of(Hearts.i()), Eight.of(Clubs.i()), Six.of(Spades.i()), Ten.of(Spades.i()), Six.of(Hearts.i()), Three.of(Clubs.i()));
+game.getEast().init(Ace.of(Clubs.i()), Three.of(Spades.i()), Nine.of(Hearts.i()), Seven.of(Diamonds.i()), Two.of(Spades.i()), Jack.of(Diamonds.i()), Eight.of(Diamonds.i()), Nine.of(Diamonds.i()), Two.of(Clubs.i()), Ace.of(Diamonds.i()), Ace.of(Hearts.i()), Eight.of(Spades.i()), Three.of(Diamonds.i()));
+game.getSouth().init(Queen.of(Clubs.i()), Three.of(Hearts.i()), Five.of(Hearts.i()), Eight.of(Hearts.i()), Jack.of(Hearts.i()), Four.of(Clubs.i()), Nine.of(Spades.i()), Two.of(Hearts.i()), Queen.of(Hearts.i()), Seven.of(Spades.i()), Ten.of(Diamonds.i()), Four.of(Spades.i()), Queen.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 NT, North: PASS, East: 3 NT]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 NT, North: PASS, East: 3 NT, South: PASS, West: PASS, North: PASS]
+ ** ( 43 )*** Automated bidding on a random game *****
+game.getWest().init(Two.of(Spades.i()), Six.of(Diamonds.i()), King.of(Spades.i()), Ace.of(Clubs.i()), Eight.of(Diamonds.i()), Ten.of(Hearts.i()), Jack.of(Hearts.i()), Four.of(Spades.i()), Seven.of(Diamonds.i()), King.of(Clubs.i()), Four.of(Diamonds.i()), Nine.of(Diamonds.i()), Two.of(Clubs.i()));
+game.getNorth().init(Three.of(Spades.i()), Queen.of(Hearts.i()), Three.of(Diamonds.i()), Seven.of(Hearts.i()), Five.of(Diamonds.i()), King.of(Diamonds.i()), Nine.of(Spades.i()), Queen.of(Spades.i()), Seven.of(Spades.i()), Nine.of(Clubs.i()), Three.of(Clubs.i()), Ten.of(Spades.i()), Jack.of(Spades.i()));
+game.getEast().init(King.of(Hearts.i()), Eight.of(Clubs.i()), Ten.of(Clubs.i()), Six.of(Spades.i()), Jack.of(Clubs.i()), Six.of(Clubs.i()), Ace.of(Hearts.i()), Five.of(Spades.i()), Eight.of(Spades.i()), Two.of(Diamonds.i()), Nine.of(Hearts.i()), Seven.of(Clubs.i()), Ace.of(Spades.i()));
+game.getSouth().init(Ace.of(Diamonds.i()), Queen.of(Diamonds.i()), Queen.of(Clubs.i()), Five.of(Clubs.i()), Five.of(Hearts.i()), Jack.of(Diamonds.i()), Four.of(Clubs.i()), Two.of(Hearts.i()), Three.of(Hearts.i()), Six.of(Hearts.i()), Ten.of(Diamonds.i()), Four.of(Hearts.i()), Eight.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 CLUBS, South: 1 HEARTS, West: PASS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: PASS, North: PASS, East: 1 CLUBS, South: 1 HEARTS, West: PASS, North: 1 SPADES, East: PASS, South: PASS, West: PASS]
+ ** ( 44 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Spades.i()), Four.of(Clubs.i()), Ten.of(Diamonds.i()), Jack.of(Spades.i()), Queen.of(Diamonds.i()), Four.of(Spades.i()), Five.of(Diamonds.i()), Eight.of(Clubs.i()), Three.of(Clubs.i()), Two.of(Clubs.i()), Nine.of(Diamonds.i()), King.of(Diamonds.i()), Five.of(Clubs.i()));
+game.getNorth().init(King.of(Spades.i()), Jack.of(Diamonds.i()), Two.of(Hearts.i()), Seven.of(Clubs.i()), Queen.of(Spades.i()), Seven.of(Spades.i()), Nine.of(Spades.i()), Six.of(Spades.i()), Three.of(Hearts.i()), Queen.of(Clubs.i()), Five.of(Spades.i()), Jack.of(Clubs.i()), Ace.of(Hearts.i()));
+game.getEast().init(King.of(Clubs.i()), Queen.of(Hearts.i()), Ten.of(Spades.i()), Six.of(Clubs.i()), Six.of(Hearts.i()), Nine.of(Hearts.i()), Ace.of(Clubs.i()), Eight.of(Hearts.i()), Three.of(Spades.i()), Nine.of(Clubs.i()), Four.of(Diamonds.i()), Six.of(Diamonds.i()), Eight.of(Spades.i()));
+game.getSouth().init(Two.of(Diamonds.i()), Eight.of(Diamonds.i()), Jack.of(Hearts.i()), Two.of(Spades.i()), Five.of(Hearts.i()), Ace.of(Diamonds.i()), Ten.of(Clubs.i()), Three.of(Diamonds.i()), Seven.of(Hearts.i()), Four.of(Hearts.i()), Ten.of(Hearts.i()), King.of(Hearts.i()), Seven.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: 1 DIAMONDS, North: 1 SPADES, East: 1 NT, South: 2 HEARTS, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: 1 SPADES, East: 1 NT, South: 2 HEARTS, West: PASS, North: PASS, East: PASS]
+ ** ( 45 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Spades.i()), Six.of(Spades.i()), Six.of(Diamonds.i()), Queen.of(Hearts.i()), Eight.of(Diamonds.i()), Ace.of(Diamonds.i()), King.of(Clubs.i()), Three.of(Hearts.i()), Four.of(Hearts.i()), Eight.of(Hearts.i()), Ace.of(Hearts.i()), Seven.of(Spades.i()), King.of(Diamonds.i()));
+game.getNorth().init(Nine.of(Diamonds.i()), Queen.of(Spades.i()), Four.of(Diamonds.i()), Eight.of(Spades.i()), Ten.of(Hearts.i()), Jack.of(Clubs.i()), Three.of(Diamonds.i()), Four.of(Spades.i()), Three.of(Clubs.i()), King.of(Spades.i()), Jack.of(Hearts.i()), Ten.of(Clubs.i()), Seven.of(Clubs.i()));
+game.getEast().init(Jack.of(Diamonds.i()), Two.of(Clubs.i()), Six.of(Hearts.i()), King.of(Hearts.i()), Ace.of(Spades.i()), Eight.of(Clubs.i()), Jack.of(Spades.i()), Five.of(Hearts.i()), Ten.of(Spades.i()), Nine.of(Clubs.i()), Six.of(Clubs.i()), Five.of(Spades.i()), Three.of(Spades.i()));
+game.getSouth().init(Two.of(Diamonds.i()), Two.of(Spades.i()), Ace.of(Clubs.i()), Queen.of(Clubs.i()), Two.of(Hearts.i()), Nine.of(Hearts.i()), Seven.of(Hearts.i()), Queen.of(Diamonds.i()), Five.of(Diamonds.i()), Four.of(Clubs.i()), Seven.of(Diamonds.i()), Ten.of(Diamonds.i()), Five.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 2 HEARTS, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 2 HEARTS, South: PASS, West: PASS, North: PASS]
+ ** ( 46 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Clubs.i()), Two.of(Hearts.i()), Two.of(Clubs.i()), Nine.of(Hearts.i()), Ace.of(Hearts.i()), Jack.of(Hearts.i()), Queen.of(Diamonds.i()), Jack.of(Spades.i()), Queen.of(Hearts.i()), Ace.of(Spades.i()), Seven.of(Spades.i()), Four.of(Diamonds.i()), Three.of(Diamonds.i()));
+game.getNorth().init(Five.of(Spades.i()), Nine.of(Clubs.i()), Jack.of(Clubs.i()), Nine.of(Diamonds.i()), Three.of(Hearts.i()), Ten.of(Hearts.i()), Eight.of(Diamonds.i()), Ten.of(Spades.i()), King.of(Spades.i()), Six.of(Spades.i()), Queen.of(Spades.i()), Two.of(Spades.i()), Queen.of(Clubs.i()));
+game.getEast().init(Five.of(Diamonds.i()), Two.of(Diamonds.i()), Nine.of(Spades.i()), Ten.of(Clubs.i()), Eight.of(Hearts.i()), Five.of(Hearts.i()), Seven.of(Hearts.i()), Eight.of(Spades.i()), Six.of(Clubs.i()), Four.of(Clubs.i()), Three.of(Spades.i()), Four.of(Hearts.i()), King.of(Hearts.i()));
+game.getSouth().init(Ten.of(Diamonds.i()), Four.of(Spades.i()), King.of(Diamonds.i()), Eight.of(Clubs.i()), Ace.of(Diamonds.i()), Jack.of(Diamonds.i()), Six.of(Hearts.i()), Five.of(Clubs.i()), Seven.of(Diamonds.i()), King.of(Clubs.i()), Ace.of(Clubs.i()), Six.of(Diamonds.i()), Three.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS, North: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: 1 SPADES, East: PASS, South: 3 DIAMONDS, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: 1 SPADES, East: PASS, South: 3 DIAMONDS, West: PASS, North: PASS, East: PASS]
+ ** ( 47 )*** Automated bidding on a random game *****
+game.getWest().init(Four.of(Hearts.i()), Three.of(Clubs.i()), Eight.of(Diamonds.i()), King.of(Hearts.i()), Jack.of(Spades.i()), Seven.of(Hearts.i()), Jack.of(Clubs.i()), Ace.of(Clubs.i()), Five.of(Spades.i()), Six.of(Clubs.i()), Ace.of(Diamonds.i()), Eight.of(Spades.i()), Ten.of(Diamonds.i()));
+game.getNorth().init(Queen.of(Clubs.i()), Nine.of(Clubs.i()), Ten.of(Clubs.i()), Six.of(Hearts.i()), Queen.of(Hearts.i()), Six.of(Diamonds.i()), King.of(Spades.i()), Four.of(Spades.i()), Jack.of(Hearts.i()), Queen.of(Spades.i()), Jack.of(Diamonds.i()), Three.of(Spades.i()), Five.of(Clubs.i()));
+game.getEast().init(Queen.of(Diamonds.i()), Four.of(Diamonds.i()), Six.of(Spades.i()), Four.of(Clubs.i()), Ten.of(Spades.i()), King.of(Diamonds.i()), Ace.of(Spades.i()), Nine.of(Spades.i()), Two.of(Spades.i()), Two.of(Diamonds.i()), Seven.of(Clubs.i()), Three.of(Diamonds.i()), Five.of(Hearts.i()));
+game.getSouth().init(Two.of(Clubs.i()), King.of(Clubs.i()), Eight.of(Hearts.i()), Nine.of(Diamonds.i()), Seven.of(Spades.i()), Three.of(Hearts.i()), Two.of(Hearts.i()), Nine.of(Hearts.i()), Ten.of(Hearts.i()), Eight.of(Clubs.i()), Five.of(Diamonds.i()), Ace.of(Hearts.i()), Seven.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS, North: PASS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS, South: PASS]
+ ** ( 48 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Clubs.i()), Ace.of(Clubs.i()), Six.of(Diamonds.i()), Four.of(Spades.i()), Five.of(Diamonds.i()), King.of(Diamonds.i()), Two.of(Diamonds.i()), Three.of(Hearts.i()), Seven.of(Diamonds.i()), Eight.of(Spades.i()), King.of(Spades.i()), King.of(Hearts.i()), Ten.of(Clubs.i()));
+game.getNorth().init(Ten.of(Spades.i()), Eight.of(Clubs.i()), Queen.of(Spades.i()), Queen.of(Hearts.i()), Nine.of(Hearts.i()), Ace.of(Diamonds.i()), Queen.of(Clubs.i()), Seven.of(Hearts.i()), Seven.of(Spades.i()), Six.of(Spades.i()), Three.of(Spades.i()), Eight.of(Diamonds.i()), Jack.of(Clubs.i()));
+game.getEast().init(Four.of(Hearts.i()), Nine.of(Clubs.i()), Two.of(Spades.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Five.of(Hearts.i()), King.of(Clubs.i()), Two.of(Clubs.i()), Six.of(Clubs.i()), Six.of(Hearts.i()), Five.of(Spades.i()), Eight.of(Hearts.i()), Nine.of(Spades.i()));
+game.getSouth().init(Ace.of(Spades.i()), Two.of(Hearts.i()), Five.of(Clubs.i()), Ten.of(Diamonds.i()), Jack.of(Hearts.i()), Four.of(Diamonds.i()), Three.of(Diamonds.i()), Ace.of(Hearts.i()), Four.of(Clubs.i()), Seven.of(Clubs.i()), Queen.of(Diamonds.i()), Ten.of(Hearts.i()), Nine.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: PASS, South: PASS]
+ ** ( 49 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Spades.i()), Jack.of(Diamonds.i()), Three.of(Spades.i()), Three.of(Hearts.i()), Eight.of(Clubs.i()), Seven.of(Hearts.i()), Six.of(Hearts.i()), Five.of(Hearts.i()), Ace.of(Clubs.i()), Ten.of(Hearts.i()), Six.of(Diamonds.i()), King.of(Clubs.i()), Queen.of(Hearts.i()));
+game.getNorth().init(Nine.of(Hearts.i()), Ace.of(Hearts.i()), King.of(Diamonds.i()), Four.of(Diamonds.i()), Nine.of(Diamonds.i()), Seven.of(Clubs.i()), Queen.of(Clubs.i()), Jack.of(Clubs.i()), Jack.of(Hearts.i()), Four.of(Hearts.i()), Ace.of(Spades.i()), Queen.of(Diamonds.i()), Three.of(Clubs.i()));
+game.getEast().init(Ten.of(Spades.i()), King.of(Hearts.i()), Four.of(Clubs.i()), Six.of(Spades.i()), Eight.of(Spades.i()), Seven.of(Diamonds.i()), Nine.of(Spades.i()), Queen.of(Spades.i()), Eight.of(Hearts.i()), Five.of(Diamonds.i()), Ten.of(Clubs.i()), Two.of(Clubs.i()), Eight.of(Diamonds.i()));
+game.getSouth().init(Ten.of(Diamonds.i()), Seven.of(Spades.i()), Two.of(Hearts.i()), Five.of(Spades.i()), Jack.of(Spades.i()), Ace.of(Diamonds.i()), Four.of(Spades.i()), Six.of(Clubs.i()), Nine.of(Clubs.i()), Three.of(Diamonds.i()), Two.of(Spades.i()), Two.of(Diamonds.i()), Five.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: PASS, South: PASS]
+ ** ( 50 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Diamonds.i()), Three.of(Spades.i()), King.of(Hearts.i()), King.of(Spades.i()), Jack.of(Spades.i()), Queen.of(Hearts.i()), Three.of(Diamonds.i()), Four.of(Clubs.i()), Queen.of(Spades.i()), Five.of(Hearts.i()), Ace.of(Clubs.i()), Ten.of(Spades.i()), Eight.of(Spades.i()));
+game.getNorth().init(Six.of(Hearts.i()), Ten.of(Diamonds.i()), King.of(Diamonds.i()), Eight.of(Hearts.i()), Jack.of(Diamonds.i()), Four.of(Diamonds.i()), Nine.of(Hearts.i()), Three.of(Clubs.i()), Two.of(Hearts.i()), Seven.of(Clubs.i()), Seven.of(Diamonds.i()), Eight.of(Diamonds.i()), Six.of(Spades.i()));
+game.getEast().init(King.of(Clubs.i()), Ten.of(Clubs.i()), Six.of(Diamonds.i()), Queen.of(Diamonds.i()), Ace.of(Diamonds.i()), Ace.of(Hearts.i()), Nine.of(Clubs.i()), Three.of(Hearts.i()), Jack.of(Hearts.i()), Four.of(Hearts.i()), Two.of(Diamonds.i()), Ace.of(Spades.i()), Two.of(Clubs.i()));
+game.getSouth().init(Jack.of(Clubs.i()), Five.of(Diamonds.i()), Two.of(Spades.i()), Four.of(Spades.i()), Five.of(Spades.i()), Seven.of(Spades.i()), Six.of(Clubs.i()), Ten.of(Hearts.i()), Eight.of(Clubs.i()), Nine.of(Spades.i()), Five.of(Clubs.i()), Queen.of(Clubs.i()), Seven.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: PASS, East: 2 HEARTS, South: PASS, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: PASS, East: 2 HEARTS, South: PASS, West: PASS, North: PASS]
+ ** ( 51 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Clubs.i()), Five.of(Diamonds.i()), Queen.of(Diamonds.i()), Nine.of(Clubs.i()), Three.of(Hearts.i()), Jack.of(Spades.i()), Four.of(Diamonds.i()), King.of(Hearts.i()), Five.of(Hearts.i()), Nine.of(Spades.i()), Ten.of(Spades.i()), Ace.of(Clubs.i()), King.of(Diamonds.i()));
+game.getNorth().init(Seven.of(Diamonds.i()), King.of(Spades.i()), Six.of(Spades.i()), Six.of(Hearts.i()), Three.of(Clubs.i()), Ace.of(Diamonds.i()), Two.of(Clubs.i()), Six.of(Clubs.i()), Five.of(Spades.i()), Four.of(Hearts.i()), Six.of(Diamonds.i()), Seven.of(Clubs.i()), Jack.of(Diamonds.i()));
+game.getEast().init(Eight.of(Diamonds.i()), Eight.of(Hearts.i()), Ten.of(Clubs.i()), King.of(Clubs.i()), Ace.of(Spades.i()), Eight.of(Spades.i()), Two.of(Hearts.i()), Two.of(Spades.i()), Queen.of(Clubs.i()), Queen.of(Spades.i()), Jack.of(Hearts.i()), Ten.of(Diamonds.i()), Ace.of(Hearts.i()));
+game.getSouth().init(Three.of(Diamonds.i()), Seven.of(Spades.i()), Three.of(Spades.i()), Ten.of(Hearts.i()), Seven.of(Hearts.i()), Four.of(Clubs.i()), Queen.of(Hearts.i()), Four.of(Spades.i()), Nine.of(Diamonds.i()), Jack.of(Clubs.i()), Two.of(Diamonds.i()), Five.of(Clubs.i()), Nine.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS, South: PASS]
+ ** ( 52 )*** Automated bidding on a random game *****
+game.getWest().init(Ten.of(Hearts.i()), Seven.of(Spades.i()), Queen.of(Hearts.i()), Six.of(Hearts.i()), Jack.of(Spades.i()), Five.of(Hearts.i()), Ten.of(Clubs.i()), Ace.of(Clubs.i()), Nine.of(Diamonds.i()), Four.of(Hearts.i()), Five.of(Clubs.i()), Three.of(Clubs.i()), Two.of(Diamonds.i()));
+game.getNorth().init(King.of(Clubs.i()), Jack.of(Hearts.i()), Four.of(Spades.i()), Two.of(Spades.i()), Ace.of(Diamonds.i()), Queen.of(Spades.i()), Nine.of(Hearts.i()), Five.of(Spades.i()), Eight.of(Clubs.i()), King.of(Hearts.i()), Jack.of(Clubs.i()), Jack.of(Diamonds.i()), Seven.of(Clubs.i()));
+game.getEast().init(Seven.of(Diamonds.i()), Two.of(Hearts.i()), Three.of(Diamonds.i()), Ace.of(Spades.i()), Eight.of(Hearts.i()), Three.of(Spades.i()), Five.of(Diamonds.i()), Two.of(Clubs.i()), Nine.of(Clubs.i()), Ace.of(Hearts.i()), Ten.of(Diamonds.i()), Four.of(Clubs.i()), Six.of(Spades.i()));
+game.getSouth().init(Four.of(Diamonds.i()), Nine.of(Spades.i()), Six.of(Clubs.i()), King.of(Spades.i()), King.of(Diamonds.i()), Eight.of(Spades.i()), Six.of(Diamonds.i()), Queen.of(Clubs.i()), Queen.of(Diamonds.i()), Eight.of(Diamonds.i()), Ten.of(Spades.i()), Three.of(Hearts.i()), Seven.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 CLUBS, East: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 1 SPADES, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 1 SPADES, East: PASS, South: PASS, West: PASS]
+ ** ( 53 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Spades.i()), King.of(Hearts.i()), Seven.of(Hearts.i()), Five.of(Diamonds.i()), Ten.of(Diamonds.i()), Nine.of(Clubs.i()), Ten.of(Clubs.i()), Two.of(Diamonds.i()), Queen.of(Diamonds.i()), Queen.of(Hearts.i()), Four.of(Hearts.i()), Seven.of(Spades.i()), Three.of(Diamonds.i()));
+game.getNorth().init(Five.of(Spades.i()), King.of(Spades.i()), Two.of(Hearts.i()), Queen.of(Clubs.i()), Nine.of(Hearts.i()), Nine.of(Spades.i()), Eight.of(Clubs.i()), Four.of(Diamonds.i()), Six.of(Diamonds.i()), Two.of(Clubs.i()), Ten.of(Spades.i()), Six.of(Hearts.i()), Seven.of(Diamonds.i()));
+game.getEast().init(Ace.of(Diamonds.i()), Ace.of(Clubs.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Five.of(Clubs.i()), Ten.of(Hearts.i()), Two.of(Spades.i()), Ace.of(Hearts.i()), Seven.of(Clubs.i()), Three.of(Hearts.i()), King.of(Diamonds.i()), Eight.of(Diamonds.i()), Queen.of(Spades.i()));
+game.getSouth().init(Five.of(Hearts.i()), Eight.of(Hearts.i()), Jack.of(Clubs.i()), Nine.of(Diamonds.i()), Three.of(Clubs.i()), Jack.of(Hearts.i()), Six.of(Spades.i()), Four.of(Clubs.i()), Eight.of(Spades.i()), Six.of(Clubs.i()), King.of(Clubs.i()), Ace.of(Spades.i()), Four.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS]
+  human about to bid: 2 NT
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS, East: 2 NT, South: PASS, West: PASS, North: PASS]
+ ** ( 54 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Diamonds.i()), Ten.of(Hearts.i()), Ace.of(Diamonds.i()), Seven.of(Diamonds.i()), Seven.of(Clubs.i()), Nine.of(Diamonds.i()), King.of(Hearts.i()), Five.of(Spades.i()), Two.of(Clubs.i()), Three.of(Diamonds.i()), Queen.of(Clubs.i()), Four.of(Spades.i()), Ace.of(Hearts.i()));
+game.getNorth().init(Four.of(Clubs.i()), Nine.of(Spades.i()), Nine.of(Clubs.i()), Ten.of(Diamonds.i()), Eight.of(Diamonds.i()), Jack.of(Clubs.i()), Two.of(Spades.i()), Queen.of(Diamonds.i()), Queen.of(Spades.i()), Four.of(Diamonds.i()), Three.of(Clubs.i()), Five.of(Clubs.i()), Six.of(Hearts.i()));
+game.getEast().init(Seven.of(Hearts.i()), Eight.of(Clubs.i()), Ace.of(Clubs.i()), Two.of(Diamonds.i()), Ten.of(Spades.i()), Jack.of(Spades.i()), Two.of(Hearts.i()), King.of(Spades.i()), Six.of(Spades.i()), King.of(Diamonds.i()), Eight.of(Hearts.i()), Ten.of(Clubs.i()), Nine.of(Hearts.i()));
+game.getSouth().init(Five.of(Hearts.i()), Three.of(Hearts.i()), Jack.of(Hearts.i()), Three.of(Spades.i()), Eight.of(Spades.i()), Jack.of(Diamonds.i()), Ace.of(Spades.i()), Six.of(Clubs.i()), Six.of(Diamonds.i()), Seven.of(Spades.i()), King.of(Clubs.i()), Queen.of(Hearts.i()), Four.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS, South: PASS]
+ ** ( 55 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Diamonds.i()), Ace.of(Hearts.i()), Jack.of(Hearts.i()), Five.of(Clubs.i()), Six.of(Clubs.i()), Seven.of(Clubs.i()), Nine.of(Spades.i()), Four.of(Diamonds.i()), Queen.of(Spades.i()), Three.of(Clubs.i()), Ace.of(Diamonds.i()), Jack.of(Clubs.i()), King.of(Hearts.i()));
+game.getNorth().init(Eight.of(Spades.i()), Three.of(Hearts.i()), Ten.of(Hearts.i()), Ace.of(Clubs.i()), Jack.of(Diamonds.i()), Ace.of(Spades.i()), Ten.of(Clubs.i()), Nine.of(Hearts.i()), Queen.of(Clubs.i()), Six.of(Spades.i()), Seven.of(Hearts.i()), King.of(Spades.i()), Six.of(Diamonds.i()));
+game.getEast().init(Seven.of(Spades.i()), Eight.of(Clubs.i()), Eight.of(Hearts.i()), Two.of(Diamonds.i()), Three.of(Spades.i()), Ten.of(Diamonds.i()), Five.of(Hearts.i()), Four.of(Hearts.i()), Nine.of(Diamonds.i()), Seven.of(Diamonds.i()), Nine.of(Clubs.i()), King.of(Diamonds.i()), Ten.of(Spades.i()));
+game.getSouth().init(Two.of(Spades.i()), Five.of(Spades.i()), Six.of(Hearts.i()), Two.of(Hearts.i()), Four.of(Spades.i()), Jack.of(Spades.i()), Queen.of(Diamonds.i()), Queen.of(Hearts.i()), Four.of(Clubs.i()), Two.of(Clubs.i()), Three.of(Diamonds.i()), Five.of(Diamonds.i()), King.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: PASS, South: PASS]
+ ** ( 56 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Hearts.i()), Queen.of(Clubs.i()), Four.of(Diamonds.i()), Seven.of(Spades.i()), Eight.of(Spades.i()), Four.of(Clubs.i()), Ten.of(Hearts.i()), Jack.of(Clubs.i()), Nine.of(Clubs.i()), Two.of(Spades.i()), Ace.of(Spades.i()), King.of(Diamonds.i()), Ten.of(Clubs.i()));
+game.getNorth().init(King.of(Hearts.i()), Eight.of(Hearts.i()), Queen.of(Diamonds.i()), Two.of(Diamonds.i()), Six.of(Spades.i()), Five.of(Clubs.i()), Ace.of(Hearts.i()), Ace.of(Diamonds.i()), King.of(Spades.i()), Queen.of(Hearts.i()), Four.of(Hearts.i()), Two.of(Hearts.i()), Three.of(Diamonds.i()));
+game.getEast().init(Ace.of(Clubs.i()), King.of(Clubs.i()), Nine.of(Spades.i()), Five.of(Hearts.i()), Six.of(Hearts.i()), Eight.of(Clubs.i()), Ten.of(Diamonds.i()), Three.of(Hearts.i()), Ten.of(Spades.i()), Two.of(Clubs.i()), Six.of(Clubs.i()), Seven.of(Diamonds.i()), Five.of(Spades.i()));
+game.getSouth().init(Jack.of(Diamonds.i()), Three.of(Clubs.i()), Jack.of(Hearts.i()), Five.of(Diamonds.i()), Four.of(Spades.i()), Eight.of(Diamonds.i()), Six.of(Diamonds.i()), Queen.of(Spades.i()), Three.of(Spades.i()), Seven.of(Clubs.i()), Nine.of(Diamonds.i()), Nine.of(Hearts.i()), Jack.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: PASS, North: 1 HEARTS, East: PASS, South: PASS, West: PASS]
+ ** ( 57 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Spades.i()), Two.of(Clubs.i()), Eight.of(Spades.i()), Queen.of(Clubs.i()), Seven.of(Diamonds.i()), Two.of(Diamonds.i()), Nine.of(Diamonds.i()), Three.of(Spades.i()), Six.of(Spades.i()), Five.of(Hearts.i()), Four.of(Diamonds.i()), King.of(Clubs.i()), Four.of(Spades.i()));
+game.getNorth().init(Three.of(Hearts.i()), King.of(Diamonds.i()), Five.of(Clubs.i()), Queen.of(Spades.i()), Queen.of(Diamonds.i()), Ace.of(Diamonds.i()), Four.of(Hearts.i()), Five.of(Diamonds.i()), Six.of(Clubs.i()), Nine.of(Clubs.i()), King.of(Hearts.i()), Three.of(Clubs.i()), Nine.of(Spades.i()));
+game.getEast().init(Eight.of(Clubs.i()), Three.of(Diamonds.i()), Queen.of(Hearts.i()), Ten.of(Diamonds.i()), Ace.of(Clubs.i()), Six.of(Hearts.i()), Four.of(Clubs.i()), King.of(Spades.i()), Seven.of(Spades.i()), Two.of(Spades.i()), Seven.of(Hearts.i()), Six.of(Diamonds.i()), Two.of(Hearts.i()));
+game.getSouth().init(Ace.of(Hearts.i()), Eight.of(Hearts.i()), Seven.of(Clubs.i()), Eight.of(Diamonds.i()), Jack.of(Clubs.i()), Nine.of(Hearts.i()), Ace.of(Spades.i()), Jack.of(Diamonds.i()), Ten.of(Hearts.i()), Ten.of(Spades.i()), Ten.of(Clubs.i()), Jack.of(Hearts.i()), Jack.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: PASS, South: 1 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: PASS, South: 1 HEARTS, West: PASS, North: 1 NT, East: PASS, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: PASS, South: 1 HEARTS, West: PASS, North: 1 NT, East: PASS, South: PASS, West: PASS]
+ ** ( 58 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Spades.i()), Ace.of(Clubs.i()), Jack.of(Clubs.i()), Four.of(Diamonds.i()), Jack.of(Diamonds.i()), Ten.of(Hearts.i()), Two.of(Spades.i()), Four.of(Hearts.i()), Seven.of(Diamonds.i()), Two.of(Diamonds.i()), Jack.of(Spades.i()), Five.of(Clubs.i()), Nine.of(Diamonds.i()));
+game.getNorth().init(Nine.of(Clubs.i()), Two.of(Clubs.i()), Queen.of(Spades.i()), Ten.of(Spades.i()), Seven.of(Spades.i()), Seven.of(Hearts.i()), King.of(Hearts.i()), Six.of(Diamonds.i()), Six.of(Spades.i()), Ace.of(Diamonds.i()), Two.of(Hearts.i()), Six.of(Clubs.i()), King.of(Clubs.i()));
+game.getEast().init(Three.of(Spades.i()), Five.of(Spades.i()), Three.of(Clubs.i()), King.of(Diamonds.i()), Five.of(Hearts.i()), Queen.of(Clubs.i()), Five.of(Diamonds.i()), Three.of(Hearts.i()), Eight.of(Diamonds.i()), Six.of(Hearts.i()), Queen.of(Diamonds.i()), Ace.of(Hearts.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Four.of(Clubs.i()), Four.of(Spades.i()), Ten.of(Clubs.i()), Ten.of(Diamonds.i()), Jack.of(Hearts.i()), Eight.of(Clubs.i()), Eight.of(Spades.i()), Queen.of(Hearts.i()), Nine.of(Spades.i()), Nine.of(Hearts.i()), Ace.of(Spades.i()), Seven.of(Clubs.i()), Three.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 CLUBS, East: PASS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 SPADES, West: PASS, North: 2 SPADES, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 SPADES, West: PASS, North: 2 SPADES, East: PASS, South: PASS, West: PASS]
+ ** ( 59 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Spades.i()), Jack.of(Clubs.i()), King.of(Hearts.i()), King.of(Spades.i()), Four.of(Clubs.i()), Ace.of(Clubs.i()), Two.of(Diamonds.i()), Seven.of(Clubs.i()), Nine.of(Hearts.i()), Four.of(Spades.i()), Ace.of(Spades.i()), Eight.of(Hearts.i()), Ten.of(Clubs.i()));
+game.getNorth().init(Nine.of(Diamonds.i()), Two.of(Hearts.i()), Six.of(Spades.i()), Queen.of(Clubs.i()), Two.of(Spades.i()), Seven.of(Diamonds.i()), Nine.of(Clubs.i()), Jack.of(Hearts.i()), Jack.of(Spades.i()), Ace.of(Diamonds.i()), King.of(Clubs.i()), Ten.of(Spades.i()), Ten.of(Diamonds.i()));
+game.getEast().init(Three.of(Clubs.i()), Four.of(Hearts.i()), Ten.of(Hearts.i()), Five.of(Hearts.i()), Eight.of(Spades.i()), Four.of(Diamonds.i()), Five.of(Diamonds.i()), Three.of(Diamonds.i()), Ace.of(Hearts.i()), Eight.of(Diamonds.i()), Queen.of(Hearts.i()), Seven.of(Hearts.i()), Queen.of(Diamonds.i()));
+game.getSouth().init(Jack.of(Diamonds.i()), Six.of(Diamonds.i()), Five.of(Spades.i()), King.of(Diamonds.i()), Two.of(Clubs.i()), Three.of(Spades.i()), Queen.of(Spades.i()), Five.of(Clubs.i()), Six.of(Clubs.i()), Seven.of(Spades.i()), Eight.of(Clubs.i()), Six.of(Hearts.i()), Three.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 CLUBS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS, West: 1 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 60 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Spades.i()), Queen.of(Spades.i()), Ten.of(Hearts.i()), King.of(Diamonds.i()), Three.of(Spades.i()), Five.of(Clubs.i()), Nine.of(Clubs.i()), Five.of(Spades.i()), Four.of(Spades.i()), Two.of(Hearts.i()), Five.of(Hearts.i()), Two.of(Diamonds.i()), Ten.of(Spades.i()));
+game.getNorth().init(Six.of(Hearts.i()), Five.of(Diamonds.i()), Four.of(Hearts.i()), Eight.of(Hearts.i()), Three.of(Hearts.i()), Seven.of(Clubs.i()), Eight.of(Clubs.i()), Nine.of(Spades.i()), King.of(Spades.i()), Queen.of(Diamonds.i()), Six.of(Diamonds.i()), Six.of(Clubs.i()), Queen.of(Hearts.i()));
+game.getEast().init(Nine.of(Hearts.i()), Three.of(Clubs.i()), Nine.of(Diamonds.i()), Eight.of(Diamonds.i()), King.of(Clubs.i()), Queen.of(Clubs.i()), Three.of(Diamonds.i()), Jack.of(Hearts.i()), Ace.of(Clubs.i()), Four.of(Clubs.i()), Seven.of(Hearts.i()), Two.of(Spades.i()), Seven.of(Diamonds.i()));
+game.getSouth().init(Ace.of(Spades.i()), Jack.of(Spades.i()), Ace.of(Hearts.i()), Two.of(Clubs.i()), Ten.of(Diamonds.i()), Seven.of(Spades.i()), Four.of(Diamonds.i()), Ten.of(Clubs.i()), Six.of(Spades.i()), Ace.of(Diamonds.i()), King.of(Hearts.i()), Jack.of(Diamonds.i()), Jack.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 NT, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 NT, West: PASS, North: PASS, East: PASS]
+ ** ( 61 )*** Automated bidding on a random game *****
+game.getWest().init(Ten.of(Spades.i()), Eight.of(Clubs.i()), Four.of(Hearts.i()), Ace.of(Spades.i()), Five.of(Diamonds.i()), Ten.of(Clubs.i()), Ten.of(Diamonds.i()), Three.of(Hearts.i()), Nine.of(Diamonds.i()), Nine.of(Spades.i()), Four.of(Diamonds.i()), Two.of(Hearts.i()), Seven.of(Hearts.i()));
+game.getNorth().init(Two.of(Clubs.i()), Two.of(Spades.i()), Five.of(Hearts.i()), Four.of(Spades.i()), Eight.of(Hearts.i()), Seven.of(Clubs.i()), Nine.of(Hearts.i()), Queen.of(Diamonds.i()), King.of(Hearts.i()), Six.of(Clubs.i()), Jack.of(Hearts.i()), Six.of(Spades.i()), King.of(Spades.i()));
+game.getEast().init(Nine.of(Clubs.i()), Ace.of(Hearts.i()), King.of(Diamonds.i()), Five.of(Spades.i()), Seven.of(Diamonds.i()), Jack.of(Spades.i()), Eight.of(Diamonds.i()), Seven.of(Spades.i()), Queen.of(Hearts.i()), Six.of(Diamonds.i()), Queen.of(Spades.i()), Six.of(Hearts.i()), Ace.of(Diamonds.i()));
+game.getSouth().init(Two.of(Diamonds.i()), Ten.of(Hearts.i()), Three.of(Diamonds.i()), Jack.of(Diamonds.i()), Five.of(Clubs.i()), Eight.of(Spades.i()), Jack.of(Clubs.i()), King.of(Clubs.i()), Four.of(Clubs.i()), Three.of(Clubs.i()), Queen.of(Clubs.i()), Three.of(Spades.i()), Ace.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: 1 DIAMONDS]
+  human about to bid: 2 CLUBS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: 2 CLUBS, West: PASS, North: PASS, East: PASS]
+ ** ( 62 )*** Automated bidding on a random game *****
+game.getWest().init(Ten.of(Clubs.i()), Ten.of(Hearts.i()), Ten.of(Spades.i()), Jack.of(Spades.i()), Ace.of(Clubs.i()), Five.of(Clubs.i()), Eight.of(Clubs.i()), Queen.of(Hearts.i()), Jack.of(Hearts.i()), King.of(Clubs.i()), Two.of(Hearts.i()), Three.of(Clubs.i()), Nine.of(Hearts.i()));
+game.getNorth().init(Nine.of(Diamonds.i()), Queen.of(Diamonds.i()), Six.of(Diamonds.i()), Three.of(Diamonds.i()), Seven.of(Diamonds.i()), King.of(Hearts.i()), Three.of(Hearts.i()), Two.of(Clubs.i()), Three.of(Spades.i()), Queen.of(Clubs.i()), Ace.of(Diamonds.i()), Six.of(Hearts.i()), Queen.of(Spades.i()));
+game.getEast().init(Eight.of(Diamonds.i()), Nine.of(Spades.i()), Nine.of(Clubs.i()), Four.of(Spades.i()), Ace.of(Hearts.i()), Seven.of(Hearts.i()), Five.of(Diamonds.i()), Two.of(Diamonds.i()), Six.of(Clubs.i()), Ace.of(Spades.i()), Five.of(Hearts.i()), Eight.of(Spades.i()), Six.of(Spades.i()));
+game.getSouth().init(Ten.of(Diamonds.i()), Two.of(Spades.i()), King.of(Diamonds.i()), Seven.of(Clubs.i()), Jack.of(Clubs.i()), Jack.of(Diamonds.i()), Eight.of(Hearts.i()), Four.of(Clubs.i()), Five.of(Spades.i()), Four.of(Diamonds.i()), King.of(Spades.i()), Four.of(Hearts.i()), Seven.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS, North: 1 DIAMONDS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: 1 CLUBS, North: 1 DIAMONDS, East: 1 SPADES, South: 2 DIAMONDS, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: 1 DIAMONDS, East: 1 SPADES, South: 2 DIAMONDS, West: PASS, North: PASS, East: PASS]
+ ** ( 63 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Clubs.i()), Three.of(Diamonds.i()), Jack.of(Spades.i()), Queen.of(Diamonds.i()), Three.of(Spades.i()), King.of(Hearts.i()), Ten.of(Hearts.i()), Nine.of(Spades.i()), Ten.of(Diamonds.i()), Eight.of(Hearts.i()), Nine.of(Hearts.i()), Queen.of(Clubs.i()), Four.of(Diamonds.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), Two.of(Clubs.i()), Two.of(Diamonds.i()), Six.of(Hearts.i()), Ten.of(Clubs.i()), Five.of(Diamonds.i()), Nine.of(Clubs.i()), Nine.of(Diamonds.i()), Seven.of(Spades.i()), Eight.of(Diamonds.i()), Jack.of(Hearts.i()), Ace.of(Spades.i()), Seven.of(Clubs.i()));
+game.getEast().init(King.of(Diamonds.i()), King.of(Clubs.i()), Ace.of(Hearts.i()), Four.of(Hearts.i()), Ten.of(Spades.i()), Two.of(Hearts.i()), Three.of(Hearts.i()), Seven.of(Hearts.i()), Ace.of(Clubs.i()), Five.of(Clubs.i()), Four.of(Spades.i()), Six.of(Spades.i()), Queen.of(Spades.i()));
+game.getSouth().init(Seven.of(Diamonds.i()), Jack.of(Clubs.i()), Three.of(Clubs.i()), Four.of(Clubs.i()), Two.of(Spades.i()), King.of(Spades.i()), Six.of(Diamonds.i()), Five.of(Spades.i()), Eight.of(Spades.i()), Queen.of(Hearts.i()), Jack.of(Diamonds.i()), Five.of(Hearts.i()), Six.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 HEARTS, South: PASS]
+  human about to bid: 2 HEARTS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 HEARTS, South: PASS, West: 2 HEARTS, North: PASS, East: PASS, South: PASS]
+ ** ( 64 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Spades.i()), Ace.of(Spades.i()), Three.of(Spades.i()), Four.of(Clubs.i()), Jack.of(Diamonds.i()), Seven.of(Clubs.i()), Two.of(Hearts.i()), Ten.of(Diamonds.i()), King.of(Spades.i()), Three.of(Hearts.i()), Four.of(Diamonds.i()), King.of(Hearts.i()), Six.of(Diamonds.i()));
+game.getNorth().init(Queen.of(Diamonds.i()), Ace.of(Clubs.i()), Seven.of(Diamonds.i()), Four.of(Spades.i()), Five.of(Diamonds.i()), Three.of(Diamonds.i()), King.of(Clubs.i()), Jack.of(Hearts.i()), Eight.of(Diamonds.i()), Eight.of(Spades.i()), Two.of(Diamonds.i()), Six.of(Clubs.i()), Four.of(Hearts.i()));
+game.getEast().init(Jack.of(Clubs.i()), Nine.of(Hearts.i()), Two.of(Clubs.i()), Queen.of(Hearts.i()), Two.of(Spades.i()), Nine.of(Diamonds.i()), Seven.of(Spades.i()), Eight.of(Clubs.i()), Three.of(Clubs.i()), Five.of(Clubs.i()), Jack.of(Spades.i()), Ace.of(Diamonds.i()), Ten.of(Hearts.i()));
+game.getSouth().init(Queen.of(Spades.i()), Seven.of(Hearts.i()), Nine.of(Clubs.i()), Nine.of(Spades.i()), Eight.of(Hearts.i()), King.of(Diamonds.i()), Ten.of(Clubs.i()), Ace.of(Hearts.i()), Ten.of(Spades.i()), Six.of(Spades.i()), Five.of(Hearts.i()), Queen.of(Clubs.i()), Six.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: PASS]
+ ** ( 65 )*** Automated bidding on a random game *****
+game.getWest().init(Jack.of(Hearts.i()), Queen.of(Hearts.i()), King.of(Diamonds.i()), Four.of(Clubs.i()), Three.of(Clubs.i()), Six.of(Diamonds.i()), Jack.of(Spades.i()), King.of(Spades.i()), Nine.of(Clubs.i()), Three.of(Hearts.i()), Six.of(Spades.i()), Nine.of(Hearts.i()), Seven.of(Clubs.i()));
+game.getNorth().init(Ace.of(Spades.i()), Ace.of(Clubs.i()), Five.of(Diamonds.i()), Ace.of(Hearts.i()), Four.of(Spades.i()), Two.of(Diamonds.i()), Ace.of(Diamonds.i()), Three.of(Spades.i()), Five.of(Hearts.i()), Queen.of(Spades.i()), Two.of(Hearts.i()), Eight.of(Diamonds.i()), Eight.of(Hearts.i()));
+game.getEast().init(Six.of(Clubs.i()), Jack.of(Diamonds.i()), Three.of(Diamonds.i()), Queen.of(Clubs.i()), Five.of(Spades.i()), Five.of(Clubs.i()), Queen.of(Diamonds.i()), Seven.of(Diamonds.i()), Ten.of(Diamonds.i()), Ten.of(Spades.i()), Jack.of(Clubs.i()), King.of(Hearts.i()), Ten.of(Hearts.i()));
+game.getSouth().init(Four.of(Hearts.i()), Seven.of(Spades.i()), Nine.of(Spades.i()), Seven.of(Hearts.i()), Four.of(Diamonds.i()), Two.of(Spades.i()), Eight.of(Spades.i()), Two.of(Clubs.i()), Eight.of(Clubs.i()), Ten.of(Clubs.i()), Nine.of(Diamonds.i()), King.of(Clubs.i()), Six.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 DIAMONDS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 DIAMONDS, East: PASS, South: PASS, West: PASS]
+ ** ( 66 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Diamonds.i()), Nine.of(Hearts.i()), Five.of(Hearts.i()), Nine.of(Clubs.i()), Two.of(Hearts.i()), Eight.of(Hearts.i()), Queen.of(Spades.i()), Six.of(Hearts.i()), Five.of(Spades.i()), Ten.of(Diamonds.i()), Queen.of(Hearts.i()), Two.of(Diamonds.i()), Jack.of(Hearts.i()));
+game.getNorth().init(Three.of(Hearts.i()), Four.of(Hearts.i()), Four.of(Clubs.i()), Three.of(Spades.i()), King.of(Hearts.i()), King.of(Spades.i()), Six.of(Spades.i()), Jack.of(Diamonds.i()), Five.of(Clubs.i()), Ten.of(Clubs.i()), Jack.of(Clubs.i()), Jack.of(Spades.i()), Nine.of(Spades.i()));
+game.getEast().init(Two.of(Clubs.i()), Queen.of(Clubs.i()), Seven.of(Spades.i()), Three.of(Diamonds.i()), Ace.of(Hearts.i()), Ace.of(Spades.i()), Ace.of(Clubs.i()), Four.of(Spades.i()), Ten.of(Spades.i()), Two.of(Spades.i()), Six.of(Clubs.i()), Four.of(Diamonds.i()), Six.of(Diamonds.i()));
+game.getSouth().init(Eight.of(Clubs.i()), Three.of(Clubs.i()), Ten.of(Hearts.i()), Ace.of(Diamonds.i()), King.of(Clubs.i()), Eight.of(Spades.i()), Five.of(Diamonds.i()), Eight.of(Diamonds.i()), Seven.of(Diamonds.i()), Seven.of(Hearts.i()), Seven.of(Clubs.i()), Nine.of(Diamonds.i()), Queen.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 SPADES, South: PASS]
+  human about to bid: 1 NT
+  Calls after human bid: [West: PASS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: 2 CLUBS, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: 2 CLUBS, South: PASS, West: PASS, North: PASS]
+ ** ( 67 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Hearts.i()), Four.of(Hearts.i()), Jack.of(Clubs.i()), King.of(Clubs.i()), Queen.of(Spades.i()), Eight.of(Spades.i()), Seven.of(Diamonds.i()), Three.of(Hearts.i()), Five.of(Diamonds.i()), Four.of(Spades.i()), Nine.of(Hearts.i()), Nine.of(Diamonds.i()), Five.of(Hearts.i()));
+game.getNorth().init(Two.of(Clubs.i()), Nine.of(Spades.i()), Four.of(Diamonds.i()), Six.of(Clubs.i()), Jack.of(Spades.i()), Six.of(Diamonds.i()), Five.of(Spades.i()), Ten.of(Hearts.i()), King.of(Hearts.i()), Queen.of(Hearts.i()), Eight.of(Hearts.i()), Six.of(Hearts.i()), Ten.of(Spades.i()));
+game.getEast().init(Six.of(Spades.i()), Two.of(Diamonds.i()), Ace.of(Clubs.i()), Jack.of(Hearts.i()), Four.of(Clubs.i()), King.of(Diamonds.i()), Seven.of(Clubs.i()), Three.of(Spades.i()), Queen.of(Diamonds.i()), Two.of(Spades.i()), Jack.of(Diamonds.i()), Five.of(Clubs.i()), Three.of(Diamonds.i()));
+game.getSouth().init(Seven.of(Spades.i()), Nine.of(Clubs.i()), Three.of(Clubs.i()), Ten.of(Clubs.i()), Seven.of(Hearts.i()), Queen.of(Clubs.i()), Ten.of(Diamonds.i()), Two.of(Hearts.i()), King.of(Spades.i()), Ace.of(Diamonds.i()), Eight.of(Diamonds.i()), Ace.of(Spades.i()), Eight.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS]
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS, North: 1 HEARTS, East: PASS, South: 1 NT, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS, North: 1 HEARTS, East: PASS, South: 1 NT, West: PASS, North: PASS, East: PASS]
+ ** ( 68 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Spades.i()), Two.of(Clubs.i()), Seven.of(Clubs.i()), Eight.of(Clubs.i()), King.of(Clubs.i()), Jack.of(Hearts.i()), Five.of(Diamonds.i()), Ace.of(Clubs.i()), Jack.of(Spades.i()), Three.of(Spades.i()), Seven.of(Hearts.i()), Ace.of(Hearts.i()), King.of(Hearts.i()));
+game.getNorth().init(Four.of(Hearts.i()), Five.of(Hearts.i()), Two.of(Diamonds.i()), Six.of(Diamonds.i()), Ten.of(Spades.i()), Nine.of(Diamonds.i()), Eight.of(Diamonds.i()), Three.of(Clubs.i()), Six.of(Clubs.i()), Four.of(Diamonds.i()), Queen.of(Spades.i()), Nine.of(Spades.i()), King.of(Spades.i()));
+game.getEast().init(King.of(Diamonds.i()), Queen.of(Hearts.i()), Three.of(Diamonds.i()), Seven.of(Spades.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()), Ten.of(Diamonds.i()), Five.of(Spades.i()), Queen.of(Diamonds.i()), Two.of(Spades.i()), Four.of(Clubs.i()), Ace.of(Spades.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Queen.of(Clubs.i()), Ace.of(Diamonds.i()), Ten.of(Hearts.i()), Six.of(Hearts.i()), Nine.of(Clubs.i()), Eight.of(Spades.i()), Ten.of(Clubs.i()), Jack.of(Clubs.i()), Two.of(Hearts.i()), Jack.of(Diamonds.i()), Five.of(Clubs.i()), Four.of(Spades.i()), Seven.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 CLUBS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 SPADES, South: PASS]
+  human about to bid: 2 HEARTS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 SPADES, South: PASS, West: 2 HEARTS, North: PASS, East: PASS, South: PASS]
+ ** ( 69 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Clubs.i()), Queen.of(Diamonds.i()), Jack.of(Hearts.i()), Ten.of(Hearts.i()), Seven.of(Diamonds.i()), Eight.of(Diamonds.i()), King.of(Hearts.i()), Jack.of(Spades.i()), Three.of(Clubs.i()), Queen.of(Hearts.i()), Ace.of(Clubs.i()), Ten.of(Diamonds.i()), Ten.of(Spades.i()));
+game.getNorth().init(Five.of(Clubs.i()), Three.of(Spades.i()), Two.of(Clubs.i()), Ace.of(Diamonds.i()), King.of(Diamonds.i()), Five.of(Diamonds.i()), Six.of(Diamonds.i()), Four.of(Hearts.i()), Queen.of(Spades.i()), Four.of(Clubs.i()), Three.of(Hearts.i()), King.of(Spades.i()), Seven.of(Clubs.i()));
+game.getEast().init(Two.of(Diamonds.i()), Seven.of(Spades.i()), Five.of(Spades.i()), Ace.of(Hearts.i()), Eight.of(Clubs.i()), Nine.of(Clubs.i()), Ten.of(Clubs.i()), Jack.of(Clubs.i()), Jack.of(Diamonds.i()), Ace.of(Spades.i()), Five.of(Hearts.i()), Six.of(Spades.i()), Queen.of(Clubs.i()));
+game.getSouth().init(Nine.of(Diamonds.i()), Two.of(Spades.i()), Four.of(Spades.i()), Nine.of(Hearts.i()), Eight.of(Hearts.i()), Two.of(Hearts.i()), Nine.of(Spades.i()), Six.of(Hearts.i()), Seven.of(Hearts.i()), Four.of(Diamonds.i()), Eight.of(Spades.i()), King.of(Clubs.i()), Three.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 2 CLUBS, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 2 CLUBS, South: PASS, West: PASS, North: PASS]
+ ** ( 70 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Hearts.i()), Jack.of(Clubs.i()), Ace.of(Diamonds.i()), Seven.of(Spades.i()), Nine.of(Spades.i()), Queen.of(Diamonds.i()), Queen.of(Spades.i()), Queen.of(Clubs.i()), Eight.of(Spades.i()), Three.of(Hearts.i()), Ten.of(Hearts.i()), Ten.of(Spades.i()), Eight.of(Hearts.i()));
+game.getNorth().init(King.of(Spades.i()), Two.of(Clubs.i()), Eight.of(Diamonds.i()), Ace.of(Clubs.i()), Three.of(Diamonds.i()), Seven.of(Diamonds.i()), Five.of(Hearts.i()), Four.of(Clubs.i()), Two.of(Hearts.i()), Nine.of(Clubs.i()), King.of(Diamonds.i()), Five.of(Spades.i()), Four.of(Diamonds.i()));
+game.getEast().init(King.of(Hearts.i()), Seven.of(Clubs.i()), Ten.of(Clubs.i()), Four.of(Hearts.i()), Five.of(Clubs.i()), Six.of(Clubs.i()), Three.of(Clubs.i()), Eight.of(Clubs.i()), Nine.of(Diamonds.i()), Three.of(Spades.i()), Six.of(Spades.i()), Nine.of(Hearts.i()), Queen.of(Hearts.i()));
+game.getSouth().init(Ten.of(Diamonds.i()), Jack.of(Hearts.i()), Two.of(Spades.i()), Five.of(Diamonds.i()), Two.of(Diamonds.i()), King.of(Clubs.i()), Six.of(Hearts.i()), Ace.of(Spades.i()), Jack.of(Diamonds.i()), Four.of(Spades.i()), Seven.of(Hearts.i()), Jack.of(Spades.i()), Six.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 71 )*** Automated bidding on a random game *****
+game.getWest().init(Four.of(Spades.i()), Four.of(Clubs.i()), Two.of(Diamonds.i()), Eight.of(Spades.i()), Jack.of(Clubs.i()), Nine.of(Clubs.i()), Jack.of(Hearts.i()), Jack.of(Diamonds.i()), Three.of(Hearts.i()), Ten.of(Hearts.i()), Queen.of(Hearts.i()), Four.of(Diamonds.i()), Ten.of(Spades.i()));
+game.getNorth().init(Five.of(Clubs.i()), Nine.of(Spades.i()), Eight.of(Hearts.i()), Eight.of(Diamonds.i()), Two.of(Hearts.i()), Three.of(Clubs.i()), King.of(Clubs.i()), Seven.of(Clubs.i()), Queen.of(Clubs.i()), Six.of(Diamonds.i()), Three.of(Diamonds.i()), Three.of(Spades.i()), Queen.of(Spades.i()));
+game.getEast().init(Six.of(Hearts.i()), Eight.of(Clubs.i()), Five.of(Diamonds.i()), Seven.of(Diamonds.i()), Nine.of(Diamonds.i()), Jack.of(Spades.i()), Ace.of(Hearts.i()), Five.of(Hearts.i()), Four.of(Hearts.i()), Ten.of(Clubs.i()), King.of(Hearts.i()), Two.of(Clubs.i()), Nine.of(Hearts.i()));
+game.getSouth().init(King.of(Diamonds.i()), Five.of(Spades.i()), King.of(Spades.i()), Queen.of(Diamonds.i()), Seven.of(Hearts.i()), Ten.of(Diamonds.i()), Ace.of(Spades.i()), Seven.of(Spades.i()), Six.of(Spades.i()), Six.of(Clubs.i()), Ace.of(Diamonds.i()), Two.of(Spades.i()), Ace.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS]
+  human about to bid: 2 SPADES
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 SPADES, West: PASS, North: 2 SPADES, East: PASS, South: PASS, West: PASS]
+ ** ( 72 )*** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Spades.i()), Four.of(Clubs.i()), King.of(Hearts.i()), Seven.of(Spades.i()), Queen.of(Diamonds.i()), Ten.of(Hearts.i()), Eight.of(Diamonds.i()), Jack.of(Diamonds.i()), Two.of(Hearts.i()), Eight.of(Clubs.i()), Three.of(Spades.i()), Ace.of(Diamonds.i()), Ace.of(Clubs.i()));
+game.getNorth().init(Six.of(Hearts.i()), Jack.of(Hearts.i()), Five.of(Clubs.i()), Queen.of(Clubs.i()), Six.of(Spades.i()), Three.of(Hearts.i()), Six.of(Diamonds.i()), Ten.of(Diamonds.i()), King.of(Diamonds.i()), Five.of(Hearts.i()), Seven.of(Hearts.i()), Seven.of(Clubs.i()), Ten.of(Clubs.i()));
+game.getEast().init(King.of(Clubs.i()), Four.of(Diamonds.i()), Two.of(Diamonds.i()), Two.of(Spades.i()), Eight.of(Hearts.i()), Ace.of(Spades.i()), Nine.of(Diamonds.i()), Eight.of(Spades.i()), Five.of(Diamonds.i()), Nine.of(Spades.i()), Ten.of(Spades.i()), Five.of(Spades.i()), Six.of(Clubs.i()));
+game.getSouth().init(Three.of(Diamonds.i()), Ace.of(Hearts.i()), Four.of(Hearts.i()), Two.of(Clubs.i()), Nine.of(Clubs.i()), Queen.of(Hearts.i()), Jack.of(Spades.i()), Three.of(Clubs.i()), Seven.of(Diamonds.i()), King.of(Spades.i()), Jack.of(Clubs.i()), Nine.of(Hearts.i()), Four.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 NT, North: PASS, East: 4 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 NT, North: PASS, East: 4 SPADES, South: PASS, West: PASS, North: PASS]
+ ** ( 73 )*** Automated bidding on a random game *****
+game.getWest().init(Two.of(Diamonds.i()), Three.of(Diamonds.i()), Five.of(Diamonds.i()), Five.of(Clubs.i()), Ace.of(Hearts.i()), Three.of(Clubs.i()), Six.of(Clubs.i()), Eight.of(Spades.i()), Nine.of(Clubs.i()), Six.of(Diamonds.i()), Nine.of(Spades.i()), Jack.of(Hearts.i()), Two.of(Hearts.i()));
+game.getNorth().init(Ten.of(Hearts.i()), Five.of(Spades.i()), Queen.of(Hearts.i()), Queen.of(Diamonds.i()), Three.of(Spades.i()), Jack.of(Clubs.i()), Four.of(Clubs.i()), Jack.of(Spades.i()), Two.of(Spades.i()), Six.of(Hearts.i()), Six.of(Spades.i()), Jack.of(Diamonds.i()), Queen.of(Clubs.i()));
+game.getEast().init(King.of(Clubs.i()), Ace.of(Spades.i()), Queen.of(Spades.i()), Eight.of(Diamonds.i()), Ten.of(Diamonds.i()), Seven.of(Diamonds.i()), King.of(Diamonds.i()), Four.of(Diamonds.i()), Three.of(Hearts.i()), Seven.of(Spades.i()), Eight.of(Clubs.i()), Seven.of(Clubs.i()), Four.of(Hearts.i()));
+game.getSouth().init(Ace.of(Diamonds.i()), Ace.of(Clubs.i()), King.of(Hearts.i()), Nine.of(Diamonds.i()), Two.of(Clubs.i()), Five.of(Hearts.i()), Eight.of(Hearts.i()), Nine.of(Hearts.i()), Four.of(Spades.i()), Ten.of(Spades.i()), Seven.of(Hearts.i()), Ten.of(Clubs.i()), King.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: 1 DIAMONDS]
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: 1 HEARTS, West: 2 DIAMONDS, North: 2 HEARTS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: 1 HEARTS, West: 2 DIAMONDS, North: 2 HEARTS, East: PASS, South: PASS, West: PASS]
+ ** ( 74 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Hearts.i()), Nine.of(Diamonds.i()), Two.of(Hearts.i()), Eight.of(Spades.i()), Ace.of(Spades.i()), Four.of(Hearts.i()), Ace.of(Clubs.i()), Ace.of(Diamonds.i()), Jack.of(Hearts.i()), Jack.of(Clubs.i()), Six.of(Clubs.i()), Seven.of(Clubs.i()), Three.of(Diamonds.i()));
+game.getNorth().init(Three.of(Spades.i()), Four.of(Diamonds.i()), Seven.of(Spades.i()), Six.of(Spades.i()), Six.of(Hearts.i()), Three.of(Clubs.i()), Seven.of(Hearts.i()), Queen.of(Hearts.i()), Jack.of(Spades.i()), Ten.of(Spades.i()), Two.of(Clubs.i()), Jack.of(Diamonds.i()), Ten.of(Hearts.i()));
+game.getEast().init(Queen.of(Clubs.i()), King.of(Diamonds.i()), Eight.of(Clubs.i()), Ace.of(Hearts.i()), King.of(Hearts.i()), Four.of(Clubs.i()), Ten.of(Diamonds.i()), Two.of(Diamonds.i()), Ten.of(Clubs.i()), Six.of(Diamonds.i()), King.of(Spades.i()), Five.of(Diamonds.i()), Queen.of(Spades.i()));
+game.getSouth().init(Queen.of(Diamonds.i()), Nine.of(Spades.i()), Five.of(Spades.i()), Four.of(Spades.i()), Two.of(Spades.i()), Five.of(Clubs.i()), Eight.of(Diamonds.i()), Five.of(Hearts.i()), Nine.of(Clubs.i()), King.of(Clubs.i()), Three.of(Hearts.i()), Seven.of(Diamonds.i()), Eight.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 2 DIAMONDS, South: PASS, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 2 DIAMONDS, South: PASS, West: PASS, North: PASS]
+ ** ( 75 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Clubs.i()), Five.of(Clubs.i()), King.of(Hearts.i()), King.of(Spades.i()), Ten.of(Hearts.i()), Two.of(Diamonds.i()), Queen.of(Hearts.i()), Ace.of(Clubs.i()), Four.of(Clubs.i()), Jack.of(Spades.i()), Ten.of(Diamonds.i()), Four.of(Hearts.i()), Ace.of(Hearts.i()));
+game.getNorth().init(Seven.of(Diamonds.i()), Queen.of(Clubs.i()), Nine.of(Hearts.i()), Three.of(Spades.i()), Nine.of(Clubs.i()), Two.of(Clubs.i()), Two.of(Hearts.i()), Ace.of(Spades.i()), Queen.of(Diamonds.i()), Six.of(Clubs.i()), Jack.of(Clubs.i()), Ace.of(Diamonds.i()), Seven.of(Clubs.i()));
+game.getEast().init(Eight.of(Spades.i()), Six.of(Diamonds.i()), Two.of(Spades.i()), Four.of(Spades.i()), Nine.of(Spades.i()), Five.of(Diamonds.i()), Three.of(Clubs.i()), Ten.of(Spades.i()), Six.of(Hearts.i()), Queen.of(Spades.i()), King.of(Clubs.i()), Six.of(Spades.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Four.of(Diamonds.i()), Ten.of(Clubs.i()), Jack.of(Hearts.i()), Nine.of(Diamonds.i()), Seven.of(Spades.i()), Five.of(Hearts.i()), Seven.of(Hearts.i()), Jack.of(Diamonds.i()), Eight.of(Diamonds.i()), Five.of(Spades.i()), Three.of(Diamonds.i()), Three.of(Hearts.i()), King.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS]
+  human about to bid: 2 CLUBS
+  Calls after human bid: [West: 1 HEARTS, North: 2 CLUBS, East: PASS, South: PASS, West: PASS]
+ ** ( 76 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Spades.i()), Eight.of(Hearts.i()), Five.of(Hearts.i()), Six.of(Diamonds.i()), Queen.of(Spades.i()), Ten.of(Spades.i()), King.of(Hearts.i()), Four.of(Hearts.i()), Three.of(Spades.i()), Ace.of(Hearts.i()), Nine.of(Hearts.i()), Eight.of(Diamonds.i()), Five.of(Spades.i()));
+game.getNorth().init(Eight.of(Clubs.i()), Queen.of(Clubs.i()), Three.of(Diamonds.i()), Nine.of(Diamonds.i()), Queen.of(Hearts.i()), Seven.of(Hearts.i()), Two.of(Spades.i()), Six.of(Hearts.i()), Five.of(Diamonds.i()), Ten.of(Hearts.i()), Eight.of(Spades.i()), Two.of(Hearts.i()), Two.of(Clubs.i()));
+game.getEast().init(Jack.of(Diamonds.i()), Jack.of(Spades.i()), Nine.of(Spades.i()), King.of(Clubs.i()), Ace.of(Spades.i()), Four.of(Clubs.i()), Ace.of(Clubs.i()), Six.of(Clubs.i()), Seven.of(Spades.i()), Nine.of(Clubs.i()), Jack.of(Hearts.i()), Ace.of(Diamonds.i()), Five.of(Clubs.i()));
+game.getSouth().init(Four.of(Spades.i()), Seven.of(Diamonds.i()), Three.of(Hearts.i()), Ten.of(Diamonds.i()), Three.of(Clubs.i()), Two.of(Diamonds.i()), King.of(Diamonds.i()), Ten.of(Clubs.i()), Six.of(Spades.i()), Queen.of(Diamonds.i()), Seven.of(Clubs.i()), Jack.of(Clubs.i()), Four.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 HEARTS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 3 CLUBS, South: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 3 CLUBS, South: PASS, West: PASS, North: PASS]
+ ** ( 77 )*** Automated bidding on a random game *****
+game.getWest().init(Five.of(Diamonds.i()), Seven.of(Diamonds.i()), Jack.of(Hearts.i()), Ace.of(Hearts.i()), Five.of(Spades.i()), Four.of(Hearts.i()), Two.of(Diamonds.i()), Six.of(Clubs.i()), King.of(Hearts.i()), Three.of(Spades.i()), Ace.of(Diamonds.i()), Two.of(Hearts.i()), King.of(Clubs.i()));
+game.getNorth().init(Eight.of(Spades.i()), Nine.of(Hearts.i()), Ten.of(Diamonds.i()), Three.of(Hearts.i()), Nine.of(Spades.i()), Ten.of(Clubs.i()), Ace.of(Clubs.i()), Ten.of(Hearts.i()), Four.of(Diamonds.i()), Seven.of(Clubs.i()), Four.of(Clubs.i()), Queen.of(Spades.i()), King.of(Spades.i()));
+game.getEast().init(Queen.of(Hearts.i()), Seven.of(Spades.i()), Nine.of(Diamonds.i()), Queen.of(Clubs.i()), Ace.of(Spades.i()), Five.of(Hearts.i()), Three.of(Clubs.i()), Two.of(Clubs.i()), Eight.of(Hearts.i()), Four.of(Spades.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Queen.of(Diamonds.i()));
+game.getSouth().init(Six.of(Spades.i()), Nine.of(Clubs.i()), Two.of(Spades.i()), Eight.of(Clubs.i()), Jack.of(Clubs.i()), Eight.of(Diamonds.i()), Seven.of(Hearts.i()), Five.of(Clubs.i()), Ten.of(Spades.i()), King.of(Diamonds.i()), Three.of(Diamonds.i()), Six.of(Hearts.i()), Six.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 HEARTS, North: PASS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 SPADES, South: PASS, West: 2 DIAMONDS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 HEARTS, North: PASS, East: 1 SPADES, South: PASS, West: 2 DIAMONDS, North: PASS, East: PASS, South: PASS]
+ ** ( 78 )*** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Diamonds.i()), Two.of(Clubs.i()), Three.of(Hearts.i()), Nine.of(Hearts.i()), Two.of(Spades.i()), Three.of(Diamonds.i()), Jack.of(Clubs.i()), Six.of(Hearts.i()), Four.of(Clubs.i()), Ten.of(Clubs.i()), Five.of(Spades.i()), King.of(Hearts.i()), Two.of(Diamonds.i()));
+game.getNorth().init(Eight.of(Hearts.i()), Six.of(Spades.i()), Three.of(Clubs.i()), Jack.of(Diamonds.i()), Two.of(Hearts.i()), Five.of(Diamonds.i()), Ace.of(Hearts.i()), Ace.of(Clubs.i()), Queen.of(Clubs.i()), Nine.of(Diamonds.i()), Four.of(Spades.i()), Four.of(Hearts.i()), Three.of(Spades.i()));
+game.getEast().init(Five.of(Clubs.i()), Eight.of(Clubs.i()), Nine.of(Spades.i()), Seven.of(Spades.i()), Eight.of(Spades.i()), Seven.of(Diamonds.i()), Nine.of(Clubs.i()), Ten.of(Hearts.i()), Jack.of(Spades.i()), King.of(Diamonds.i()), Seven.of(Hearts.i()), Six.of(Clubs.i()), King.of(Clubs.i()));
+game.getSouth().init(Ace.of(Diamonds.i()), Five.of(Hearts.i()), Jack.of(Hearts.i()), Ten.of(Diamonds.i()), Queen.of(Hearts.i()), Ten.of(Spades.i()), Seven.of(Clubs.i()), Queen.of(Spades.i()), Four.of(Diamonds.i()), Eight.of(Diamonds.i()), King.of(Spades.i()), Ace.of(Spades.i()), Six.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 1 HEARTS, East: PASS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 1 HEARTS, East: PASS, South: 1 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 79 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Clubs.i()), Ace.of(Spades.i()), Five.of(Clubs.i()), Six.of(Spades.i()), Ten.of(Diamonds.i()), Four.of(Clubs.i()), Nine.of(Clubs.i()), Seven.of(Clubs.i()), Ace.of(Diamonds.i()), Two.of(Spades.i()), Ace.of(Hearts.i()), Five.of(Spades.i()), Ten.of(Spades.i()));
+game.getNorth().init(Three.of(Spades.i()), Six.of(Diamonds.i()), Two.of(Diamonds.i()), Three.of(Diamonds.i()), Four.of(Spades.i()), Nine.of(Spades.i()), King.of(Hearts.i()), Five.of(Diamonds.i()), Seven.of(Diamonds.i()), Four.of(Diamonds.i()), Nine.of(Hearts.i()), King.of(Diamonds.i()), Two.of(Hearts.i()));
+game.getEast().init(Five.of(Hearts.i()), Six.of(Clubs.i()), Ace.of(Clubs.i()), King.of(Clubs.i()), Ten.of(Hearts.i()), Nine.of(Diamonds.i()), Queen.of(Spades.i()), Eight.of(Hearts.i()), Eight.of(Diamonds.i()), Jack.of(Clubs.i()), Seven.of(Hearts.i()), Two.of(Clubs.i()), Four.of(Hearts.i()));
+game.getSouth().init(Six.of(Hearts.i()), Seven.of(Spades.i()), Eight.of(Spades.i()), Queen.of(Clubs.i()), Jack.of(Spades.i()), King.of(Spades.i()), Three.of(Hearts.i()), Eight.of(Clubs.i()), Queen.of(Diamonds.i()), Ten.of(Clubs.i()), Queen.of(Hearts.i()), Jack.of(Hearts.i()), Jack.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 SPADES, North: PASS, East: 2 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: PASS, East: 2 HEARTS, South: PASS, West: PASS, North: PASS]
+ ** ( 80 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Hearts.i()), King.of(Clubs.i()), Five.of(Diamonds.i()), Ten.of(Spades.i()), Seven.of(Spades.i()), King.of(Hearts.i()), Queen.of(Spades.i()), Three.of(Hearts.i()), Five.of(Clubs.i()), Three.of(Clubs.i()), Four.of(Spades.i()), Ten.of(Hearts.i()), Queen.of(Diamonds.i()));
+game.getNorth().init(Ace.of(Diamonds.i()), Seven.of(Hearts.i()), Six.of(Clubs.i()), Nine.of(Hearts.i()), Nine.of(Diamonds.i()), Eight.of(Diamonds.i()), Seven.of(Clubs.i()), Nine.of(Clubs.i()), Jack.of(Spades.i()), Six.of(Hearts.i()), Nine.of(Spades.i()), Five.of(Spades.i()), Four.of(Diamonds.i()));
+game.getEast().init(Two.of(Clubs.i()), Ace.of(Spades.i()), Two.of(Hearts.i()), Ten.of(Diamonds.i()), Two.of(Diamonds.i()), Three.of(Diamonds.i()), Ten.of(Clubs.i()), Six.of(Spades.i()), Five.of(Hearts.i()), King.of(Diamonds.i()), Jack.of(Hearts.i()), Jack.of(Diamonds.i()), Queen.of(Hearts.i()));
+game.getSouth().init(Eight.of(Hearts.i()), Six.of(Diamonds.i()), Queen.of(Clubs.i()), Two.of(Spades.i()), Eight.of(Spades.i()), Three.of(Spades.i()), Ace.of(Clubs.i()), Four.of(Hearts.i()), Eight.of(Clubs.i()), Seven.of(Diamonds.i()), Jack.of(Clubs.i()), King.of(Spades.i()), Four.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: 1 CLUBS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 DIAMONDS, South: PASS]
+  human about to bid: 1 SPADES
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 81 )*** Automated bidding on a random game *****
+game.getWest().init(Seven.of(Diamonds.i()), Seven.of(Clubs.i()), King.of(Hearts.i()), Nine.of(Diamonds.i()), Jack.of(Diamonds.i()), Four.of(Clubs.i()), King.of(Clubs.i()), King.of(Diamonds.i()), Six.of(Diamonds.i()), Ace.of(Spades.i()), Two.of(Spades.i()), Queen.of(Diamonds.i()), Queen.of(Hearts.i()));
+game.getNorth().init(Two.of(Diamonds.i()), Four.of(Hearts.i()), Nine.of(Clubs.i()), Ten.of(Diamonds.i()), Seven.of(Spades.i()), Four.of(Diamonds.i()), Eight.of(Clubs.i()), Six.of(Clubs.i()), Nine.of(Hearts.i()), Seven.of(Hearts.i()), Three.of(Clubs.i()), Eight.of(Hearts.i()), Jack.of(Clubs.i()));
+game.getEast().init(Six.of(Hearts.i()), Queen.of(Spades.i()), King.of(Spades.i()), Three.of(Spades.i()), Two.of(Clubs.i()), Three.of(Diamonds.i()), Ace.of(Diamonds.i()), Nine.of(Spades.i()), Two.of(Hearts.i()), Jack.of(Spades.i()), Five.of(Diamonds.i()), Three.of(Hearts.i()), Eight.of(Diamonds.i()));
+game.getSouth().init(Five.of(Hearts.i()), Five.of(Spades.i()), Eight.of(Spades.i()), Ten.of(Clubs.i()), Ten.of(Spades.i()), Six.of(Spades.i()), Ten.of(Hearts.i()), Five.of(Clubs.i()), Jack.of(Hearts.i()), Ace.of(Hearts.i()), Ace.of(Clubs.i()), Queen.of(Clubs.i()), Four.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: PASS, North: PASS]
+ ** ( 82 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Clubs.i()), Two.of(Hearts.i()), Six.of(Spades.i()), King.of(Spades.i()), Nine.of(Hearts.i()), King.of(Clubs.i()), Seven.of(Spades.i()), Queen.of(Diamonds.i()), King.of(Diamonds.i()), Two.of(Spades.i()), Three.of(Spades.i()), Ten.of(Diamonds.i()), King.of(Hearts.i()));
+game.getNorth().init(Ace.of(Hearts.i()), Ace.of(Diamonds.i()), Nine.of(Spades.i()), Ace.of(Clubs.i()), Jack.of(Spades.i()), Ten.of(Clubs.i()), Four.of(Diamonds.i()), Six.of(Clubs.i()), Five.of(Clubs.i()), Four.of(Spades.i()), Seven.of(Diamonds.i()), Jack.of(Diamonds.i()), Ace.of(Spades.i()));
+game.getEast().init(Eight.of(Hearts.i()), Four.of(Clubs.i()), Two.of(Clubs.i()), Eight.of(Spades.i()), Five.of(Diamonds.i()), Six.of(Diamonds.i()), Queen.of(Clubs.i()), Ten.of(Hearts.i()), Nine.of(Clubs.i()), Jack.of(Clubs.i()), Six.of(Hearts.i()), Four.of(Hearts.i()), Queen.of(Spades.i()));
+game.getSouth().init(Seven.of(Clubs.i()), Nine.of(Diamonds.i()), Jack.of(Hearts.i()), Five.of(Spades.i()), Three.of(Diamonds.i()), Two.of(Diamonds.i()), Queen.of(Hearts.i()), Three.of(Clubs.i()), Seven.of(Hearts.i()), Three.of(Hearts.i()), Ten.of(Spades.i()), Eight.of(Diamonds.i()), Five.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 SPADES, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 83 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Diamonds.i()), Six.of(Diamonds.i()), Queen.of(Diamonds.i()), Nine.of(Clubs.i()), Seven.of(Clubs.i()), Two.of(Spades.i()), Six.of(Hearts.i()), Two.of(Clubs.i()), Nine.of(Spades.i()), Two.of(Hearts.i()), Eight.of(Hearts.i()), Four.of(Diamonds.i()), Jack.of(Diamonds.i()));
+game.getNorth().init(Three.of(Hearts.i()), Queen.of(Hearts.i()), Ten.of(Diamonds.i()), Seven.of(Diamonds.i()), Eight.of(Diamonds.i()), Five.of(Spades.i()), Three.of(Diamonds.i()), King.of(Spades.i()), Ten.of(Spades.i()), Six.of(Spades.i()), Jack.of(Clubs.i()), Ten.of(Clubs.i()), King.of(Diamonds.i()));
+game.getEast().init(Nine.of(Hearts.i()), Five.of(Diamonds.i()), Four.of(Spades.i()), Nine.of(Diamonds.i()), Seven.of(Hearts.i()), Queen.of(Spades.i()), King.of(Clubs.i()), Seven.of(Spades.i()), Three.of(Clubs.i()), Jack.of(Hearts.i()), Three.of(Spades.i()), Eight.of(Spades.i()), Two.of(Diamonds.i()));
+game.getSouth().init(Four.of(Hearts.i()), Five.of(Clubs.i()), Ten.of(Hearts.i()), Eight.of(Clubs.i()), Jack.of(Spades.i()), Ace.of(Hearts.i()), Ace.of(Spades.i()), Six.of(Clubs.i()), Ace.of(Clubs.i()), Four.of(Clubs.i()), Queen.of(Clubs.i()), King.of(Hearts.i()), Five.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS, North: 1 DIAMONDS, East: PASS, South: 2 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: 1 CLUBS, West: PASS, North: 1 DIAMONDS, East: PASS, South: 2 HEARTS, West: PASS, North: PASS, East: PASS]
+ ** ( 84 )*** Automated bidding on a random game *****
+game.getWest().init(Six.of(Spades.i()), Queen.of(Spades.i()), Ace.of(Diamonds.i()), Two.of(Diamonds.i()), King.of(Diamonds.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Seven.of(Clubs.i()), King.of(Clubs.i()), Seven.of(Diamonds.i()), Queen.of(Hearts.i()), Three.of(Diamonds.i()), Six.of(Clubs.i()));
+game.getNorth().init(Two.of(Spades.i()), Eight.of(Spades.i()), Nine.of(Clubs.i()), Nine.of(Diamonds.i()), Ace.of(Hearts.i()), Queen.of(Clubs.i()), Jack.of(Hearts.i()), Seven.of(Hearts.i()), Nine.of(Hearts.i()), Seven.of(Spades.i()), Ten.of(Hearts.i()), Four.of(Diamonds.i()), Two.of(Hearts.i()));
+game.getEast().init(Six.of(Diamonds.i()), Eight.of(Diamonds.i()), Three.of(Hearts.i()), Ace.of(Spades.i()), King.of(Spades.i()), Queen.of(Diamonds.i()), Four.of(Spades.i()), Three.of(Spades.i()), Ten.of(Clubs.i()), Five.of(Diamonds.i()), Ace.of(Clubs.i()), Five.of(Spades.i()), Eight.of(Hearts.i()));
+game.getSouth().init(Jack.of(Clubs.i()), Six.of(Hearts.i()), King.of(Hearts.i()), Four.of(Hearts.i()), Five.of(Hearts.i()), Five.of(Clubs.i()), Eight.of(Clubs.i()), Ten.of(Diamonds.i()), Nine.of(Spades.i()), Two.of(Clubs.i()), Three.of(Clubs.i()), Four.of(Clubs.i()), Ten.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 3 DIAMONDS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 3 DIAMONDS, North: PASS, East: PASS, South: PASS]
+ ** ( 85 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Diamonds.i()), Three.of(Spades.i()), Queen.of(Diamonds.i()), Three.of(Hearts.i()), Ace.of(Diamonds.i()), Queen.of(Spades.i()), Ten.of(Diamonds.i()), Queen.of(Hearts.i()), Five.of(Clubs.i()), Four.of(Clubs.i()), Eight.of(Clubs.i()), Ten.of(Clubs.i()), King.of(Diamonds.i()));
+game.getNorth().init(Five.of(Spades.i()), Seven.of(Hearts.i()), Ace.of(Spades.i()), Two.of(Clubs.i()), Ten.of(Spades.i()), Two.of(Diamonds.i()), Seven.of(Clubs.i()), King.of(Spades.i()), Five.of(Hearts.i()), Eight.of(Diamonds.i()), Six.of(Diamonds.i()), Queen.of(Clubs.i()), Two.of(Spades.i()));
+game.getEast().init(Jack.of(Clubs.i()), Five.of(Diamonds.i()), Ace.of(Hearts.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), King.of(Clubs.i()), Seven.of(Spades.i()), Four.of(Hearts.i()), Eight.of(Spades.i()), Two.of(Hearts.i()), Jack.of(Hearts.i()), Ace.of(Clubs.i()), King.of(Hearts.i()));
+game.getSouth().init(Seven.of(Diamonds.i()), Nine.of(Clubs.i()), Six.of(Spades.i()), Nine.of(Diamonds.i()), Ten.of(Hearts.i()), Three.of(Clubs.i()), Eight.of(Hearts.i()), Nine.of(Spades.i()), Six.of(Hearts.i()), Four.of(Spades.i()), Four.of(Diamonds.i()), Nine.of(Hearts.i()), Six.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: 1 SPADES, East: 2 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: 1 SPADES, East: 2 HEARTS, South: PASS, West: PASS, North: PASS]
+ ** ( 86 )*** Automated bidding on a random game *****
+game.getWest().init(King.of(Diamonds.i()), Three.of(Diamonds.i()), Four.of(Clubs.i()), Queen.of(Hearts.i()), Queen.of(Clubs.i()), Eight.of(Hearts.i()), Ten.of(Spades.i()), Four.of(Spades.i()), Seven.of(Diamonds.i()), Three.of(Clubs.i()), Eight.of(Clubs.i()), Two.of(Hearts.i()), Ten.of(Hearts.i()));
+game.getNorth().init(Seven.of(Spades.i()), Six.of(Hearts.i()), King.of(Clubs.i()), Ace.of(Spades.i()), Ace.of(Clubs.i()), Six.of(Diamonds.i()), King.of(Spades.i()), Two.of(Diamonds.i()), Jack.of(Clubs.i()), Four.of(Diamonds.i()), Jack.of(Hearts.i()), Two.of(Spades.i()), King.of(Hearts.i()));
+game.getEast().init(Seven.of(Clubs.i()), Seven.of(Hearts.i()), Nine.of(Diamonds.i()), Ten.of(Clubs.i()), Queen.of(Spades.i()), Five.of(Diamonds.i()), Jack.of(Spades.i()), Five.of(Spades.i()), Three.of(Hearts.i()), Ace.of(Hearts.i()), Nine.of(Spades.i()), Ten.of(Diamonds.i()), Nine.of(Hearts.i()));
+game.getSouth().init(Five.of(Clubs.i()), Five.of(Hearts.i()), Nine.of(Clubs.i()), Six.of(Clubs.i()), Six.of(Spades.i()), Queen.of(Diamonds.i()), Eight.of(Diamonds.i()), Three.of(Spades.i()), Four.of(Hearts.i()), Eight.of(Spades.i()), Two.of(Clubs.i()), Ace.of(Diamonds.i()), Jack.of(Diamonds.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 CLUBS, East: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 2 SPADES, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 CLUBS, East: PASS, South: 1 DIAMONDS, West: PASS, North: 2 SPADES, East: PASS, South: PASS, West: PASS]
+ ** ( 87 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Diamonds.i()), Seven.of(Clubs.i()), Jack.of(Clubs.i()), Six.of(Diamonds.i()), Jack.of(Diamonds.i()), Nine.of(Hearts.i()), Ace.of(Clubs.i()), Jack.of(Spades.i()), Jack.of(Hearts.i()), Queen.of(Hearts.i()), Ten.of(Spades.i()), King.of(Diamonds.i()), Eight.of(Hearts.i()));
+game.getNorth().init(Two.of(Clubs.i()), Ace.of(Diamonds.i()), Six.of(Clubs.i()), Nine.of(Clubs.i()), Six.of(Spades.i()), King.of(Hearts.i()), Ten.of(Hearts.i()), Seven.of(Hearts.i()), Queen.of(Diamonds.i()), Five.of(Hearts.i()), Four.of(Diamonds.i()), Eight.of(Spades.i()), Four.of(Clubs.i()));
+game.getEast().init(Six.of(Hearts.i()), Two.of(Spades.i()), Ace.of(Hearts.i()), Three.of(Clubs.i()), Five.of(Diamonds.i()), Ten.of(Diamonds.i()), Nine.of(Spades.i()), Five.of(Spades.i()), Three.of(Spades.i()), Eight.of(Clubs.i()), Four.of(Spades.i()), Four.of(Hearts.i()), Queen.of(Spades.i()));
+game.getSouth().init(Five.of(Clubs.i()), Nine.of(Diamonds.i()), King.of(Clubs.i()), Ace.of(Spades.i()), Three.of(Diamonds.i()), Three.of(Hearts.i()), Seven.of(Diamonds.i()), Two.of(Diamonds.i()), Two.of(Hearts.i()), Queen.of(Clubs.i()), Seven.of(Spades.i()), King.of(Spades.i()), Ten.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 SPADES, South: PASS, West: 1 NT, North: PASS, East: PASS, South: PASS]
+ ** ( 88 )*** Automated bidding on a random game *****
+game.getWest().init(Three.of(Diamonds.i()), Two.of(Diamonds.i()), Four.of(Hearts.i()), Queen.of(Hearts.i()), Ten.of(Clubs.i()), Jack.of(Clubs.i()), Ace.of(Diamonds.i()), Nine.of(Hearts.i()), Five.of(Hearts.i()), Six.of(Clubs.i()), Ace.of(Clubs.i()), Nine.of(Clubs.i()), Ace.of(Spades.i()));
+game.getNorth().init(Five.of(Spades.i()), Seven.of(Clubs.i()), Ten.of(Hearts.i()), Eight.of(Spades.i()), Five.of(Clubs.i()), Nine.of(Diamonds.i()), Three.of(Spades.i()), Jack.of(Hearts.i()), Jack.of(Spades.i()), Seven.of(Hearts.i()), Ten.of(Diamonds.i()), Eight.of(Diamonds.i()), King.of(Clubs.i()));
+game.getEast().init(Queen.of(Diamonds.i()), Three.of(Hearts.i()), Seven.of(Diamonds.i()), Two.of(Clubs.i()), Two.of(Hearts.i()), Queen.of(Clubs.i()), Eight.of(Hearts.i()), Five.of(Diamonds.i()), Ten.of(Spades.i()), Two.of(Spades.i()), Four.of(Clubs.i()), King.of(Diamonds.i()), Ace.of(Hearts.i()));
+game.getSouth().init(King.of(Spades.i()), Seven.of(Spades.i()), Three.of(Clubs.i()), Queen.of(Spades.i()), Four.of(Diamonds.i()), Six.of(Hearts.i()), Jack.of(Diamonds.i()), King.of(Hearts.i()), Six.of(Spades.i()), Six.of(Diamonds.i()), Eight.of(Clubs.i()), Four.of(Spades.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS, West: 3 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS, West: 3 HEARTS, North: PASS, East: PASS, South: PASS]
+ ** ( 89 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Hearts.i()), Four.of(Diamonds.i()), Ace.of(Hearts.i()), Four.of(Spades.i()), Eight.of(Clubs.i()), Seven.of(Diamonds.i()), Ten.of(Hearts.i()), Jack.of(Clubs.i()), Jack.of(Diamonds.i()), Jack.of(Spades.i()), Ace.of(Spades.i()), Seven.of(Spades.i()), Six.of(Hearts.i()));
+game.getNorth().init(Ten.of(Diamonds.i()), Ten.of(Clubs.i()), Ten.of(Spades.i()), Nine.of(Spades.i()), Queen.of(Clubs.i()), Seven.of(Clubs.i()), Two.of(Clubs.i()), Six.of(Diamonds.i()), Ace.of(Clubs.i()), Nine.of(Diamonds.i()), Two.of(Hearts.i()), Four.of(Clubs.i()), King.of(Diamonds.i()));
+game.getEast().init(Six.of(Spades.i()), Five.of(Diamonds.i()), Six.of(Clubs.i()), Three.of(Hearts.i()), Ace.of(Diamonds.i()), Three.of(Diamonds.i()), Queen.of(Diamonds.i()), Five.of(Spades.i()), King.of(Hearts.i()), Queen.of(Hearts.i()), Five.of(Clubs.i()), Seven.of(Hearts.i()), Nine.of(Clubs.i()));
+game.getSouth().init(Nine.of(Hearts.i()), Eight.of(Spades.i()), Four.of(Hearts.i()), King.of(Spades.i()), Five.of(Hearts.i()), Two.of(Spades.i()), Queen.of(Spades.i()), Two.of(Diamonds.i()), Jack.of(Hearts.i()), Three.of(Clubs.i()), Three.of(Spades.i()), Eight.of(Diamonds.i()), King.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: PASS, South: PASS]
+ ** ( 90 )*** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Hearts.i()), Jack.of(Clubs.i()), Two.of(Hearts.i()), Eight.of(Spades.i()), Five.of(Hearts.i()), King.of(Clubs.i()), Nine.of(Hearts.i()), King.of(Spades.i()), Six.of(Clubs.i()), Four.of(Diamonds.i()), Three.of(Hearts.i()), Nine.of(Spades.i()), Six.of(Spades.i()));
+game.getNorth().init(Seven.of(Spades.i()), Five.of(Spades.i()), Six.of(Diamonds.i()), Two.of(Diamonds.i()), Ten.of(Hearts.i()), Eight.of(Hearts.i()), Seven.of(Diamonds.i()), Queen.of(Diamonds.i()), Ace.of(Clubs.i()), Ten.of(Clubs.i()), Nine.of(Clubs.i()), Jack.of(Hearts.i()), Four.of(Spades.i()));
+game.getEast().init(Eight.of(Clubs.i()), Ace.of(Hearts.i()), Ten.of(Spades.i()), Ten.of(Diamonds.i()), Seven.of(Hearts.i()), Ace.of(Diamonds.i()), Queen.of(Clubs.i()), Ace.of(Spades.i()), Five.of(Clubs.i()), Eight.of(Diamonds.i()), King.of(Hearts.i()), Queen.of(Spades.i()), Four.of(Hearts.i()));
+game.getSouth().init(Two.of(Spades.i()), Four.of(Clubs.i()), Seven.of(Clubs.i()), Jack.of(Diamonds.i()), Nine.of(Diamonds.i()), Six.of(Hearts.i()), Jack.of(Spades.i()), Three.of(Diamonds.i()), Three.of(Clubs.i()), Five.of(Diamonds.i()), King.of(Diamonds.i()), Three.of(Spades.i()), Two.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS, East: 1 DIAMONDS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS, East: 4 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS, East: 4 HEARTS, South: PASS, West: PASS, North: PASS]
+ ** ( 91 )*** Automated bidding on a random game *****
+game.getWest().init(Jack.of(Hearts.i()), Five.of(Hearts.i()), Four.of(Spades.i()), Eight.of(Hearts.i()), King.of(Clubs.i()), Seven.of(Spades.i()), Jack.of(Spades.i()), Seven.of(Diamonds.i()), Eight.of(Clubs.i()), Queen.of(Clubs.i()), Nine.of(Hearts.i()), Eight.of(Diamonds.i()), Nine.of(Clubs.i()));
+game.getNorth().init(Nine.of(Spades.i()), Five.of(Spades.i()), Two.of(Clubs.i()), Six.of(Diamonds.i()), Four.of(Hearts.i()), Five.of(Clubs.i()), Six.of(Spades.i()), Queen.of(Spades.i()), King.of(Hearts.i()), Ten.of(Clubs.i()), Ace.of(Spades.i()), Four.of(Clubs.i()), Queen.of(Hearts.i()));
+game.getEast().init(Six.of(Hearts.i()), Ace.of(Hearts.i()), Jack.of(Diamonds.i()), King.of(Spades.i()), Three.of(Clubs.i()), Four.of(Diamonds.i()), Queen.of(Diamonds.i()), Two.of(Hearts.i()), Ten.of(Spades.i()), Three.of(Hearts.i()), Two.of(Diamonds.i()), Ten.of(Hearts.i()), Five.of(Diamonds.i()));
+game.getSouth().init(Three.of(Spades.i()), King.of(Diamonds.i()), Three.of(Diamonds.i()), Nine.of(Diamonds.i()), Jack.of(Clubs.i()), Seven.of(Hearts.i()), Eight.of(Spades.i()), Ace.of(Clubs.i()), Ace.of(Diamonds.i()), Seven.of(Clubs.i()), Two.of(Spades.i()), Ten.of(Diamonds.i()), Six.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 SPADES, East: PASS]
+  human about to bid: 3 SPADES
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 3 SPADES, West: PASS, North: PASS, East: PASS]
+ ** ( 92 )*** Automated bidding on a random game *****
+game.getWest().init(Eight.of(Diamonds.i()), Jack.of(Hearts.i()), Seven.of(Diamonds.i()), Six.of(Clubs.i()), Three.of(Diamonds.i()), Five.of(Spades.i()), Five.of(Clubs.i()), Two.of(Clubs.i()), Two.of(Hearts.i()), Ace.of(Spades.i()), King.of(Diamonds.i()), Queen.of(Spades.i()), King.of(Clubs.i()));
+game.getNorth().init(Nine.of(Diamonds.i()), Seven.of(Clubs.i()), Two.of(Diamonds.i()), Queen.of(Diamonds.i()), Ten.of(Clubs.i()), Seven.of(Spades.i()), Eight.of(Hearts.i()), Jack.of(Spades.i()), Eight.of(Clubs.i()), Four.of(Clubs.i()), Three.of(Spades.i()), Queen.of(Hearts.i()), Nine.of(Hearts.i()));
+game.getEast().init(Ace.of(Hearts.i()), Ten.of(Spades.i()), Six.of(Diamonds.i()), Five.of(Diamonds.i()), Ace.of(Clubs.i()), Ace.of(Diamonds.i()), Four.of(Hearts.i()), Four.of(Diamonds.i()), King.of(Spades.i()), Queen.of(Clubs.i()), Three.of(Hearts.i()), Five.of(Hearts.i()), Nine.of(Clubs.i()));
+game.getSouth().init(Six.of(Spades.i()), Ten.of(Diamonds.i()), Two.of(Spades.i()), Eight.of(Spades.i()), King.of(Hearts.i()), Ten.of(Hearts.i()), Three.of(Clubs.i()), Jack.of(Diamonds.i()), Seven.of(Hearts.i()), Four.of(Spades.i()), Jack.of(Clubs.i()), Six.of(Hearts.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS, East: 1 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 HEARTS, South: PASS, West: 1 NT, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: 1 HEARTS, South: PASS, West: 1 NT, North: PASS, East: PASS, South: PASS]
+ ** ( 93 )*** Automated bidding on a random game *****
+game.getWest().init(Two.of(Hearts.i()), Queen.of(Spades.i()), Five.of(Clubs.i()), Two.of(Diamonds.i()), Six.of(Clubs.i()), Seven.of(Spades.i()), Seven.of(Clubs.i()), Ten.of(Diamonds.i()), Nine.of(Hearts.i()), Six.of(Diamonds.i()), Four.of(Diamonds.i()), Ace.of(Hearts.i()), Three.of(Spades.i()));
+game.getNorth().init(Nine.of(Diamonds.i()), Five.of(Diamonds.i()), Three.of(Clubs.i()), King.of(Hearts.i()), Nine.of(Spades.i()), Four.of(Clubs.i()), Three.of(Diamonds.i()), Four.of(Spades.i()), Ten.of(Hearts.i()), Ten.of(Clubs.i()), Two.of(Spades.i()), Queen.of(Hearts.i()), Queen.of(Diamonds.i()));
+game.getEast().init(Ace.of(Clubs.i()), Three.of(Hearts.i()), Ace.of(Spades.i()), Jack.of(Diamonds.i()), Two.of(Clubs.i()), Seven.of(Diamonds.i()), Five.of(Hearts.i()), Ace.of(Diamonds.i()), Four.of(Hearts.i()), Ten.of(Spades.i()), Seven.of(Hearts.i()), Nine.of(Clubs.i()), Five.of(Spades.i()));
+game.getSouth().init(Six.of(Hearts.i()), Jack.of(Spades.i()), Jack.of(Clubs.i()), Eight.of(Diamonds.i()), Jack.of(Hearts.i()), Eight.of(Hearts.i()), Eight.of(Spades.i()), Six.of(Spades.i()), Eight.of(Clubs.i()), Queen.of(Clubs.i()), King.of(Spades.i()), King.of(Diamonds.i()), King.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 2 DIAMONDS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 2 DIAMONDS, North: PASS, East: PASS, South: PASS]
+ ** ( 94 )*** Automated bidding on a random game *****
+game.getWest().init(Ten.of(Clubs.i()), Ace.of(Hearts.i()), Seven.of(Diamonds.i()), Nine.of(Spades.i()), Eight.of(Diamonds.i()), Five.of(Diamonds.i()), Eight.of(Hearts.i()), Three.of(Clubs.i()), Seven.of(Hearts.i()), Two.of(Hearts.i()), Three.of(Diamonds.i()), Six.of(Clubs.i()), Ace.of(Spades.i()));
+game.getNorth().init(Seven.of(Clubs.i()), Nine.of(Diamonds.i()), Ace.of(Clubs.i()), King.of(Hearts.i()), Four.of(Hearts.i()), Six.of(Diamonds.i()), King.of(Clubs.i()), Three.of(Spades.i()), Ace.of(Diamonds.i()), Queen.of(Spades.i()), King.of(Spades.i()), Five.of(Spades.i()), Two.of(Spades.i()));
+game.getEast().init(Ten.of(Hearts.i()), Eight.of(Clubs.i()), Queen.of(Hearts.i()), Three.of(Hearts.i()), Jack.of(Spades.i()), Six.of(Spades.i()), Four.of(Spades.i()), Five.of(Hearts.i()), Jack.of(Hearts.i()), Queen.of(Diamonds.i()), Jack.of(Diamonds.i()), Ten.of(Spades.i()), Eight.of(Spades.i()));
+game.getSouth().init(Ten.of(Diamonds.i()), Seven.of(Spades.i()), Two.of(Clubs.i()), Jack.of(Clubs.i()), Four.of(Diamonds.i()), Nine.of(Clubs.i()), Queen.of(Clubs.i()), Four.of(Clubs.i()), King.of(Diamonds.i()), Five.of(Clubs.i()), Nine.of(Hearts.i()), Two.of(Diamonds.i()), Six.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 SPADES, East: PASS]
+  human about to bid: 1 NT
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 1 NT, West: PASS, North: 3 NT, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 SPADES, East: PASS, South: 1 NT, West: PASS, North: 3 NT, East: PASS, South: PASS, West: PASS]
+ ** ( 95 )*** Automated bidding on a random game *****
+game.getWest().init(Four.of(Clubs.i()), Jack.of(Diamonds.i()), Ace.of(Hearts.i()), Seven.of(Spades.i()), Ten.of(Spades.i()), King.of(Clubs.i()), Seven.of(Diamonds.i()), Five.of(Diamonds.i()), Seven.of(Hearts.i()), Four.of(Diamonds.i()), King.of(Hearts.i()), Nine.of(Clubs.i()), Six.of(Spades.i()));
+game.getNorth().init(Nine.of(Hearts.i()), Eight.of(Clubs.i()), King.of(Spades.i()), Eight.of(Hearts.i()), Five.of(Hearts.i()), Five.of(Spades.i()), Two.of(Diamonds.i()), Three.of(Hearts.i()), Three.of(Spades.i()), Three.of(Clubs.i()), Ace.of(Diamonds.i()), Ten.of(Hearts.i()), Ace.of(Spades.i()));
+game.getEast().init(Queen.of(Clubs.i()), King.of(Diamonds.i()), Six.of(Diamonds.i()), Four.of(Hearts.i()), Six.of(Clubs.i()), Eight.of(Diamonds.i()), Ten.of(Diamonds.i()), Queen.of(Spades.i()), Two.of(Hearts.i()), Two.of(Clubs.i()), Jack.of(Hearts.i()), Queen.of(Hearts.i()), Ten.of(Clubs.i()));
+game.getSouth().init(Three.of(Diamonds.i()), Five.of(Clubs.i()), Eight.of(Spades.i()), Two.of(Spades.i()), Jack.of(Clubs.i()), Jack.of(Spades.i()), Seven.of(Clubs.i()), Four.of(Spades.i()), Queen.of(Diamonds.i()), Nine.of(Diamonds.i()), Nine.of(Spades.i()), Six.of(Hearts.i()), Ace.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: 1 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 HEARTS, East: PASS, South: 1 SPADES, West: PASS, North: 2 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: PASS, North: 1 HEARTS, East: PASS, South: 1 SPADES, West: PASS, North: 2 SPADES, East: PASS, South: PASS, West: PASS]
+ ** ( 96 )*** Automated bidding on a random game *****
+game.getWest().init(Ace.of(Clubs.i()), King.of(Hearts.i()), Jack.of(Diamonds.i()), Seven.of(Hearts.i()), Four.of(Spades.i()), Five.of(Spades.i()), Five.of(Hearts.i()), Seven.of(Diamonds.i()), Ten.of(Diamonds.i()), Nine.of(Diamonds.i()), Two.of(Clubs.i()), Ace.of(Diamonds.i()), Six.of(Clubs.i()));
+game.getNorth().init(Ace.of(Hearts.i()), Eight.of(Hearts.i()), Three.of(Spades.i()), Two.of(Diamonds.i()), Eight.of(Diamonds.i()), Queen.of(Clubs.i()), Five.of(Clubs.i()), Ten.of(Clubs.i()), Two.of(Spades.i()), Three.of(Hearts.i()), Ace.of(Spades.i()), Four.of(Clubs.i()), King.of(Spades.i()));
+game.getEast().init(Ten.of(Spades.i()), Six.of(Diamonds.i()), Six.of(Hearts.i()), Jack.of(Clubs.i()), Two.of(Hearts.i()), Queen.of(Spades.i()), Eight.of(Spades.i()), Three.of(Clubs.i()), Six.of(Spades.i()), Seven.of(Clubs.i()), Eight.of(Clubs.i()), Nine.of(Hearts.i()), Queen.of(Hearts.i()));
+game.getSouth().init(Queen.of(Diamonds.i()), King.of(Clubs.i()), Nine.of(Clubs.i()), Jack.of(Spades.i()), Five.of(Diamonds.i()), Four.of(Hearts.i()), Four.of(Diamonds.i()), Ten.of(Hearts.i()), King.of(Diamonds.i()), Jack.of(Hearts.i()), Seven.of(Spades.i()), Three.of(Diamonds.i()), Nine.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 DIAMONDS, North: PASS, East: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 DIAMONDS, North: PASS, East: PASS, South: PASS]
+ ** ( 97 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Hearts.i()), Ace.of(Clubs.i()), Eight.of(Hearts.i()), Eight.of(Clubs.i()), Nine.of(Clubs.i()), Six.of(Hearts.i()), Two.of(Clubs.i()), Five.of(Spades.i()), Ace.of(Spades.i()), Queen.of(Spades.i()), Seven.of(Spades.i()), Jack.of(Spades.i()), Ten.of(Spades.i()));
+game.getNorth().init(Nine.of(Diamonds.i()), Queen.of(Hearts.i()), Queen.of(Diamonds.i()), Seven.of(Hearts.i()), Three.of(Hearts.i()), Two.of(Spades.i()), Three.of(Spades.i()), King.of(Spades.i()), Four.of(Spades.i()), Five.of(Hearts.i()), Nine.of(Spades.i()), King.of(Hearts.i()), Four.of(Hearts.i()));
+game.getEast().init(Six.of(Clubs.i()), Ace.of(Diamonds.i()), Two.of(Hearts.i()), Four.of(Diamonds.i()), Ten.of(Diamonds.i()), Jack.of(Hearts.i()), Three.of(Clubs.i()), Ten.of(Clubs.i()), Five.of(Diamonds.i()), Ten.of(Hearts.i()), Jack.of(Clubs.i()), King.of(Diamonds.i()), King.of(Clubs.i()));
+game.getSouth().init(Seven.of(Diamonds.i()), Seven.of(Clubs.i()), Jack.of(Diamonds.i()), Two.of(Diamonds.i()), Six.of(Diamonds.i()), Three.of(Diamonds.i()), Queen.of(Clubs.i()), Six.of(Spades.i()), Five.of(Clubs.i()), Four.of(Clubs.i()), Eight.of(Diamonds.i()), Eight.of(Spades.i()), Ace.of(Hearts.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 SPADES, North: 2 HEARTS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: 2 HEARTS, East: PASS, South: 3 DIAMONDS, West: PASS, North: PASS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 SPADES, North: 2 HEARTS, East: PASS, South: 3 DIAMONDS, West: PASS, North: PASS, East: PASS]
+ ** ( 98 )*** Automated bidding on a random game *****
+game.getWest().init(Nine.of(Spades.i()), Six.of(Spades.i()), Ace.of(Clubs.i()), Two.of(Spades.i()), Four.of(Clubs.i()), Four.of(Hearts.i()), Ace.of(Hearts.i()), Three.of(Diamonds.i()), Five.of(Hearts.i()), Ten.of(Clubs.i()), Seven.of(Diamonds.i()), Five.of(Clubs.i()), Ace.of(Spades.i()));
+game.getNorth().init(Eight.of(Hearts.i()), Three.of(Spades.i()), Ten.of(Hearts.i()), Six.of(Clubs.i()), King.of(Diamonds.i()), Nine.of(Hearts.i()), King.of(Clubs.i()), Queen.of(Hearts.i()), Three.of(Hearts.i()), Four.of(Diamonds.i()), Eight.of(Spades.i()), Queen.of(Clubs.i()), Jack.of(Spades.i()));
+game.getEast().init(Seven.of(Spades.i()), Eight.of(Diamonds.i()), Four.of(Spades.i()), Seven.of(Hearts.i()), Jack.of(Clubs.i()), Ace.of(Diamonds.i()), Ten.of(Spades.i()), Two.of(Hearts.i()), Nine.of(Diamonds.i()), King.of(Hearts.i()), Seven.of(Clubs.i()), Jack.of(Hearts.i()), Five.of(Diamonds.i()));
+game.getSouth().init(Two.of(Clubs.i()), Ten.of(Diamonds.i()), Six.of(Hearts.i()), Queen.of(Diamonds.i()), Nine.of(Clubs.i()), Two.of(Diamonds.i()), Queen.of(Spades.i()), Jack.of(Diamonds.i()), Eight.of(Clubs.i()), Six.of(Diamonds.i()), Three.of(Clubs.i()), King.of(Spades.i()), Five.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: 1 CLUBS]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS, West: 1 SPADES]
+  human about to bid: PASS
+  Calls after human bid: [West: 1 CLUBS, North: PASS, East: 1 HEARTS, South: PASS, West: 1 SPADES, North: PASS, East: PASS, South: PASS]
+ ** ( 99 )*** Automated bidding on a random game *****
+game.getWest().init(Four.of(Hearts.i()), Ace.of(Spades.i()), Six.of(Hearts.i()), Three.of(Spades.i()), Five.of(Diamonds.i()), Eight.of(Hearts.i()), Two.of(Diamonds.i()), Eight.of(Diamonds.i()), Ace.of(Clubs.i()), Ten.of(Spades.i()), Two.of(Hearts.i()), Ten.of(Clubs.i()), Ten.of(Hearts.i()));
+game.getNorth().init(Queen.of(Spades.i()), Seven.of(Hearts.i()), Six.of(Diamonds.i()), Nine.of(Spades.i()), Queen.of(Hearts.i()), Six.of(Clubs.i()), Two.of(Clubs.i()), Eight.of(Spades.i()), Seven.of(Diamonds.i()), Jack.of(Clubs.i()), Three.of(Diamonds.i()), Five.of(Hearts.i()), King.of(Clubs.i()));
+game.getEast().init(Ace.of(Hearts.i()), King.of(Spades.i()), Five.of(Clubs.i()), Three.of(Hearts.i()), Seven.of(Spades.i()), Nine.of(Diamonds.i()), Eight.of(Clubs.i()), Ten.of(Diamonds.i()), King.of(Diamonds.i()), Queen.of(Diamonds.i()), Four.of(Spades.i()), Four.of(Diamonds.i()), Ace.of(Diamonds.i()));
+game.getSouth().init(Jack.of(Diamonds.i()), Nine.of(Hearts.i()), Jack.of(Spades.i()), Nine.of(Clubs.i()), King.of(Hearts.i()), Queen.of(Clubs.i()), Two.of(Spades.i()), Six.of(Spades.i()), Seven.of(Clubs.i()), Five.of(Spades.i()), Four.of(Clubs.i()), Jack.of(Hearts.i()), Three.of(Clubs.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: [West: PASS, North: PASS]
+  human about to bid: 1 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS]
+  human about to bid: 3 DIAMONDS
+  Calls after human bid: [West: PASS, North: PASS, East: 1 DIAMONDS, South: PASS, West: 1 HEARTS, North: PASS, East: 3 DIAMONDS, South: PASS, West: PASS, North: PASS]
+ ***** Automated bidding on a random game *****
+game.getWest().init(Queen.of(Clubs.i()), Eight.of(Diamonds.i()), Queen.of(Hearts.i()), Seven.of(Spades.i()), Five.of(Diamonds.i()), Four.of(Clubs.i()), King.of(Clubs.i()), Four.of(Hearts.i()), Seven.of(Hearts.i()), Four.of(Spades.i()), Jack.of(Hearts.i()), Eight.of(Hearts.i()), Ten.of(Diamonds.i()));
+game.getNorth().init(Ten.of(Spades.i()), Ace.of(Clubs.i()), Ace.of(Hearts.i()), Six.of(Spades.i()), Ace.of(Diamonds.i()), Two.of(Clubs.i()), Ten.of(Clubs.i()), Seven.of(Diamonds.i()), King.of(Hearts.i()), Nine.of(Clubs.i()), Two.of(Diamonds.i()), Nine.of(Diamonds.i()), Eight.of(Clubs.i()));
+game.getEast().init(Two.of(Hearts.i()), Five.of(Hearts.i()), Ten.of(Hearts.i()), Four.of(Diamonds.i()), Seven.of(Clubs.i()), Nine.of(Spades.i()), Eight.of(Spades.i()), Jack.of(Diamonds.i()), Three.of(Spades.i()), Three.of(Diamonds.i()), Jack.of(Clubs.i()), Queen.of(Spades.i()), Six.of(Hearts.i()));
+game.getSouth().init(Five.of(Clubs.i()), King.of(Diamonds.i()), Three.of(Clubs.i()), King.of(Spades.i()), Queen.of(Diamonds.i()), Five.of(Spades.i()), Jack.of(Spades.i()), Nine.of(Hearts.i()), Six.of(Diamonds.i()), Two.of(Spades.i()), Six.of(Clubs.i()), Three.of(Hearts.i()), Ace.of(Spades.i()));
+game.setNextToPlay(Direction.WEST);
+  Initial Calls: []
+  Calls after human bid: [West: 4 NT, North: PASS, East: PASS, South: PASS]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 2.2.1</a> at 19 Oct, 2016 6:14:35 PM</p>
+</div>
+</div>
+</body>

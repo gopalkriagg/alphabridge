@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testRaiseThePartnerTo2AnotherColor" classname="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" time="0.001"/>
+  <testcase name="testRaiseThePartnerTo3" classname="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" time="0.0"/>
+  <testcase name="testRaiseThePartnerTo4" classname="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" time="0.0"/>
+  <testcase name="testUse5_3_1distributionalCount" classname="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" time="0.0"/>
+  <testcase name="testDoNotApplyToNoTrumpResponse" classname="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" time="0.0"/>
+  <testcase name="testRaiseThePartnerTo2" classname="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" time="0.0"/>
+  <testcase name="testDoNotApplyIfLessThan4Trumps" classname="org.gnubridge.core.bidding.rules.Rebid1ColorRaisePartnerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

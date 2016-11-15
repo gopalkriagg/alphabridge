@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.Open1ColorTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.003">
+  <properties/>
+  <testcase name="testCannotOpenOneColorIfResponding" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testCannotOpenOneColorIfHigherBid" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.001"/>
+  <testcase name="testOpenOneColorTwo5ColorSuitsBidHigher" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testOpenOneColor6ColorSuit" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testOpenOneColorNo5BidLongerMinor" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testOpenOneColorNo5Minor4x4" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testOpenOneColorNo5Minor3x3" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP3" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.001"/>
+  <testcase name="testRP4" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP6" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP7" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP8" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP9" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP10" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP12" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testRP2" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <testcase name="testOpenOneColor5ColorSuit" classname="org.gnubridge.core.bidding.rules.Open1ColorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

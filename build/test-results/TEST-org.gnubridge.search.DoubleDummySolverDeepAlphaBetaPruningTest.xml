@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.search.DoubleDummySolverDeepAlphaBetaPruningTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:29" hostname="gopal-pc" time="0.0">
+  <properties/>
+  <testcase name="testAllTestsTemporarilyDisabled" classname="org.gnubridge.search.DoubleDummySolverDeepAlphaBetaPruningTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

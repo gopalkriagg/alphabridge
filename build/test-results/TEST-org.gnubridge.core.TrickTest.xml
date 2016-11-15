@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.TrickTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.007">
+  <properties/>
+  <testcase name="testGetHighestTrumpMoreThanOneTrump2" classname="org.gnubridge.core.TrickTest" time="0.001"/>
+  <testcase name="testGetHighestUnmatchedColor" classname="org.gnubridge.core.TrickTest" time="0.0"/>
+  <testcase name="testGetHighestCardTrump" classname="org.gnubridge.core.TrickTest" time="0.001"/>
+  <testcase name="testGetHighestCardSameColor" classname="org.gnubridge.core.TrickTest" time="0.0"/>
+  <testcase name="testDuplicateTrump" classname="org.gnubridge.core.TrickTest" time="0.0"/>
+  <testcase name="testGetHighestTrumpMoreThanOneTrump" classname="org.gnubridge.core.TrickTest" time="0.0"/>
+  <testcase name="testWhoPlayedOneCard" classname="org.gnubridge.core.TrickTest" time="0.0"/>
+  <testcase name="testWhoPlayedTwoCards" classname="org.gnubridge.core.TrickTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

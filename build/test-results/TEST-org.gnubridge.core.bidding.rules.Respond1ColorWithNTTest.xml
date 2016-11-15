@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="test1NTIfHave10Points" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testdoesNotApplyAt11Points" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testDoesNotApplyBelow6" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testDoNotApply_1_3_5_Calculator" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testDoNotCountDistributionalPoints" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testRaise2WhenOver12AndBalanced" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testDoNotRaise2WhenUnbalanced" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testRaise3WhenOver16" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <testcase name="testDoNotRaise3WhenOver18" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.001"/>
+  <testcase name="test1NTIfHave6Points" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNTTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

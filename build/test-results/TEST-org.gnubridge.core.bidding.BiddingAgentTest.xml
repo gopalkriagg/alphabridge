@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.BiddingAgentTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.005">
+  <properties/>
+  <testcase name="testOvercall1NT" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRespondOvercall1NT" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testHaveToBidSomething" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRP2" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testMajorSuit1NTResponse" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testOpenersResponseToMajorSuitResponseTo1NT" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testOpeningOneNTSequence" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testOpenOneColor5ColorSuit" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRespond1ColorWithNewSuit" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.001"/>
+  <testcase name="testRespond1ColorRaisesMajorSuit" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRespond1ColorRaisesMajorSuitSupercedesNewSuit" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRespond1ColorRaisesMinorSuit" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRespond1ColorBidsNT" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRebidRespondersColor" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.001"/>
+  <testcase name="testRebidNewSuit" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRebidOriginalSuit" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRebid1ColorWithNT" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testOvercall1ColorWithOwnColor" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <testcase name="testRespondToOvercall" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.001"/>
+  <testcase name="testOpeningOneNT" classname="org.gnubridge.core.bidding.BiddingAgentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

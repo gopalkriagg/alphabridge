@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.search.DoubleDummySolverTest" tests="37" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:28" hostname="gopal-pc" time="0.764">
+  <properties/>
+  <testcase name="testOnlyExpandOneCardInSequenceTwoCards" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.017"/>
+  <testcase name="testOnlyExpandOneCardInSequenceThreeCards" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.019"/>
+  <testcase name="testOnlyExpandFirstCardInSequenceThreeCardsOutOfOrder" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.018"/>
+  <testcase name="testNotLastChildNoCallToParentTrim" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.0"/>
+  <testcase name="testMinMaxTrimmingNorthSpoilsWestPlay" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.0"/>
+  <testcase name="testPrunedAncestorNoEvaluation" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.019"/>
+  <testcase name="testTrimRoot" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.001"/>
+  <testcase name="testLastChildCallsParentTrim" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.0"/>
+  <testcase name="testDoNotExpandNodesBeyondTrickLimit" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.035"/>
+  <testcase name="testExaminePositionPushesChildrenOnStack" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.018"/>
+  <testcase name="testWhenPruningPlayedSequenceDoNotConsiderCardsInCurrentTrickAsPlayed" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.018"/>
+  <testcase name="testExaminePositionInitsChildMove" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.018"/>
+  <testcase name="testTwoTricks2" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.018"/>
+  <testcase name="testIfAllMovesLoseSameChooseLowestValueCard" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.04"/>
+  <testcase name="testMinMaxTrimmingNorthLesserEvil" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.0"/>
+  <testcase name="testTrimTerminatesOnUnexpandedNonLeafNode" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.0"/>
+  <testcase name="testChildrenOfPrunedNodeInheritStatus" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.0"/>
+  <testcase name="testBestMoveForOneTrick" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.021"/>
+  <testcase name="testTricksTallyIsTrickLimit" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.02"/>
+  <testcase name="testIfCannotBeatPlayLowestToColorPruningNoConflictWithSequencePruning" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.02"/>
+  <testcase name="testShortCircuitIfRootOnlyHasOneValidMove" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.02"/>
+  <testcase name="testIfAllMovesTheSameChooseLowestValueCard" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.074"/>
+  <testcase name="testOneTrick" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.018"/>
+  <testcase name="testAlphaBetaScenario1" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.031"/>
+  <testcase name="testAlphaBetaScenario2" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.019"/>
+  <testcase name="testLastTrickAutoExpands" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.019"/>
+  <testcase name="testPrunedParentNoEvaluation" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.019"/>
+  <testcase name="testBestMoveWhenRootDoesNotStartTrick" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.043"/>
+  <testcase name="testNorthTrumps" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.043"/>
+  <testcase name="testNorthCannotTrumpBecauseHasColor" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.056"/>
+  <testcase name="testBestMoveForOneTrickRootDidNotStartTrick" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.018"/>
+  <testcase name="testOnlyExpandFirstCardInSequenceThreeCardsOutOfOrder2" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.019"/>
+  <testcase name="testDoNotCountCurrentTrickAsPlayedCardWhenPruningPlayedSequence" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.019"/>
+  <testcase name="testExaminePositionExpandsChild" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.02"/>
+  <testcase name="testTwoTricks" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.02"/>
+  <testcase name="testExaminePositionSetsNextToPlay" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.02"/>
+  <testcase name="testExaminePositionInitsChildren" classname="org.gnubridge.search.DoubleDummySolverTest" time="0.02"/>
+  <system-out><![CDATA[J of SPADES
+Pruned search took (msec): 0
+  Positions examined: 7
+West/East tricks taken: 1
+North/South tricks taken: 1
+Optimal path in this search: 
+North: 2 of SPADES
+East: 3 of CLUBS
+South: 6 of CLUBS
+  Trick taken by North
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

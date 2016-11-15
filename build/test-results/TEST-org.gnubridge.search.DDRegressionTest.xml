@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.search.DDRegressionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:29" hostname="gopal-pc" time="2.153">
+  <properties/>
+  <testcase name="testCoffin2" classname="org.gnubridge.search.DDRegressionTest" time="1.733"/>
+  <testcase name="testSidneyLenzMiniature" classname="org.gnubridge.search.DDRegressionTest" time="0.024"/>
+  <testcase name="testTedMullerFittingEndMiniature" classname="org.gnubridge.search.DDRegressionTest" time="0.025"/>
+  <testcase name="testAlphaBetaBugGivingUpTrick" classname="org.gnubridge.search.DDRegressionTest" time="0.023"/>
+  <testcase name="testAnotherGivingUpTrickBug" classname="org.gnubridge.search.DDRegressionTest" time="0.022"/>
+  <testcase name="testCoffin1" classname="org.gnubridge.search.DDRegressionTest" time="0.324"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

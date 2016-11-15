@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.AuctioneerTest" tests="36" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.005">
+  <properties/>
+  <testcase name="testBiddingMovesClockwise" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testEndBiddingContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testEndBiddingDoubledContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testEndBiddingNoContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsOpeningBid" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testNoOpeningBidIfBid1" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testNoOpeningBidIfBid2" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testNoOpeningBidIfBid3" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testCanTraversePairsHistoryWithGetPartnersBid" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidAnyBidValidAtStart" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidPassAlwaysValid" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testFirstToBid" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidOnlyHigherThanCurrent" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidDoubleOkAfterOpponentBids" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidDoubleIsNotAValidResponseToAnotherDouble" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidMayNotDoubleYourOwnDouble" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidMayNotDoublePartner" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsValidNotOkToOpenWithDouble" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.001"/>
+  <testcase name="testDoublingAffectsTheHighBid" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testDoublingDoesNotChangeTheHighBidValue" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testDoublingDoesNotChangeTheHighCallPlayer" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummyNullIfAuctionNotFinished" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummyNullIfNoContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummySimpleContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummySimpleDoubledContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummyOverbidContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.001"/>
+  <testcase name="testGetDummyRaisedPartnersContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummyDoubledInitialBid" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummyTwoRoundContract" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testGetDummyDirectionOffset" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsOvercall" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.001"/>
+  <testcase name="testIsOvercall2" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsOvercall3" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsNotAnOvercall" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testIsNotAnOvercall2" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <testcase name="testPassIsNotAnOvercall" classname="org.gnubridge.core.bidding.AuctioneerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

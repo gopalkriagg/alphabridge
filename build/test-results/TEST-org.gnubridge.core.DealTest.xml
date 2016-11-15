@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.DealTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.006">
+  <properties/>
+  <testcase name="testConstructorCreatesPlayers" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testFirstTrickPlayedClockwise" classname="org.gnubridge.core.DealTest" time="0.001"/>
+  <testcase name="testGameEndsWhenPlayersRunOutOfCards" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testGameEndsWhen52CardsPlayed" classname="org.gnubridge.core.DealTest" time="0.001"/>
+  <testcase name="testPreviousTrickTakerFirstToPlay" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testGameKeepsTrackOfTricksTaken" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testDuplicateReproducesHands" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testDuplicateClonedDoesNotFollowOriginalsPlay" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testDuplicatePlayedCards" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testDuplicateNextToPlay" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testDuplicateCurrentTrick" classname="org.gnubridge.core.DealTest" time="0.001"/>
+  <testcase name="testDuplicatePreviousTrick" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testPlayMovesOneByOne" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testPlayMovesTricksTaken" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testPlayMovesOneByOneSameAsList" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testKeyToWeakHashMapNoReferenceRetainedInsideClass" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testKeyToWeakHashMapDoesntChange" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testTwoDifferentGamesWithSameCards" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testTwoDifferentGamesWithSameCardsDifferentMoves" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <testcase name="testDuplicateTrump" classname="org.gnubridge.core.DealTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

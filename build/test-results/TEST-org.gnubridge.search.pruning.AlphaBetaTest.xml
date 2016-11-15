@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.search.pruning.AlphaBetaTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:31" hostname="gopal-pc" time="0.006">
+  <properties/>
+  <testcase name="testAlphaPruneToNearestAlphaAncestor" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.001"/>
+  <testcase name="testLocalAlphaGrows" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testBetaGetsReduced" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testUnvisitedNodeIgnoredInLocalBeta" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.001"/>
+  <testcase name="testOneLevelBetaPrune" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testBetaPruneUpstream" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testBetaPruneToNearestBetaAncestor" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testDeepAlphaPruneInappropriate" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testDoNotAlphaPruneRootsChildrenSoThatHeuristicsMayBeUsed" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.001"/>
+  <testcase name="testOneLevelAlphaPrune1" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testNoAlphaPruneSubsequentChildren" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testAlphaPruneOnlyMinNodes" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <testcase name="testAlphaPruneUpstream" classname="org.gnubridge.search.pruning.AlphaBetaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

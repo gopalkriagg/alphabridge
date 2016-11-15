@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testShowUnbidSuitAt1Level" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testNoUnbidSuitWith4Cards" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testShowUnbidSuitAt1LevelAnotherColor" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testShowUnbidSuitEvenThoughRespondersSuitIsStronger" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testLowestBidIsAt2LevelReverseBid" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="test1LevelIsNotAReverseBid" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testNeedAtLeast16ForReverseBid" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testLowerRankedSuitThanOriginalIsNotAReverseBid" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testJumpShiftTo2LevelAt19Points" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testLowestBidIsAt2LevelDoNotApplyToBalancedHand" classname="org.gnubridge.core.bidding.rules.Rebid1ColorWithNewSuitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

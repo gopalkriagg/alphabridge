@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.OvercallSuitTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testGoodSuitOf5ButLessThan10Points" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="testOnlyAppliesToTrueOvercalls" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test1ColorAt10to12SuitOf6" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test1ColorAt10to12DecentSuitOf5" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test1ColorAt10to12PoorSuitOf5" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test1DifferentColorAt10to12" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="testTwoPassesPrecedeRightHandOpponentsOpening" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="testOnePassPrecedesRightHandOpponentsOpening" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.001"/>
+  <testcase name="testPickAMoreViableColor" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test13PointsCanBidOnPoor5" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test13PointsCanBidOnPoor5PickMoreViableColor" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test13PointsCanBid2LevelIfNecessary" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test13PointsCanBid2LevelForGood5" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test13PointsCanotBid2LevelForDecent5" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test16PointsCanBid2LevelForAny5LongSuit" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <testcase name="test16PointsBidAtLowestLevelPossibleAny5LongSuit" classname="org.gnubridge.core.bidding.rules.OvercallSuitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

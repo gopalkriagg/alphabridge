@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.RebidOriginalSuitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testDoNotRebidIfLessThan6Cards" classname="org.gnubridge.core.bidding.rules.RebidOriginalSuitTest" time="0.0"/>
+  <testcase name="testRebidAt2Level" classname="org.gnubridge.core.bidding.rules.RebidOriginalSuitTest" time="0.0"/>
+  <testcase name="testRebidAt3Level" classname="org.gnubridge.core.bidding.rules.RebidOriginalSuitTest" time="0.0"/>
+  <testcase name="testRebidAt4Level" classname="org.gnubridge.core.bidding.rules.RebidOriginalSuitTest" time="0.0"/>
+  <testcase name="testDoNotRebidNT" classname="org.gnubridge.core.bidding.rules.RebidOriginalSuitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

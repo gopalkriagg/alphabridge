@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" tests="34" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.006">
+  <properties/>
+  <testcase name="testQuiz4Question4" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question6" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question7" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question8" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question9" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question10" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question12" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question1" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question2" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.001"/>
+  <testcase name="testQuiz2Question3" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question4" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question5" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question6" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question7" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question8" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question9" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question10" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question11" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz2Question12" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question1" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question2" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question3" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question4" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question5" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question6" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question7" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question8" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question9" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question10" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question11" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz3Question12" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question1" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.001"/>
+  <testcase name="testQuiz4Question2" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <testcase name="testQuiz4Question3" classname="org.gnubridge.core.bidding.BiddingAgentBehaviorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

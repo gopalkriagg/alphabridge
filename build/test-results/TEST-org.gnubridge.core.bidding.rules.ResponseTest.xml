@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.ResponseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testOpeningIsNotAResponses" classname="org.gnubridge.core.bidding.rules.ResponseTest" time="0.0"/>
+  <testcase name="testPartnersPassIsNotAResponses" classname="org.gnubridge.core.bidding.rules.ResponseTest" time="0.0"/>
+  <testcase name="testPartnersDoubleIsNotAResponses" classname="org.gnubridge.core.bidding.rules.ResponseTest" time="0.0"/>
+  <testcase name="testMakeAResponse" classname="org.gnubridge.core.bidding.rules.ResponseTest" time="0.0"/>
+  <testcase name="testRebidNotAResponses" classname="org.gnubridge.core.bidding.rules.ResponseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

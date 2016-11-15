@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.ScoreCalculatorTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testOneMajorSuitContractWithTwoOvertricks" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testNTWithOverTricks" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testNTWithoutOverTricks" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testUndertricksNT" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testGrandSlam" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testSmallSlam" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testUndertricksMajorSuit" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testUndertricksMinorSuit" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.001"/>
+  <testcase name="testVulnerability" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testVulnerabilityWinContract" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testDoubledContractMet" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testDoubledContractOvertricks" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testDoubledContractUndertricks" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <testcase name="testOneMinorSuitContractMadeWithNoOvertricks" classname="org.gnubridge.core.bidding.ScoreCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

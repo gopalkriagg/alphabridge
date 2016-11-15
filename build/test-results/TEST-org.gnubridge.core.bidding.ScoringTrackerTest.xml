@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.ScoringTrackerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.001">
+  <properties/>
+  <testcase name="testScoreTrackerScoresSingleDeal" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testScoreTrackerAddsScoresForHumanInTwoDeals" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testScoreTrackerAddsScoresForDefenderInTwoDeals" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testScoreTrackerDeclarerIsSouthOrNorth" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testScoreTrackerTwoDealsHumanIsDeclarerAndThenDefender" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testGetInstanceConstructsNewByDefault" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testGetInstanceConstructsNewEachTime" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testGetInstanceReturnsMockIfSet" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <testcase name="testGetInstanceReturnsMockOnlyOnce" classname="org.gnubridge.core.bidding.ScoringTrackerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

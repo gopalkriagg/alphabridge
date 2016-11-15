@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.search.TestPositionLookup" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:28" hostname="gopal-pc" time="0.198">
+  <properties/>
+  <testcase name="testSameObjectShownTwice" classname="org.gnubridge.search.TestPositionLookup" time="0.018"/>
+  <testcase name="testCanRememberMoreThanOnePosition" classname="org.gnubridge.search.TestPositionLookup" time="0.017"/>
+  <testcase name="testOnlyApplyToCompletedTricks" classname="org.gnubridge.search.TestPositionLookup" time="0.017"/>
+  <testcase name="testDistinguishNumberOfTricks" classname="org.gnubridge.search.TestPositionLookup" time="0.042"/>
+  <testcase name="testDistinguishPlayerTurn" classname="org.gnubridge.search.TestPositionLookup" time="0.015"/>
+  <testcase name="testOneCardPlayedDifferentCards" classname="org.gnubridge.search.TestPositionLookup" time="0.018"/>
+  <testcase name="testOnlyReturnFirstNodeEncountetredForThePosition" classname="org.gnubridge.search.TestPositionLookup" time="0.016"/>
+  <testcase name="testTwoTricksPlayedSameFirstTrick" classname="org.gnubridge.search.TestPositionLookup" time="0.02"/>
+  <testcase name="testOneCardPlayedDifferentObjectsSamePosition" classname="org.gnubridge.search.TestPositionLookup" time="0.018"/>
+  <testcase name="testDistinguishDifferentPlays" classname="org.gnubridge.search.TestPositionLookup" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

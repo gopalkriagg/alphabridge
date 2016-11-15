@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.Rebid1NTTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.002">
+  <properties/>
+  <testcase name="testRaiseTo4IfAtLeast3CardsInColor" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="testRaiseTo3NTIfDoubletonInColor" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="testDoNotRespondIfPartnerDidNotCallAMajorColor" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="testPassIfPartnerCalled2InAMajorColor" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="test2NTInvitational16HCP" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="test2NTInvitational18HCP" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="test3NTSignoff" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="testDoNotRespondIfPartnersBidWasAnOpening" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <testcase name="testDoNotRespondIfPartnersBidWasNotRespondingTo1NT" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.001"/>
+  <testcase name="testBugIdentifyingPartnersBidThrowsNPE" classname="org.gnubridge.core.bidding.rules.Rebid1NTTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

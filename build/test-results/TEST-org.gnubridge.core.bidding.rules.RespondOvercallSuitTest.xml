@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.004">
+  <properties/>
+  <testcase name="testBidGameUnbidSuitWith15PointsAnd5Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testBidNoTrumpOneLevelWith8PointsAndStopperInEnemySuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testDoNotBidWithoutStopperInEnemySuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testDoNotBidWithoutStopperInBothEnemySuits" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testBidWithStoppersInBothEnemySuits" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testBidNoTrumpCheapestLevelWith8PointsAndStopperInEnemySuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testJumpBidNoTrumpWith12PointsAndStopperInEnemySuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testJumpHigherBidNoTrumpWith12PointsAndStopperInEnemySuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testBidGameNoTrumpWith15PointsAndStopperInEnemySuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testPassWithLessThan8Points" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testDoNotRaiseIfDoNotHave3Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.001"/>
+  <testcase name="testCountPointsAsDummy" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testOnlyApplyToOvercallResponses" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testOnlyApplyToSuitOvercallsNoTrump" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testOnlyApplyToSuitOvercallsDouble" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testRaisePartnerWith8PointsAnd3Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testRaiseToGameWith15PointsAnd3TrumpsMajorSuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testRaiseTo4LevelWith15PointsAnd3TrumpsMinorSuit" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.001"/>
+  <testcase name="testReallyJumpRaisePartnerWith12To14PointsAnd3Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testBidUnbidSuitAtTwoLevelWith8PointsAnd5Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testBidUnbidSuitAtCheapestLevelWith8PointsAnd5Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testJumpBidUnbidSuitWith12PointsAnd5Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testJumpHigherBidUnbidSuitWith12PointsAnd5Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testBidAt2LevelWith8PointsAnd3Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.0"/>
+  <testcase name="testJumpRaisePartnerWith12To14PointsAnd3Trumps" classname="org.gnubridge.core.bidding.rules.RespondOvercallSuitTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

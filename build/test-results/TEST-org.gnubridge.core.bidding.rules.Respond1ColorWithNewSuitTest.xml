@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:22" hostname="gopal-pc" time="0.002">
+  <properties/>
+  <testcase name="testRespond1ColorBonusOnDistributionalPoints" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testRespond1ColorBestSuit" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testRespond1Color11Points" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testRespond2Color11Points" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testJumpSuit17Points5Suit" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testJumpHigherSuit" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testDoNotJumpSuitIfNotRespondingTo1Color" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testDoNotJumpSuitIfRespondingTo2Color" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testDoNotBidPartnersColor" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testOKToBidColorLowerThanPartnersColor" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.0"/>
+  <testcase name="testRespond1Color" classname="org.gnubridge.core.bidding.rules.Respond1ColorWithNewSuitTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

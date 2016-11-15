@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.bidding.BidTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.0">
+  <properties/>
+  <testcase name="testTransitive" classname="org.gnubridge.core.bidding.BidTest" time="0.0"/>
+  <testcase name="testGreaterThanColorPrecedence" classname="org.gnubridge.core.bidding.BidTest" time="0.0"/>
+  <testcase name="testHigherValue" classname="org.gnubridge.core.bidding.BidTest" time="0.0"/>
+  <testcase name="testSymmetricColor" classname="org.gnubridge.core.bidding.BidTest" time="0.0"/>
+  <testcase name="testSymmetricValue" classname="org.gnubridge.core.bidding.BidTest" time="0.0"/>
+  <testcase name="testGreaterThanFalseIfSame" classname="org.gnubridge.core.bidding.BidTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

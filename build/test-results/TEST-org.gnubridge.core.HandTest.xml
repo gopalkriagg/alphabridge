@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gnubridge.core.HandTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-19T12:44:19" hostname="gopal-pc" time="0.047">
+  <properties/>
+  <testcase name="testGetColor" classname="org.gnubridge.core.HandTest" time="0.0"/>
+  <testcase name="testGetColorLength" classname="org.gnubridge.core.HandTest" time="0.047"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gnubridge">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/libs/gnubridge.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
