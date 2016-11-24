@@ -1,3 +1,5 @@
+AlphaBridge is a AI program to play contract bridge.
+
 GNUBridge is a Contract Bridge program written in Java and available under GNU public license v. 3.
 
 Note, there haven't been any updates to this project for awhile.
