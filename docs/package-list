@@ -1,0 +1,9 @@
+org.gnubridge.core
+org.gnubridge.core.bidding
+org.gnubridge.core.bidding.rules
+org.gnubridge.core.deck
+org.gnubridge.presentation
+org.gnubridge.presentation.gui
+org.gnubridge.search
+org.gnubridge.search.pruning
+org.jdesktop.swingworker
